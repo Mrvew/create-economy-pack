@@ -2,7 +2,7 @@
  "format": 1,
  "name": "Create Economy",
  "version": "3.0.2",
- "released": "2026-11-18T22:38:03Z",
+ "released": "2026-11-18T22:58:28Z",
  "notes": "First release through the Create Economy Launcher",
  "minecraft": "1.21.1",
  "loader": {
@@ -2988,8 +2988,8 @@
   },
   {
    "path": "mods/Create-Economy-Launcher-1.1.0.jar",
-   "sha1": "aa71b2fbd0cb53dbb34ca5aa79e2d05cdc863648",
-   "size": 7245808,
+   "sha1": "3c078af9b15dde5ef8871cc044bc392979ebd368",
+   "size": 7246597,
    "title": "Create-Economy-Launcher-1.1.0.jar",
    "repo": "mods-extra/Create-Economy-Launcher-1.1.0.jar",
    "urls": []
