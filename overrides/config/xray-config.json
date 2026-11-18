@@ -1,0 +1,95 @@
+{
+  "scanRadius": 48,
+  "blocks": {
+    "minecraft:deepslate_copper_ore": {
+      "red": 184,
+      "green": 115,
+      "blue": 51,
+      "alpha": 255
+    },
+    "minecraft:deepslate_lapis_ore": {
+      "red": 0,
+      "green": 0,
+      "blue": 255,
+      "alpha": 255
+    },
+    "minecraft:diamond_ore": {
+      "red": 0,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "minecraft:copper_ore": {
+      "red": 184,
+      "green": 115,
+      "blue": 51,
+      "alpha": 255
+    },
+    "minecraft:deepslate_emerald_ore": {
+      "red": 0,
+      "green": 255,
+      "blue": 0,
+      "alpha": 255
+    },
+    "minecraft:lapis_ore": {
+      "red": 0,
+      "green": 0,
+      "blue": 255,
+      "alpha": 255
+    },
+    "minecraft:gold_ore": {
+      "red": 255,
+      "green": 215,
+      "blue": 0,
+      "alpha": 255
+    },
+    "minecraft:ancient_debris": {
+      "red": 139,
+      "green": 69,
+      "blue": 19,
+      "alpha": 255
+    },
+    "minecraft:redstone_ore": {
+      "red": 255,
+      "green": 0,
+      "blue": 0,
+      "alpha": 255
+    },
+    "minecraft:deepslate_gold_ore": {
+      "red": 255,
+      "green": 215,
+      "blue": 0,
+      "alpha": 255
+    },
+    "minecraft:deepslate_redstone_ore": {
+      "red": 255,
+      "green": 0,
+      "blue": 0,
+      "alpha": 255
+    },
+    "minecraft:iron_ore": {
+      "red": 210,
+      "green": 180,
+      "blue": 140,
+      "alpha": 255
+    },
+    "minecraft:emerald_ore": {
+      "red": 0,
+      "green": 255,
+      "blue": 0,
+      "alpha": 255
+    },
+    "minecraft:deepslate_iron_ore": {
+      "red": 210,
+      "green": 180,
+      "blue": 140,
+      "alpha": 255
+    },
+    "minecraft:deepslate_diamond_ore": {
+      "red": 0,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    }
+  }
+}

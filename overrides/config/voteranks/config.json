@@ -1,0 +1,614 @@
+{
+  "configVersion": 106,
+  "ranks": [
+    {
+      "name": "Cog",
+      "votes": 5,
+      "color": "green",
+      "homes": 6,
+      "extraClaims": 10,
+      "shopFly": false,
+      "uploadSlots": 0,
+      "joinMessage": false,
+      "rewards": [
+        "give {player} numismatics:cog 1",
+        "give {player} kubejs:shop_token 1"
+      ],
+      "voteRewards": [],
+      "perks": [
+        "6 homes",
+        "+10 claim chunks",
+        "64 spurs (1 cog)",
+        "[Cog] tag",
+        "Green name",
+        "⚙ nametag badge",
+        "1 Shop Expansion Token"
+      ],
+      "icon": "create:cogwheel"
+    },
+    {
+      "name": "Shaft",
+      "votes": 15,
+      "color": "aqua",
+      "homes": 7,
+      "extraClaims": 20,
+      "shopFly": false,
+      "uploadSlots": 0,
+      "joinMessage": false,
+      "rewards": [
+        "give {player} numismatics:cog 2",
+        "give {player} kubejs:shop_token 1"
+      ],
+      "voteRewards": [],
+      "perks": [
+        "7 homes",
+        "+20 claim chunks",
+        "128 spurs",
+        "Aqua name",
+        "✦ badge",
+        "Spark trail",
+        "Cog Halo hat",
+        "Andesite cape",
+        "1 Shop Expansion Token"
+      ],
+      "icon": "create:shaft"
+    },
+    {
+      "name": "Gearbox",
+      "votes": 35,
+      "color": "yellow",
+      "homes": 8,
+      "extraClaims": 35,
+      "shopFly": true,
+      "uploadSlots": 0,
+      "joinMessage": false,
+      "rewards": [
+        "give {player} numismatics:cog 4",
+        "give {player} kubejs:shop_token 1"
+      ],
+      "voteRewards": [],
+      "perks": [
+        "8 homes",
+        "+35 claim chunks",
+        "256 spurs",
+        "/fly in the Shop",
+        "Yellow name",
+        "★ badge",
+        "Note trail",
+        "Whisk hat",
+        "Big cog back",
+        "1 Shop Expansion Token"
+      ],
+      "icon": "create:gearbox"
+    },
+    {
+      "name": "Mechanic",
+      "votes": 60,
+      "color": "gold",
+      "homes": 10,
+      "extraClaims": 50,
+      "shopFly": true,
+      "uploadSlots": 0,
+      "joinMessage": false,
+      "rewards": [
+        "give {player} numismatics:crown 1",
+        "give {player} kubejs:shop_token 2"
+      ],
+      "voteRewards": [],
+      "perks": [
+        "10 homes",
+        "+50 claim chunks",
+        "512 spurs (1 crown)",
+        "Gold name",
+        "♦ badge",
+        "Cloud trail",
+        "Propeller hat",
+        "Backtank back",
+        "Copper cape",
+        "2 Shop Expansion Tokens"
+      ],
+      "icon": "create:wrench"
+    },
+    {
+      "name": "Engineer",
+      "votes": 100,
+      "color": "light_purple",
+      "homes": 12,
+      "extraClaims": 70,
+      "shopFly": true,
+      "uploadSlots": 0,
+      "joinMessage": true,
+      "rewards": [
+        "give {player} numismatics:crown 2",
+        "give {player} kubejs:shop_token 2"
+      ],
+      "voteRewards": [],
+      "perks": [
+        "12 homes",
+        "+70 claim chunks",
+        "1024 spurs",
+        "Join message",
+        "Pink name",
+        "Andesite wings",
+        "⚡ badge",
+        "Flame trail",
+        "Brass Hand hat",
+        "Propeller back",
+        "Brass cape",
+        "2 Shop Expansion Tokens"
+      ],
+      "icon": "create:goggles"
+    },
+    {
+      "name": "Conductor",
+      "votes": 150,
+      "color": "blue",
+      "homes": 14,
+      "extraClaims": 90,
+      "shopFly": true,
+      "uploadSlots": 1,
+      "joinMessage": true,
+      "rewards": [
+        "give {player} numismatics:crown 3",
+        "give {player} kubejs:shop_token 2"
+      ],
+      "voteRewards": [],
+      "perks": [
+        "14 homes",
+        "+90 claim chunks",
+        "1536 spurs",
+        "1 upload slot (permanent)",
+        "Upload a cape",
+        "Blue name",
+        "☀ badge",
+        "Soul fire trail",
+        "Big cog crown",
+        "Railway cape",
+        "2 Shop Expansion Tokens"
+      ],
+      "icon": "create:controls"
+    },
+    {
+      "name": "Architect",
+      "votes": 225,
+      "color": "red",
+      "homes": 17,
+      "extraClaims": 115,
+      "shopFly": true,
+      "uploadSlots": 2,
+      "joinMessage": true,
+      "rewards": [
+        "give {player} numismatics:crown 4",
+        "give {player} kubejs:shop_token 3"
+      ],
+      "voteRewards": [],
+      "perks": [
+        "17 homes",
+        "+115 claim chunks",
+        "2048 spurs",
+        "2 upload slots",
+        "Upload a skin",
+        "Brass wings",
+        "Red name",
+        "♛ badge",
+        "End rod trail",
+        "Precision hat",
+        "Netherite backtank back",
+        "Blueprint cape",
+        "3 Shop Expansion Tokens"
+      ],
+      "icon": "create:schematic_and_quill"
+    },
+    {
+      "name": "Industrialist",
+      "votes": 325,
+      "color": "dark_purple",
+      "homes": 20,
+      "extraClaims": 150,
+      "shopFly": true,
+      "uploadSlots": 3,
+      "joinMessage": true,
+      "rewards": [
+        "give {player} numismatics:sun 1",
+        "give {player} kubejs:shop_token 4"
+      ],
+      "voteRewards": [],
+      "perks": [
+        "20 homes",
+        "+150 claim chunks",
+        "4096 spurs (1 sun)",
+        "3 upload slots",
+        "Upload wings",
+        "Purple name, bold option",
+        "❖ badge",
+        "Totem trail",
+        "Nether star hat",
+        "Industrialist cape",
+        "4 Shop Expansion Tokens"
+      ],
+      "icon": "create:mechanical_crafter"
+    }
+  ],
+  "sites": [
+    {
+      "name": "Minecraft-MP",
+      "url": "https://minecraft-mp.com/server-s366600"
+    },
+    {
+      "name": "Planet Minecraft",
+      "url": "https://www.planetminecraft.com/server/create-economy/"
+    },
+    {
+      "name": "MinecraftServers.org",
+      "url": "https://minecraftservers.org/server/689388"
+    }
+  ],
+  "voteReminderHours": 20,
+  "voteRewards": [],
+  "announceVotes": true,
+  "specialTags": {
+    "mr_vew": "&4&l[Owner]"
+  },
+  "uploadTypes": {
+    "skin": 7,
+    "slim_skin": 7,
+    "wings": 8,
+    "cape": 6
+  },
+  "specialUploadSlots": 5,
+  "nametags": true,
+  "removeFreesSlot": true,
+  "specialColors": {
+    "mr_vew": "dark_red"
+  },
+  "cosmetics": [
+    {
+      "id": "green",
+      "type": "color",
+      "name": "Green",
+      "value": "green",
+      "rank": 1
+    },
+    {
+      "id": "aqua",
+      "type": "color",
+      "name": "Aqua",
+      "value": "aqua",
+      "rank": 2
+    },
+    {
+      "id": "yellow",
+      "type": "color",
+      "name": "Yellow",
+      "value": "yellow",
+      "rank": 3
+    },
+    {
+      "id": "gold",
+      "type": "color",
+      "name": "Gold",
+      "value": "gold",
+      "rank": 4
+    },
+    {
+      "id": "pink",
+      "type": "color",
+      "name": "Pink",
+      "value": "light_purple",
+      "rank": 5
+    },
+    {
+      "id": "blue",
+      "type": "color",
+      "name": "Blue",
+      "value": "blue",
+      "rank": 6
+    },
+    {
+      "id": "red",
+      "type": "color",
+      "name": "Red",
+      "value": "red",
+      "rank": 7
+    },
+    {
+      "id": "purple",
+      "type": "color",
+      "name": "Purple",
+      "value": "dark_purple",
+      "rank": 8
+    },
+    {
+      "id": "bold",
+      "type": "color",
+      "name": "Bold Gold",
+      "value": "gold+bold",
+      "rank": 8
+    },
+    {
+      "id": "badge_cog",
+      "type": "badge",
+      "name": "⚙ Cog",
+      "value": "⚙",
+      "rank": 1
+    },
+    {
+      "id": "badge_spark",
+      "type": "badge",
+      "name": "✦ Spark",
+      "value": "✦",
+      "rank": 2
+    },
+    {
+      "id": "badge_star",
+      "type": "badge",
+      "name": "★ Star",
+      "value": "★",
+      "rank": 3
+    },
+    {
+      "id": "badge_diamond",
+      "type": "badge",
+      "name": "♦ Diamond",
+      "value": "♦",
+      "rank": 4
+    },
+    {
+      "id": "badge_bolt",
+      "type": "badge",
+      "name": "⚡ Bolt",
+      "value": "⚡",
+      "rank": 5
+    },
+    {
+      "id": "badge_sun",
+      "type": "badge",
+      "name": "☀ Sun",
+      "value": "☀",
+      "rank": 6
+    },
+    {
+      "id": "badge_crown",
+      "type": "badge",
+      "name": "♛ Crown",
+      "value": "♛",
+      "rank": 7
+    },
+    {
+      "id": "badge_gem",
+      "type": "badge",
+      "name": "❖ Gem",
+      "value": "❖",
+      "rank": 8
+    },
+    {
+      "id": "sparks",
+      "type": "trail",
+      "name": "Sparks",
+      "value": "minecraft:electric_spark",
+      "rank": 2
+    },
+    {
+      "id": "notes",
+      "type": "trail",
+      "name": "Notes",
+      "value": "minecraft:note",
+      "rank": 3
+    },
+    {
+      "id": "clouds",
+      "type": "trail",
+      "name": "Clouds",
+      "value": "minecraft:cloud",
+      "rank": 4
+    },
+    {
+      "id": "flames",
+      "type": "trail",
+      "name": "Flames",
+      "value": "minecraft:flame",
+      "rank": 5
+    },
+    {
+      "id": "soul",
+      "type": "trail",
+      "name": "Soul Fire",
+      "value": "minecraft:soul_fire_flame",
+      "rank": 6
+    },
+    {
+      "id": "endrod",
+      "type": "trail",
+      "name": "End Rod",
+      "value": "minecraft:end_rod",
+      "rank": 7
+    },
+    {
+      "id": "totem",
+      "type": "trail",
+      "name": "Totem",
+      "value": "minecraft:totem_of_undying",
+      "rank": 8
+    },
+    {
+      "id": "andesite",
+      "type": "cape",
+      "name": "Andesite Cape",
+      "value": "andesite",
+      "rank": 2
+    },
+    {
+      "id": "copper",
+      "type": "cape",
+      "name": "Copper Cape",
+      "value": "copper",
+      "rank": 4
+    },
+    {
+      "id": "brass",
+      "type": "cape",
+      "name": "Brass Cape",
+      "value": "brass",
+      "rank": 5
+    },
+    {
+      "id": "railway",
+      "type": "cape",
+      "name": "Railway Cape",
+      "value": "railway",
+      "rank": 6
+    },
+    {
+      "id": "blueprint",
+      "type": "cape",
+      "name": "Blueprint Cape",
+      "value": "blueprint",
+      "rank": 7
+    },
+    {
+      "id": "industrialist",
+      "type": "cape",
+      "name": "Industrialist Cape",
+      "value": "industrialist",
+      "rank": 8
+    },
+    {
+      "id": "andesite_wings",
+      "type": "wings",
+      "name": "Andesite Wings",
+      "value": "andesite_wings",
+      "rank": 5
+    },
+    {
+      "id": "brass_wings",
+      "type": "wings",
+      "name": "Brass Wings",
+      "value": "brass_wings",
+      "rank": 7
+    },
+    {
+      "id": "cog_halo",
+      "type": "hat",
+      "name": "Cog Halo",
+      "value": "create:cogwheel",
+      "rank": 2
+    },
+    {
+      "id": "whisk",
+      "type": "hat",
+      "name": "Whisk",
+      "value": "create:whisk",
+      "rank": 3
+    },
+    {
+      "id": "propeller",
+      "type": "hat",
+      "name": "Propeller",
+      "value": "create:propeller",
+      "rank": 4
+    },
+    {
+      "id": "brass_hand",
+      "type": "hat",
+      "name": "Brass Hand",
+      "value": "create:brass_hand",
+      "rank": 5
+    },
+    {
+      "id": "cog_crown",
+      "type": "hat",
+      "name": "Big Cog Crown",
+      "value": "create:large_cogwheel",
+      "rank": 6
+    },
+    {
+      "id": "precision",
+      "type": "hat",
+      "name": "Precision Mechanism",
+      "value": "create:precision_mechanism",
+      "rank": 7
+    },
+    {
+      "id": "star",
+      "type": "hat",
+      "name": "Nether Star",
+      "value": "minecraft:nether_star",
+      "rank": 8
+    },
+    {
+      "id": "big_cog",
+      "type": "back",
+      "name": "Big Cog",
+      "value": "create:large_cogwheel",
+      "rank": 3
+    },
+    {
+      "id": "backtank",
+      "type": "back",
+      "name": "Copper Backtank",
+      "value": "create:copper_backtank",
+      "rank": 4
+    },
+    {
+      "id": "back_propeller",
+      "type": "back",
+      "name": "Propeller",
+      "value": "create:propeller",
+      "rank": 5
+    },
+    {
+      "id": "netherite_backtank",
+      "type": "back",
+      "name": "Netherite Backtank",
+      "value": "create:netherite_backtank",
+      "rank": 7
+    }
+  ],
+  "uploads": {
+    "width": 64,
+    "height": 32,
+    "maxBytes": 16384,
+    "cooldownMinutes": 10,
+    "allowedHosts": [
+      "i.imgur.com",
+      "imgur.com",
+      "cdn.discordapp.com",
+      "media.discordapp.net",
+      "raw.githubusercontent.com",
+      "i.ibb.co",
+      "textures.minecraft.net"
+    ],
+    "maxSkinShare": 0.7,
+    "minVisibleShare": 0.25,
+    "needApproval": false
+  },
+  "shopWorld": "multiworld:shop",
+  "noFlyInShop": true,
+  "noTrailWorlds": [
+    "multiworld:war"
+  ],
+  "blockedClientMods": [
+    "figura",
+    "ears",
+    "essential",
+    "cosmetica",
+    "minecraftcapes",
+    "capes",
+    "customskinloader",
+    "cpm",
+    "customplayermodels",
+    "yes_steve_model",
+    "ysm",
+    "moreplayermodels",
+    "wildfire_gender",
+    "cosmeticsplus",
+    "cloaksplus",
+    "skinshuffle",
+    "wings",
+    "hats",
+    "simplehats",
+    "playermodelparts"
+  ],
+  "requireClientMod": false,
+  "clientReportSeconds": 15
+}

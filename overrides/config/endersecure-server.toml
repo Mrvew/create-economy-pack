@@ -1,0 +1,13 @@
+#An untuned transmitter placed by a player starts a new private network owned by that player.
+#If false, untuned transmitters use Ender Transmission's old channel + password screen.
+newTransmittersUseNetworks = true
+#New networks start private (only the owner, allowed players and operators can tune to them).
+#If false they start public and the owner can lock them.
+lockNewNetworks = true
+#How many players a network's allowed list can hold.
+# Default: 32
+# Range: 1 ~ 256
+maxAllowedPlayers = 32
+#Players may still change old channel + password transmitters with Ender Transmission's screen.
+#If false that screen is disabled (old transmitters keep working on the channel they have).
+allowOldChannels = true

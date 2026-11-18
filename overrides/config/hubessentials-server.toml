@@ -1,0 +1,98 @@
+[homes]
+	#How many homes each player can save.
+	# Default: 5
+	# Range: 1 ~ 100
+	maxHomes = 5
+
+[teleport]
+	#Seconds a player must stand still after /home, /teleport, /world or an accepted /tpa.
+	# Default: 5
+	# Range: 0 ~ 60
+	warmupSeconds = 5
+	#Seconds after hitting or being hit by another player (guns included) before any teleport is allowed.
+	# Default: 10
+	# Range: 0 ~ 600
+	pvpCooldownSeconds = 10
+	#If true, moving during the countdown cancels the teleport. If false, moving restarts the countdown.
+	cancelOnMove = true
+
+[rtp]
+	#Closest a random teleport lands to the world spawn, in blocks.
+	# Default: 500
+	# Range: 0 ~ 1000000
+	minDistance = 500
+	#Furthest a random teleport lands from the world spawn, in blocks.
+	# Default: 5000
+	# Range: 1 ~ 1000000
+	maxDistance = 5000
+	#Spots tried before giving up. Each one may generate a chunk.
+	# Default: 16
+	# Range: 1 ~ 64
+	attempts = 16
+
+[tpa]
+	#Seconds before an unanswered /tpa or /tpahere request expires.
+	# Default: 60
+	# Range: 5 ~ 600
+	expirySeconds = 60
+
+[worlds]
+	#Worlds /world can't send players to (they can still use portals). Use ids like minecraft:the_end.
+	blocked = ["minecraft:the_nether", "minecraft:the_end"]
+	#Gamemode forced when a player enters a world, as "world=gamemode", e.g. "multiworld:creative=creative".
+	#Worlds set to creative also get their own inventory, armour, ender chest and Curios slots, so creative items stay there.
+	gamemodes = ["createteleporters:pocket_dimension=creative", "minecraft:the_nether=creative"]
+	#Gamemode given when leaving a world listed above for one that isn't listed.
+	defaultGamemode = "survival"
+	#If true, operators keep their own gamemode outside creative worlds (their inventories are still separated).
+	exemptOps = true
+	#Short names for worlds, as "name=dimension", e.g. "south=minecraft:overworld".
+	#Players use these names in /world, and they are shown instead of dimension ids.
+	names = []
+	#Worlds where players can't hurt each other (names from the list above, or dimension ids).
+	noPvp = []
+	#Worlds where players' nametags are hidden (names from the list above, or dimension ids).
+	hiddenNametags = []
+	#Exact arrival points, as "world=x,y,z,yaw", used instead of the world's own spawn (e.g. for a spawn platform).
+	#yaw is the facing: 0 south, 90 west, 180 north, -90 east.
+	spawnPoints = []
+	#World borders, as "world=size" (in blocks, e.g. 500 for 500x500), centred on the world's arrival point
+	#(its spawn point above, the hub for the hub world, otherwise its spawn). Multiworld worlds don't save a border, so these are set every start.
+	borders = []
+
+[menu]
+	#What /teleport shows, in order, as "world=mode=icon item" (worlds from [worlds] names), e.g. "south=rtp=minecraft:grass_block".
+	#mode is spawn (the world's spawn; the hub for the hub world) or rtp (a random spot).
+	entries = []
+
+[hub]
+	#World (a name from [worlds] names, or a dimension id) where the hub is: new players, players without a bed and the hub world's /teleport entry go there.
+	world = "minecraft:overworld"
+	#Send players to the hub the first time they join.
+	sendNewPlayers = true
+	#Send players who die without a bed or respawn anchor to the hub.
+	respawnWithoutBed = true
+	#Set by /sethub. If false, the hub world's spawn point is used.
+	positionSet = false
+	# Default: 0.0
+	# Range: -3.0E7 ~ 3.0E7
+	x = 0.0
+	# Default: 0.0
+	# Range: -2048.0 ~ 2048.0
+	y = 0.0
+	# Default: 0.0
+	# Range: -3.0E7 ~ 3.0E7
+	z = 0.0
+	# Default: 0.0
+	# Range: -360.0 ~ 360.0
+	yaw = 0.0
+	# Default: 0.0
+	# Range: -90.0 ~ 90.0
+	pitch = 0.0
+
+[portals]
+	#Worlds with their own Nether, as "world=nether" (names from [worlds] names, or dimension ids), e.g. "multiworld:north=multiworld:north_nether".
+	#Nether portals in the first world lead to the second, and back. Every other world uses the normal Nether.
+	netherLinks = []
+	#Worlds without Nether or End portals: they don't light or take you anywhere, and eyes of ender can't go in End portal frames.
+	disabledIn = []

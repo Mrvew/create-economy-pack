@@ -1,0 +1,84 @@
+#Where electronic warfare works. Operators change this in game with /ew; these are the defaults.
+[rules]
+	#Electronic warfare works in every world that /ew world has not set and that is not listed below.
+	defaultAllowed = true
+	#Worlds where electronic warfare never works unless /ew world <id> allow says otherwise.
+	deniedDimensions = ["multiworld:shop"]
+	#Only operators may place jammers, projectors and EMP charges or throw EMP grenades.
+	operatorsOnly = false
+
+#What electronic warfare knocks out.
+[targets]
+	#Create: Power Grid devices are taken off their circuit (generators, batteries, motors, lights, heaters...).
+	powerGrid = true
+	#Machines that run on Forge Energy (Crafts & Additions motors, alternators, accumulators...) are drained and cut off.
+	forgeEnergy = true
+	#Create: Better Targeting Ballistic Computers go blind and hold fire.
+	fireControl = true
+	#Leave the owner's own side alone: their claims, their FTB team's and allies' claims, and ships crewed or
+	#tagged by them (uses Create: Better Targeting's friend-or-foe rules, so it needs Create: Better Targeting).
+	spareFriendly = true
+
+#EW Jammer
+[jammer]
+	#Radius of the jamming field at full speed, in blocks.
+	# Default: 24.0
+	# Range: 2.0 ~ 128.0
+	radius = 24.0
+	#RPM for the full radius; slower jammers reach proportionally less far.
+	# Default: 128
+	# Range: 1 ~ 256
+	fullSpeed = 128
+	#Below this RPM the jammer does not run.
+	# Default: 16
+	# Range: 1 ~ 256
+	minSpeed = 16
+	#Stress impact per RPM.
+	# Default: 16.0
+	# Range: 0.0 ~ 1024.0
+	stressImpact = 16.0
+
+#EMP Projector
+[projector]
+	#How far the EMP bolt reaches, in blocks.
+	# Default: 128.0
+	# Range: 8.0 ~ 512.0
+	range = 128.0
+	#Radius of the EMP burst where the bolt lands.
+	# Default: 5.0
+	# Range: 1.0 ~ 32.0
+	burstRadius = 5.0
+	#How long things hit by the bolt stay knocked out, in seconds.
+	# Default: 20
+	# Range: 1 ~ 600
+	seconds = 20
+	#Ticks to charge one bolt at full speed (fullSpeed RPM, same as the jammer).
+	# Default: 100
+	# Range: 5 ~ 6000
+	chargeTicks = 100
+	#Stress impact per RPM.
+	# Default: 8.0
+	# Range: 0.0 ~ 1024.0
+	stressImpact = 8.0
+
+#EMP Charge (block)
+[charge]
+	# Default: 16.0
+	# Range: 1.0 ~ 64.0
+	radius = 16.0
+	# Default: 60
+	# Range: 1 ~ 1200
+	seconds = 60
+	#Fuse in ticks.
+	# Default: 60
+	# Range: 1 ~ 1200
+	fuseTicks = 60
+
+#EMP Grenade
+[grenade]
+	# Default: 5.0
+	# Range: 1.0 ~ 32.0
+	radius = 5.0
+	# Default: 15
+	# Range: 1 ~ 600
+	seconds = 15

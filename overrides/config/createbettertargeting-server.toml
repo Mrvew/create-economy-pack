@@ -1,0 +1,67 @@
+[cannons]
+	#Ticks between a firing solution and the shell's first move. 0 matches Create Radars' Fire Controller.
+	# Default: 0
+	# Range: 0 ~ 20
+	fireLatencyTicks = 0
+	#Longest shell flight the computer will plan for, in seconds.
+	# Default: 60
+	# Range: 5 ~ 300
+	maxFlightSeconds = 60
+	#Only fire when the planned shell path is not blocked by terrain or buildings.
+	#In AUTO arc mode the computer switches to a high lob when the direct path is blocked.
+	requireClearPath = true
+	#Extra blocks of predicted miss allowed before firing, on top of the target's own size.
+	# Default: 0.5
+	# Range: 0.0 ~ 16.0
+	aimTolerance = 0.5
+	#Run the full firing-solution search on worker threads (other CPU cores) instead of the server thread.
+	#The server thread only refines last tick's answer and does the world checks. A new target then takes a tick or two longer to solve.
+	asyncSolver = true
+	#Worker threads for the solver. 0 = half the CPU cores, 1 to 4.
+	# Default: 0
+	# Range: 0 ~ 16
+	solverThreads = 0
+
+[autoTargeting]
+	#How far a Ballistic Computer's own sensors see players, mobs, ships and planes (blocks).
+	# Default: 256
+	# Range: 16 ~ 1024
+	sensorRange = 256
+	#Never auto-engage anything closer than this to the gun (blocks).
+	# Default: 12
+	# Range: 0 ~ 128
+	minEngageRange = 12
+	#How far a computer looks for enemy bases (blocks). Only loaded chunks are checked.
+	# Default: 160
+	# Range: 0 ~ 512
+	baseRange = 160
+	#How much player-built stuff a chunk needs to count as a base (storage/furnaces 1, modded machines 2).
+	# Default: 12
+	# Range: 1 ~ 1000
+	baseScore = 12
+	#Nothing within this distance of the computer is ever treated as an enemy base (its own base).
+	# Default: 48
+	# Range: 0 ~ 512
+	homeRadius = 48
+	#Furthest an enemy gun is traced back from its shells for counter-battery fire (blocks).
+	# Default: 512
+	# Range: 0 ~ 2048
+	counterBatteryRange = 512
+	#Small and low-flying vehicles, sneaking and invisible players are seen from closer.
+	radarStealth = true
+
+[missiles]
+	#Furthest target a computer next to an armed Missile Mount launches at (blocks).
+	# Default: 400
+	# Range: 16 ~ 2048
+	autoLaunchRange = 400
+	#Seconds between automatic launches from one mount, and before a second missile goes at the same target.
+	# Default: 6
+	# Range: 1 ~ 600
+	autoLaunchCooldownSeconds = 6
+	#A Ballistic Computer next to a CBC Aeronautics Missiles Guidance Computer gives the missile intercept guidance.
+	interceptGuidance = true
+	#How hard the missile corrects the gap between where it points and where it flies (0 = off).
+	# Default: 0.8
+	# Range: 0.0 ~ 3.0
+	steerGain = 0.8

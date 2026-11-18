@@ -1,0 +1,27 @@
+[Welcome]
+	#Send a welcome message to players on their first join
+	welcomeEnabled = true
+	#Welcome message shown on first join. Use § for color codes.
+	welcomeMessage = """
+§aThanks for downloading §2BuyingChunks§a!
+§7Use §e/ftbshop gui §7to browse, sell, and buy chunks.
+§7Admins: §e/ftbshop admin §7for server settings."""
+
+["Webhook API"]
+	#Enable sending chunk events (buy/sell/remove/trade) to a custom webhook URL.
+	#Useful for integrating with your own Discord bot or API.
+	#The payload is a Discord-style embed JSON: {"embeds":[...]} with fields:
+	#  Chunk, Dimension, Buyer/Seller, Team, Price, Event.
+	apiEnabled = false
+	#Custom API/webhook URL to POST chunk events to.
+	#The JSON payload uses Discord embed format.
+	#
+	#How to create a Discord webhook:
+	#1. Open Discord -> Server Settings -> Integrations
+	#2. Click 'Webhooks' -> 'Create Webhook' / 'New Webhook'
+	#3. Give it a name (e.g. 'Buying Chunks') and select a channel
+	#4. Click 'Copy Webhook URL'
+	#5. Paste the copied URL below
+	#
+	#Example: https://discord.com/api/webhooks/1234567890/abcdefg
+	apiUrl = ""

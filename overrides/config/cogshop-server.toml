@@ -1,0 +1,3 @@
+#Offers shown in the Scrap Shop, written as "scrap=cogs".
+#"64=70" means a player hands over 64 Cog Scrap and gets 70 Cogs.
+offers = ["1=1", "16=17", "32=35", "64=70"]

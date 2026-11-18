@@ -1,0 +1,6309 @@
+{
+ "format": 1,
+ "name": "Create Economy",
+ "version": "3.0.2",
+ "released": "2026-11-18T21:39:48Z",
+ "notes": "First release through the Create Economy Launcher",
+ "minecraft": "1.21.1",
+ "loader": {
+  "type": "neoforge",
+  "version": "21.1.251"
+ },
+ "java": 21,
+ "memory": {
+  "minimumMB": 4096,
+  "recommendedMB": 6144
+ },
+ "server": {
+  "name": "Create Economy",
+  "address": "play.create-economy.net",
+  "port": 25565
+ },
+ "website": "https://create-economy.net",
+ "files": [
+  {
+   "path": "mods/advancednetherite-neoforge-2.3.1-1.21.1.jar",
+   "sha1": "99003aafa635f316bdcf2db4a70989890a4d944d",
+   "size": 520611,
+   "title": "Advanced Netherite (Forge / NeoForge)",
+   "curseforge": {
+    "project": 495336,
+    "file": 7039369
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/CFX9ftUJ/versions/tsu9b2K9/advancednetherite-neoforge-2.3.1-1.21.1.jar",
+    "https://edge.forgecdn.net/files/7039/369/advancednetherite-neoforge-2.3.1-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/aeronautical_diesel-1.1.0.jar",
+   "sha1": "0f2b2ea62fa2738f9a21ee5f0ab1565c10c59db5",
+   "size": 54547,
+   "title": "Create: Aeronautical Diesel",
+   "curseforge": {
+    "project": 1640042,
+    "file": 8884266
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8884/266/aeronautical_diesel-1.1.0.jar"
+   ]
+  },
+  {
+   "path": "mods/aeronautics_replay-1.0.4.jar",
+   "sha1": "89b099e23cede210d10feb9cb87369ee5b766f96",
+   "size": 39704,
+   "title": "Aeronautics Replay",
+   "curseforge": {
+    "project": 1569851,
+    "file": 8229337
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/KD2QrWTM/versions/tTmUhGBg/aeronautics_replay-1.0.4.jar",
+    "https://edge.forgecdn.net/files/8229/337/aeronautics_replay-1.0.4.jar"
+   ]
+  },
+  {
+   "path": "mods/aeroportals-1.21.1-1.3.3.jar",
+   "sha1": "ea57ea1792a76c1ff5ca3aa5a192fff4fa88a8ba",
+   "size": 503895,
+   "title": "Create: AeroPortals",
+   "curseforge": {
+    "project": 1549100,
+    "file": 8876165
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8876/165/aeroportals-1.21.1-1.3.3.jar"
+   ]
+  },
+  {
+   "path": "mods/alexsmobs-1.22.17.jar",
+   "sha1": "5070e8070f60650d773bfd9f1d031496f8f50259",
+   "size": 26620546,
+   "title": "Alex's Mobs (Unofficial Port)",
+   "curseforge": {
+    "project": 1415721,
+    "file": 7528193
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/EmNhnNnt/versions/KSgki4uc/alexsmobs-1.22.17.jar",
+    "https://edge.forgecdn.net/files/7528/193/alexsmobs-1.22.17.jar"
+   ]
+  },
+  {
+   "path": "mods/alltheleaks-1.1.13+1.21.1-neoforge.jar",
+   "sha1": "ea11d23e0f8c48544a269dc7c56f6593cb1cafe2",
+   "size": 565062,
+   "title": "AllTheLeaks (Memory Leak Fix)",
+   "curseforge": {
+    "project": 1091339,
+    "file": 8943912
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8943/912/alltheleaks-1.1.13%2b1.21.1-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar",
+   "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
+   "size": 75804,
+   "title": "AppleSkin",
+   "curseforge": {
+    "project": 248787,
+    "file": 7854442
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neoforge-mc1.21-3.0.9.jar",
+    "https://edge.forgecdn.net/files/7854/442/appleskin-neoforge-mc1.21-3.0.9.jar"
+   ]
+  },
+  {
+   "path": "mods/architectury-13.0.11-neoforge.jar",
+   "sha1": "008656a0702801174b8ec245ed7aad1921d6e9f1",
+   "size": 584734,
+   "title": "Architectury API",
+   "curseforge": {
+    "project": 419699,
+    "file": 8492726
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1IiqEQGl/architectury-13.0.11-neoforge.jar",
+    "https://edge.forgecdn.net/files/8492/726/architectury-13.0.11-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/artifacts-neoforge-13.2.5.jar",
+   "sha1": "fb6cd3be2d034dde369ffd7558c95c6daa44189e",
+   "size": 1086922,
+   "title": "Artifacts",
+   "curseforge": {
+    "project": 312353,
+    "file": 8791899
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lMfuK0o7/artifacts-neoforge-13.2.5.jar",
+    "https://edge.forgecdn.net/files/8791/899/artifacts-neoforge-13.2.5.jar"
+   ]
+  },
+  {
+   "path": "mods/ash_api-neoforge-21.1.1.jar",
+   "sha1": "723cdb086c66f93c31ce308f82aa2e552a9fac4c",
+   "size": 30484,
+   "title": "Ash API",
+   "curseforge": {
+    "project": 838498,
+    "file": 6856728
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Q8xUICr6/versions/3VLPjt5Q/ash_api-neoforge-21.1.1.jar",
+    "https://edge.forgecdn.net/files/6856/728/ash_api-neoforge-21.1.1.jar"
+   ]
+  },
+  {
+   "path": "mods/athena-neoforge-1.21.1-4.0.6.jar",
+   "sha1": "4bcbdf388bd5e387beca7c627224aac33584b55b",
+   "size": 99944,
+   "title": "Athena",
+   "curseforge": {
+    "project": 841890,
+    "file": 8061947
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/dJgL278E/athena-neoforge-1.21.1-4.0.6.jar",
+    "https://edge.forgecdn.net/files/8061/947/athena-neoforge-1.21.1-4.0.6.jar"
+   ]
+  },
+  {
+   "path": "mods/azimuth-1.4.9.jar",
+   "sha1": "ee5ccc234597699595ad5214ad085c0a14edd94f",
+   "size": 143078,
+   "title": "Azimuth API",
+   "curseforge": {
+    "project": 1466331,
+    "file": 8911024
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/RpH8tmT1/versions/j7UkVY7e/azimuth-1.4.9.jar",
+    "https://edge.forgecdn.net/files/8911/24/azimuth-1.4.9.jar"
+   ]
+  },
+  {
+   "path": "mods/balm-neoforge-1.21.1-21.0.66.jar",
+   "sha1": "dd3606a349f4a3c8fb5bd0ab22905675c02b0d74",
+   "size": 783793,
+   "title": "Balm",
+   "curseforge": {
+    "project": 531761,
+    "file": 8969738
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/MBAkmtvl/versions/CquiaiDj/balm-neoforge-1.21.1-21.0.66.jar",
+    "https://edge.forgecdn.net/files/8969/738/balm-neoforge-1.21.1-21.0.66.jar"
+   ]
+  },
+  {
+   "path": "mods/bellsandwhistles-0.4.7-1.21.1.jar",
+   "sha1": "85944080f8bd47dad64a8193a70662cd9ddbb200",
+   "size": 193619,
+   "title": "Create: Bells & Whistles",
+   "curseforge": {
+    "project": 905040,
+    "file": 6299879
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/gJ5afkVv/versions/w0mifib8/bellsandwhistles-0.4.7-1.21.1.jar",
+    "https://edge.forgecdn.net/files/6299/879/bellsandwhistles-0.4.7-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/better-advanced-tooltips-2101.1.0-build.5.jar",
+   "sha1": "5b73537b908764f2d3fd593a0f56a8b1b034bc50",
+   "size": 37653,
+   "title": "Better Advanced Tooltips",
+   "curseforge": {
+    "project": 1637623,
+    "file": 8576077
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/iHLDc0eo/versions/uPFbnD32/better-advanced-tooltips-2101.1.0-build.5.jar",
+    "https://edge.forgecdn.net/files/8576/77/better-advanced-tooltips-2101.1.0-build.5.jar"
+   ]
+  },
+  {
+   "path": "mods/better_fishing-1.0.0-neoforge-1.21.1.jar",
+   "sha1": "99a30c1462e935b7675a7222862b1b4ba84002ae",
+   "size": 120296,
+   "title": "A Better Fishing",
+   "curseforge": {
+    "project": 1599175,
+    "file": 8383990
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Xn1YuVMr/versions/PwXKcfxd/better_fishing-1.0.0-neoforge-1.21.1.jar",
+    "https://edge.forgecdn.net/files/8383/990/better_fishing-1.0.0-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/betterbelts-0.4.0.jar",
+   "sha1": "f92841e6b87d58b0c540b6120c2ab93132e4fcc0",
+   "size": 182147,
+   "title": "Create: Better Belts",
+   "curseforge": {
+    "project": 1770388,
+    "file": 9426667
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/9426/667/betterbelts-0.4.0.jar"
+   ]
+  },
+  {
+   "path": "mods/biggerstorage1.21.1-neoforge-1.0.0.jar",
+   "sha1": "c41c05f7f8cd846e67386b7cc2e9f166cc0c0210",
+   "size": 793817,
+   "title": "Create: Bigger Storage [NeoFork]",
+   "curseforge": {
+    "project": 1482261,
+    "file": 7736186
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/7736/186/biggerstorage1.21.1-neoforge-1.0.0.jar"
+   ]
+  },
+  {
+   "path": "mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar",
+   "sha1": "6a12e1a249d074fb18f07d1f141b80ca2885e2be",
+   "size": 22338157,
+   "title": "Biomes O' Plenty",
+   "curseforge": {
+    "project": 220318,
+    "file": 8288121
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8288/121/BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar"
+   ]
+  },
+  {
+   "path": "mods/bits_n_bobs-2.3.5.jar",
+   "sha1": "50119ba6849f2b165ab692ab312dbe4867444ac0",
+   "size": 2433531,
+   "title": "Create: Bits 'n' Bobs",
+   "curseforge": {
+    "project": 1398383,
+    "file": 8886545
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/T8bvmqVZ/versions/g9Lmjjc5/bits_n_bobs-2.3.5.jar",
+    "https://edge.forgecdn.net/files/8886/545/bits_n_bobs-2.3.5.jar"
+   ]
+  },
+  {
+   "path": "mods/blocksyouneed_luna-1.11.4-neoforge-1.21.1.jar",
+   "sha1": "74afb2c1252feed4eeabe2f8ff116bb649705adf",
+   "size": 15029447,
+   "title": "Blocks You Need (BYN) - Industrial, Steampunk, Laboratory, Space & more!",
+   "curseforge": {
+    "project": 925718,
+    "file": 7512679
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/lIyS5pGh/versions/wXB9rYMv/blocksyouneed_luna-1.11.4-neoforge-1.21.1.jar",
+    "https://edge.forgecdn.net/files/7512/679/blocksyouneed_luna-1.11.4-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/BridgingMod-2.6.2+1.21.1.neoforge-release.jar",
+   "sha1": "18c4fdadf7d1b4632ae0e0914e4075847306b52f",
+   "size": 5924051,
+   "title": "Bridging Mod",
+   "curseforge": {
+    "project": 533942,
+    "file": 6269728
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/lO3s8hjs/versions/GiR8tHNc/BridgingMod-2.6.2%2B1.21.1.neoforge-release.jar",
+    "https://edge.forgecdn.net/files/6269/728/BridgingMod-2.6.2%2b1.21.1.neoforge-release.jar"
+   ]
+  },
+  {
+   "path": "mods/buyingchunks-1.2.1.jar",
+   "sha1": "54425f9a0c630a467758f00f7a9e06a3d7aa6a6d",
+   "size": 379577,
+   "title": "Buying Chunks \u2014 FTB Chunks Addon",
+   "curseforge": {
+    "project": 1568020,
+    "file": 8488010
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8488/10/buyingchunks-1.2.1.jar"
+   ]
+  },
+  {
+   "path": "mods/caelus-neoforge-7.0.1+1.21.1.jar",
+   "sha1": "e4c2e1af4e3082d68f7df75f7c8ce30116d71515",
+   "size": 50235,
+   "title": "Caelus API",
+   "curseforge": {
+    "project": 308989,
+    "file": 5694215
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/40FYwb4z/versions/KsfI4QsR/caelus-neoforge-7.0.1%2B1.21.1.jar",
+    "https://edge.forgecdn.net/files/5694/215/caelus-neoforge-7.0.1%2b1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/carryon-neoforge-1.21.1-2.2.6.13.jar",
+   "sha1": "2ceb0d9284525b6cb2a214c88cf6511cab91f601",
+   "size": 361486,
+   "title": "Carry On",
+   "curseforge": {
+    "project": 274259,
+    "file": 8512888
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/joEfVgkn/versions/PV8oLZ1q/carryon-neoforge-1.21.1-2.2.6.13.jar",
+    "https://edge.forgecdn.net/files/8512/888/carryon-neoforge-1.21.1-2.2.6.13.jar"
+   ]
+  },
+  {
+   "path": "mods/catalyst-0.17.0.jar",
+   "sha1": "f394dbf31c8f79d8cf0d4c1ab08c09b9d5ac671b",
+   "size": 34078,
+   "title": "Create: Catalyst",
+   "curseforge": {
+    "project": 1620723,
+    "file": 8544138
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8544/138/catalyst-0.17.0.jar"
+   ]
+  },
+  {
+   "path": "mods/cbcaeronauticsmissiles-0.2.0.jar",
+   "sha1": "0c6c2322d038bb97a1abfb99d1cba6134fc783f5",
+   "size": 1112814,
+   "title": "Create: Simulated Missiles | Create Aeronautics | Create Big Cannons Compat | Create: Radars Compat",
+   "curseforge": {
+    "project": 1654531,
+    "file": 8746555
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8746/555/cbcaeronauticsmissiles-0.2.0.jar"
+   ]
+  },
+  {
+   "path": "mods/chat_heads-0.15.7-neoforge-1.21.jar",
+   "sha1": "536b2af675229d2a33eb4cf5afbe7148a62d5f3f",
+   "size": 91948,
+   "title": "Chat Heads",
+   "curseforge": {
+    "project": 407206,
+    "file": 8642154
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/ZPylso9i/chat_heads-0.15.7-neoforge-1.21.jar",
+    "https://edge.forgecdn.net/files/8642/154/chat_heads-0.15.7-neoforge-1.21.jar"
+   ]
+  },
+  {
+   "path": "mods/chipped-neoforge-1.21.1-4.0.2.jar",
+   "sha1": "6f5395f58139802edfde7cb9170279f92f291971",
+   "size": 15020578,
+   "title": "Chipped",
+   "curseforge": {
+    "project": 456956,
+    "file": 5813117
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/BAscRYKm/versions/eqVowbGc/chipped-neoforge-1.21.1-4.0.2.jar",
+    "https://edge.forgecdn.net/files/5813/117/chipped-neoforge-1.21.1-4.0.2.jar"
+   ]
+  },
+  {
+   "path": "mods/citadel-1.21.1-2.7.6.jar",
+   "sha1": "e0392370117ec16a721f8d65728944398de77607",
+   "size": 3028943,
+   "title": "Citadel (Unofficial Port)",
+   "curseforge": {
+    "project": 1415723,
+    "file": 7982052
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/XjY0RcQj/versions/mIylVpkN/citadel-1.21.1-2.7.6.jar",
+    "https://edge.forgecdn.net/files/7982/52/citadel-1.21.1-2.7.6.jar"
+   ]
+  },
+  {
+   "path": "mods/cloth-config-15.0.140-neoforge.jar",
+   "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2",
+   "size": 1163890,
+   "title": "Cloth Config API (Fabric/Forge/NeoForge)",
+   "curseforge": {
+    "project": 348521,
+    "file": 5729127
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/9s6osm5g/versions/izKINKFg/cloth-config-15.0.140-neoforge.jar",
+    "https://edge.forgecdn.net/files/5729/127/cloth-config-15.0.140-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+   "sha1": "fa2576297c7bd12b28aa7070e8141792bd66da4c",
+   "size": 18382,
+   "title": "Clumps",
+   "curseforge": {
+    "project": 256717,
+    "file": 5623731
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Wnxd13zP/versions/jo7lDoK4/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+    "https://edge.forgecdn.net/files/5623/731/Clumps-neoforge-1.21.1-19.0.0.1.jar"
+   ]
+  },
+  {
+   "path": "mods/cmpackagecouriers-neoforge-2.3.0.jar",
+   "sha1": "54efc43f6a32d8063c4bdbd7af71773e6d873879",
+   "size": 284825,
+   "title": "Create More: Package Couriers",
+   "curseforge": {
+    "project": 1319223,
+    "file": 8127223
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/GRqrodjM/versions/rv1JwLWn/cmpackagecouriers-neoforge-2.3.0.jar",
+    "https://edge.forgecdn.net/files/8127/223/cmpackagecouriers-neoforge-2.3.0.jar"
+   ]
+  },
+  {
+   "path": "mods/coasters_extras-neoforge-1.21.1-1.2.jar",
+   "sha1": "1615edd0c781c0489713ee9e81c2e03bbc989828",
+   "size": 7733880,
+   "title": "Coasters: Tracks and Balloons",
+   "curseforge": {
+    "project": 1649197,
+    "file": 8718286
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8718/286/coasters_extras-neoforge-1.21.1-1.2.jar"
+   ]
+  },
+  {
+   "path": "mods/coastersengineered-1.21.1-1.1.1.jar",
+   "sha1": "71238147443c0cf85bc661f0c56a9e6d4d36fd74",
+   "size": 539658,
+   "title": "Coasters: Engineered",
+   "curseforge": {
+    "project": 1643631,
+    "file": 8863559
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/guKf87OB/versions/pzBMM4ER/coastersengineered-1.21.1-1.1.1.jar",
+    "https://edge.forgecdn.net/files/8863/559/coastersengineered-1.21.1-1.1.1.jar"
+   ]
+  },
+  {
+   "path": "mods/cogsdelight-2.0-neoforge-1.21.1.jar",
+   "sha1": "3deddd3ff2e5cfcdc58dbfe87f6bbbe4f25d5248",
+   "size": 12702,
+   "title": "Create: FPS Enhanced (2x FPS)",
+   "curseforge": {
+    "project": 1398751,
+    "file": 8431409
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8431/409/cogsdelight-2.0-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/collective-1.21.1-8.40.jar",
+   "sha1": "f32e8ccf56cbd8f9f64f265364fd3d255489d2e9",
+   "size": 1061918,
+   "title": "Collective",
+   "curseforge": {
+    "project": 342584,
+    "file": 8940150
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/e0M1UDsY/versions/aP0sKWst/collective-1.21.1-8.40.jar",
+    "https://edge.forgecdn.net/files/8940/150/collective-1.21.1-8.40.jar"
+   ]
+  },
+  {
+   "path": "mods/colorwheel-neoforge-1.2.9+mc1.21.1.jar",
+   "sha1": "33f3f4976755d0b315d3853f2e2aad38e11825c2",
+   "size": 398004,
+   "title": "Colorwheel",
+   "curseforge": {
+    "project": 1254143,
+    "file": 8206645
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/BzHgFoGz/versions/Uhs2KYar/colorwheel-neoforge-1.2.9%2Bmc1.21.1.jar",
+    "https://edge.forgecdn.net/files/8206/645/colorwheel-neoforge-1.2.9%2bmc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/comforts-neoforge-9.0.5+1.21.1.jar",
+   "sha1": "21d6bee3821d62fe3356c51fb1d697871a3087ff",
+   "size": 422658,
+   "title": "Comforts",
+   "curseforge": {
+    "project": 276951,
+    "file": 7515858
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/SaCpeal4/versions/3kpPjcTc/comforts-neoforge-9.0.5%2B1.21.1.jar",
+    "https://edge.forgecdn.net/files/7515/858/comforts-neoforge-9.0.5%2b1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/coopmod-1.0.0.jar",
+   "sha1": "8d58f22d8bb0b6778ee9bcf4385409495b541568",
+   "size": 11146332,
+   "title": "Dap ur Homies (unofficially neoforged)",
+   "curseforge": {
+    "project": 1597240,
+    "file": 8366127
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/1Ls2pii3/versions/oAUdSQLz/coopmod-1.0.0.jar",
+    "https://edge.forgecdn.net/files/8366/127/coopmod-1.0.0.jar"
+   ]
+  },
+  {
+   "path": "mods/copycats-3.0.9+mc.1.21.1-neoforge.jar",
+   "sha1": "74de17876c43f5f780bac478b9f9eb11e687b8d7",
+   "size": 1799381,
+   "title": "Create: Copycats+",
+   "curseforge": {
+    "project": 968398,
+    "file": 8822348
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/UT2M39wf/versions/bPYeUWZx/copycats-3.0.9%2Bmc.1.21.1-neoforge.jar",
+    "https://edge.forgecdn.net/files/8822/348/copycats-3.0.9%2bmc.1.21.1-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/coroutil-neoforge-1.21.0-1.3.9.jar",
+   "sha1": "0f5a6309ce8394721b97740e6f3e45665f13b8de",
+   "size": 65716,
+   "title": "CoroUtil",
+   "curseforge": {
+    "project": 237749,
+    "file": 7796187
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/7796/187/coroutil-neoforge-1.21.0-1.3.9.jar"
+   ]
+  },
+  {
+   "path": "mods/cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+   "sha1": "5f1e699cd0888b857ec63f01adaeb3571848bfea",
+   "size": 92722,
+   "title": "Cosmetic Armor Reworked",
+   "curseforge": {
+    "project": 237307,
+    "file": 5610814
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/5610/814/cosmeticarmorreworked-1.21.1-v1-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar",
+   "sha1": "ec9e35065ce3a49ecec6bd6ff7fec6992476f7bb",
+   "size": 3481341,
+   "title": "Crash Assistant",
+   "curseforge": {
+    "project": 1154099,
+    "file": 8636685
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/ix1qq8Ux/versions/18SR4EJw/CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar",
+    "https://edge.forgecdn.net/files/8636/685/CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar"
+   ]
+  },
+  {
+   "path": "mods/CraterLib-Neoforge-1.21-3.1.3.jar",
+   "sha1": "b20a3a2ada7f1dbd6e6413e6a287a12f1b53ff66",
+   "size": 1485401,
+   "title": "CraterLib",
+   "curseforge": {
+    "project": 867099,
+    "file": 8884785
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Nn8Wasaq/versions/e962b1SA/CraterLib-Neoforge-1.21-3.1.3.jar",
+    "https://edge.forgecdn.net/files/8884/785/CraterLib-Neoforge-1.21-3.1.3.jar"
+   ]
+  },
+  {
+   "path": "mods/Create Aeronautics Gyroscope Stabilizers.jar",
+   "sha1": "2629c09571cf4378c99b76dad57780e04ae9f619",
+   "size": 300793,
+   "title": "Create Aeronautics: Gyroscope Stabilizers",
+   "curseforge": {
+    "project": 1527770,
+    "file": 8005046
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/JcEFpckH/versions/9P9dNVUn/Create%20Aeronautics%20Gyroscope%20Stabilizers.jar",
+    "https://edge.forgecdn.net/files/8005/46/Create%20Aeronautics%20Gyroscope%20Stabilizers.jar"
+   ]
+  },
+  {
+   "path": "mods/Create Encased-1.21.1-1.9.0-ht3.jar",
+   "sha1": "bc749c8ec3ad4fef7d5a052c904008971158f274",
+   "size": 3110804,
+   "title": "Create Encased",
+   "curseforge": {
+    "project": 829380,
+    "file": 8549840
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/hSSqdyU1/versions/t6MATlU9/Create%20Encased-1.21.1-1.9.0-ht3.jar",
+    "https://edge.forgecdn.net/files/8549/840/Create%20Encased-1.21.1-1.9.0-ht3.jar"
+   ]
+  },
+  {
+   "path": "mods/create-1.21.1-6.0.10.jar",
+   "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353",
+   "size": 19123767,
+   "title": "Create",
+   "curseforge": {
+    "project": 328085,
+    "file": 7963363
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
+    "https://edge.forgecdn.net/files/7963/363/create-1.21.1-6.0.10.jar"
+   ]
+  },
+  {
+   "path": "mods/create-access-denied-0.0.4+c6.0.10.mc1.21.1.jar",
+   "sha1": "73f9956e6be9261ab61be81a647ba5030d877bc8",
+   "size": 91053,
+   "title": "Create: Access Denied",
+   "curseforge": {
+    "project": 1380459,
+    "file": 7984871
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/l7OfHLkp/versions/g0JvLmzZ/create-access-denied-0.0.4%2Bc6.0.10.mc1.21.1.jar",
+    "https://edge.forgecdn.net/files/7984/871/create-access-denied-0.0.4%2bc6.0.10.mc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+   "sha1": "ddbe9cbc25e8f663218aa1e9fdfc4b99f0e11e4b",
+   "size": 33123131,
+   "title": "Create Aeronautics",
+   "curseforge": {
+    "project": 676721,
+    "file": 8763471
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/oWaK0Q19/versions/44pLdPGg/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+    "https://edge.forgecdn.net/files/8763/471/create-aeronautics-bundled-1.21.1-1.3.2.jar"
+   ]
+  },
+  {
+   "path": "mods/Create-Better-Targeting-1.0.0.1.jar",
+   "sha1": "813c45e702a773b441f57de710aade9375968859",
+   "size": 467889,
+   "title": "Create: Better targeting",
+   "curseforge": {
+    "project": 1759465,
+    "file": 9304240
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/9304/240/Create-Better-Targeting-1.0.0.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create-confectionery1.21.1_v1.1.3b.jar",
+   "sha1": "47e235efa862c5cbea53fdf8346d4c499674defa",
+   "size": 2127265,
+   "title": "Create Confectionery",
+   "curseforge": {
+    "project": 531834,
+    "file": 8063074
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/WPE5gRs9/versions/ndnETBEN/create-confectionery1.21.1_v1.1.3b.jar",
+    "https://edge.forgecdn.net/files/8063/74/create-confectionery1.21.1_v1.1.3b.jar"
+   ]
+  },
+  {
+   "path": "mods/create-economy-custom-mods-1.1.0.jar",
+   "sha1": "3ba03b5d7a9314a8e11498c167456722df033e2a",
+   "size": 190069,
+   "title": "Custom Tpa, Shops, and Hubnps (for a Create mod server",
+   "curseforge": {
+    "project": 1713644,
+    "file": 8991107
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8991/107/create-economy-custom-mods-1.1.0.jar"
+   ]
+  },
+  {
+   "path": "mods/Create-Economy-Ranks-1.0.6.jar",
+   "sha1": "a5087ba4cd233825bea53469a198cb3b0dc1e2aa",
+   "size": 162190,
+   "title": "Create Economy Ranks",
+   "curseforge": {
+    "project": 1795525,
+    "file": 9535904
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/9535/904/Create-Economy-Ranks-1.0.6.jar"
+   ]
+  },
+  {
+   "path": "mods/Create-Electronic-Warfare-1.0.1.jar",
+   "sha1": "4268bc0667c196aca7af76059f32df4a5f91efe2",
+   "size": 121894,
+   "title": "Create: Electronic Warfare",
+   "curseforge": {
+    "project": 1760340,
+    "file": 9304228
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/9304/228/Create-Electronic-Warfare-1.0.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create-enchantment-industry-2.4.2.jar",
+   "sha1": "4ad5c181c805a548e15892500b07c0c0f88f0734",
+   "size": 1283517,
+   "title": "Create: Enchantment Industry",
+   "curseforge": {
+    "project": 688768,
+    "file": 8241347
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/JWGBpFUP/versions/qUpvzZ83/create-enchantment-industry-2.4.2.jar",
+    "https://edge.forgecdn.net/files/8241/347/create-enchantment-industry-2.4.2.jar"
+   ]
+  },
+  {
+   "path": "mods/create-frogport-reworked-1.0.1.jar",
+   "sha1": "e014c4219a7a1d96554a118215681f84b43ff877",
+   "size": 294317,
+   "title": "Create: Frogport Reworked",
+   "curseforge": {
+    "project": 1629968,
+    "file": 8575689
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/R4vq7qIg/versions/VoV2MZoE/create-frogport-reworked-1.0.1.jar",
+    "https://edge.forgecdn.net/files/8575/689/create-frogport-reworked-1.0.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create-more-girder-2.3.0-neo.jar",
+   "sha1": "32a50bbb067b1d757d2475eb8e92810318ccc3db",
+   "size": 1407593,
+   "title": "Create: More Girder",
+   "curseforge": {
+    "project": 1371561,
+    "file": 8690343
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/sPg2LVAd/versions/24zvpwoC/create-more-girder-2.3.0-neo.jar",
+    "https://edge.forgecdn.net/files/8690/343/create-more-girder-2.3.0-neo.jar"
+   ]
+  },
+  {
+   "path": "mods/create-stuff-additions1.21.1_v2.1.4b.jar",
+   "sha1": "246915560f74b92e0186c22da26be8995380c443",
+   "size": 1347181,
+   "title": "Create Stuff 'N Additions",
+   "curseforge": {
+    "project": 466792,
+    "file": 8664066
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/aq9qUUQG/versions/gMWQ1LX9/create-stuff-additions1.21.1_v2.1.4b.jar",
+    "https://edge.forgecdn.net/files/8664/66/create-stuff-additions1.21.1_v2.1.4b.jar"
+   ]
+  },
+  {
+   "path": "mods/Create-Warpanautics-1.0.1.jar",
+   "sha1": "823a62c38c8b01514b8aaa8e79461fb685cd3535",
+   "size": 227576,
+   "title": "Create: Warpanautics",
+   "curseforge": {
+    "project": 1757674,
+    "file": 9276657
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/9276/657/Create-Warpanautics-1.0.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_aero_radar-0.1.1-1.21.1.jar",
+   "sha1": "1e06a12c5e257eebb2fef971b02d3593d8d51b52",
+   "size": 160220,
+   "title": "Create Aero Radars",
+   "curseforge": {
+    "project": 1578228,
+    "file": 8307052
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Gxj4Ihed/versions/uDnC1TSw/create_aero_radar-0.1.1-1.21.1.jar",
+    "https://edge.forgecdn.net/files/8307/52/create_aero_radar-0.1.1-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_aeronautics_automated_logistics-0.6.2.jar",
+   "sha1": "1954f5c4f72620942851241bd18217197ed59b46",
+   "size": 1567622,
+   "title": "Create Aeronautics: Automated Logistics",
+   "curseforge": {
+    "project": 1537420,
+    "file": 8673342
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/73ZXeRfx/versions/EgPi4wq9/create_aeronautics_automated_logistics-0.6.2.jar",
+    "https://edge.forgecdn.net/files/8673/342/create_aeronautics_automated_logistics-0.6.2.jar"
+   ]
+  },
+  {
+   "path": "mods/create_better_factory_gauge-1.0.0.jar",
+   "sha1": "8b3d8236de4fbbcc503c5c9efcec1f903cce93db",
+   "size": 48205,
+   "title": "Create: Better Factory Gauge",
+   "curseforge": {
+    "project": 1574869,
+    "file": 8245458
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/w3jDk0jg/versions/9cGz8YpL/create_better_factory_gauge-1.0.0.jar",
+    "https://edge.forgecdn.net/files/8245/458/create_better_factory_gauge-1.0.0.jar"
+   ]
+  },
+  {
+   "path": "mods/create_blaze_burner_fuels-1.0.2-neoforge-1.21.1.jar",
+   "sha1": "9f055fedf963a6c352c655cb6d58b720b08256b2",
+   "size": 768288,
+   "title": "Create: Blaze Burner Fuels",
+   "curseforge": {
+    "project": 1320903,
+    "file": 7444038
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/f3wjDYg6/versions/5Lq5c5Tl/create_blaze_burner_fuels-1.0.2-neoforge-1.21.1.jar",
+    "https://edge.forgecdn.net/files/7444/38/create_blaze_burner_fuels-1.0.2-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_break_it_all_2.0.0.jar",
+   "sha1": "ca8b203df241a69ca969d86a3c6638e6d850227e",
+   "size": 102819,
+   "title": "Create: Break It All",
+   "curseforge": {
+    "project": 1336574,
+    "file": 8530953
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/3FM50h3n/versions/MOrXnGs2/create_break_it_all_2.0.0.jar",
+    "https://edge.forgecdn.net/files/8530/953/create_break_it_all_2.0.0.jar"
+   ]
+  },
+  {
+   "path": "mods/create_connected-1.3.3-mc1.21.1.jar",
+   "sha1": "72c3653116562dbab38dac123f8effc73c747cc9",
+   "size": 6786784,
+   "title": "Create: Connected",
+   "curseforge": {
+    "project": 947914,
+    "file": 8777573
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8777/573/create_connected-1.3.3-mc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_copper_and_zinc-2.0.0-neoforge-1.21.1.jar",
+   "sha1": "de1f363ef0ec8aeb6a9dedc1f3d8b3e224400895",
+   "size": 98709,
+   "title": "Create: Copper & Zinc",
+   "curseforge": {
+    "project": 977947,
+    "file": 7454578
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/aqYNR6rI/versions/1Z1LCW5Z/create_copper_and_zinc-2.0.0-neoforge-1.21.1.jar",
+    "https://edge.forgecdn.net/files/7454/578/create_copper_and_zinc-2.0.0-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_easy_structures-0.2a-neoforge-1.21.1.jar",
+   "sha1": "5878bdf8facd954cce7da3a55ab1d5274fe4ef6d",
+   "size": 469490,
+   "title": "Create: Easy Structures",
+   "curseforge": {
+    "project": 949158,
+    "file": 6344382
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/z69Pxatv/versions/ECkmsrG4/create_easy_structures-0.2a-neoforge-1.21.1.jar",
+    "https://edge.forgecdn.net/files/6344/382/create_easy_structures-0.2a-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_egg_production-1.1.0.jar",
+   "sha1": "8592263b563830c1706c03d6ec0121f9a05eb757",
+   "size": 248166,
+   "title": "Create:Egg Production",
+   "curseforge": {
+    "project": 1247193,
+    "file": 6666684
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/cVconmno/versions/ix0sktZJ/create_egg_production-1.1.0.jar",
+    "https://edge.forgecdn.net/files/6666/684/create_egg_production-1.1.0.jar"
+   ]
+  },
+  {
+   "path": "mods/create_for_twinks-1.0.3-neoforge-1.21.1.jar",
+   "sha1": "b45482863cc3d7acf1c007c71849b3dbbad9b1d0",
+   "size": 11104,
+   "title": "Create for twinks. Create addon",
+   "curseforge": {
+    "project": 1555276,
+    "file": 8202240
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/jbD2bmDn/versions/PUyeqvWg/create_for_twinks-1.0.3-neoforge-1.21.1.jar",
+    "https://edge.forgecdn.net/files/8202/240/create_for_twinks-1.0.3-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_hypertube-0.6.0-NEOFORGE.jar",
+   "sha1": "8004b4b3959364609906ea4d7bf409add879a222",
+   "size": 546142,
+   "title": "Create: Hypertubes",
+   "curseforge": {
+    "project": 1281336,
+    "file": 8541877
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/ATDdrG1y/versions/qYjOyvgW/create_hypertube-0.6.0-NEOFORGE.jar",
+    "https://edge.forgecdn.net/files/8541/877/create_hypertube-0.6.0-NEOFORGE.jar"
+   ]
+  },
+  {
+   "path": "mods/create_jetpack-forge-5.2.1.jar",
+   "sha1": "cbd949c62723d805c2ab019def6e6718c50037b8",
+   "size": 495109,
+   "title": "Create Jetpack",
+   "curseforge": {
+    "project": 655608,
+    "file": 8545274
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/UbFnAd4l/versions/sCwiqLqq/create_jetpack-forge-5.2.1.jar",
+    "https://edge.forgecdn.net/files/8545/274/create_jetpack-forge-5.2.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_mixed_casing-1.21.1-1.1.1.jar",
+   "sha1": "3eb6a839d3fc192f17f465065a07a4263d1944f5",
+   "size": 1935494,
+   "title": "Create: Mixed Casing",
+   "curseforge": {
+    "project": 1321083,
+    "file": 7892181
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/wMgXLrSd/versions/xo79epr6/create_mixed_casing-1.21.1-1.1.1.jar",
+    "https://edge.forgecdn.net/files/7892/181/create_mixed_casing-1.21.1-1.1.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_mobile_packages-1.21.1-0.7.7.jar",
+   "sha1": "b0eb4d3ae9641c06754b20b9621f23bd607373a8",
+   "size": 605614,
+   "title": "Create: Mobile Packages",
+   "curseforge": {
+    "project": 1232978,
+    "file": 8502329
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/1vXRfEHZ/versions/DFi1qAly/create_mobile_packages-1.21.1-0.7.7.jar",
+    "https://edge.forgecdn.net/files/8502/329/create_mobile_packages-1.21.1-0.7.7.jar"
+   ]
+  },
+  {
+   "path": "mods/create_pattern_schematics-2.0.10.jar",
+   "sha1": "e3dea574c3b3d590444796a42e8f7456280b1063",
+   "size": 221764,
+   "title": "Create: Pattern Schematics",
+   "curseforge": {
+    "project": 1072349,
+    "file": 7155413
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/cpqKG67r/versions/VSJhIkG2/create_pattern_schematics-2.0.10.jar",
+    "https://edge.forgecdn.net/files/7155/413/create_pattern_schematics-2.0.10.jar"
+   ]
+  },
+  {
+   "path": "mods/create_radar-0.4.9.4-1.21.1.jar",
+   "sha1": "9726fced4bf86c9e2c0ea09b35bc39ed3ac007b6",
+   "size": 2990812,
+   "title": "Create: Radars",
+   "curseforge": {
+    "project": 1152836,
+    "file": 8227753
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/BLu2Yqfq/versions/AntNFNAx/create_radar-0.4.9.4-1.21.1.jar",
+    "https://edge.forgecdn.net/files/8227/753/create_radar-0.4.9.4-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_safe_seating-1.0.1.jar",
+   "sha1": "9c1d0d29696ba636edfa2f1cd320d93e15adb424",
+   "size": 21798,
+   "title": "Create Safe Seating",
+   "curseforge": {
+    "project": 1584537,
+    "file": 8371479
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8371/479/create_safe_seating-1.0.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_tweaked_controllers-1.21.1-1.2.7.jar",
+   "sha1": "6358da213d0eff982c3431a8d004a3e912f7957a",
+   "size": 303343,
+   "title": "Create: Tweaked Controllers",
+   "curseforge": {
+    "project": 898849,
+    "file": 7958165
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/H6bJ8Ju4/versions/csCe2v7f/create_tweaked_controllers-1.21.1-1.2.7.jar",
+    "https://edge.forgecdn.net/files/7958/165/create_tweaked_controllers-1.21.1-1.2.7.jar"
+   ]
+  },
+  {
+   "path": "mods/create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+   "sha1": "ed0ff71df9bfe3b66b97c51a2834031084300a65",
+   "size": 235239,
+   "title": "Create: Ultimate Factory",
+   "curseforge": {
+    "project": 978125,
+    "file": 8038954
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/N9QToVpw/versions/AEMRNsNS/create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+    "https://edge.forgecdn.net/files/8038/954/create_ultimate_factory-2.2.4-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/create_vibrant_vaults-0.3.2.jar",
+   "sha1": "d0dbdde6318c4dd4ede1d2c091f1a64896ba872a",
+   "size": 2687938,
+   "title": "Create: Vibrant Vaults",
+   "curseforge": {
+    "project": 1251719,
+    "file": 6463890
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/hddN8ksR/versions/t17qYXjn/create_vibrant_vaults-0.3.2.jar",
+    "https://edge.forgecdn.net/files/6463/890/create_vibrant_vaults-0.3.2.jar"
+   ]
+  },
+  {
+   "path": "mods/Create_Warnautics-1.0.8+mc.1.21.1.jar",
+   "sha1": "8ed7519b7fff5140cf2444f2508f2e64add4a413",
+   "size": 3158935,
+   "title": "Create: Warnautics",
+   "curseforge": {
+    "project": 1620378,
+    "file": 8781522
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/DtRY2QQN/versions/YO1GPUvv/Create_Warnautics-1.0.8%2Bmc.1.21.1.jar",
+    "https://edge.forgecdn.net/files/8781/522/Create_Warnautics-1.0.8%2bmc.1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/createaddition-1.6.0.jar",
+   "sha1": "87b539d41ed238e98b26c607c0c81a973323147e",
+   "size": 1661802,
+   "title": "Create Crafts & Additions",
+   "curseforge": {
+    "project": 439890,
+    "file": 8188476
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/kU1G12Nn/versions/qPr8V4G2/createaddition-1.6.0.jar",
+    "https://edge.forgecdn.net/files/8188/476/createaddition-1.6.0.jar"
+   ]
+  },
+  {
+   "path": "mods/createbigcannons-5.11.7+mc.1.21.1.jar",
+   "sha1": "c90ee0b2142e2c58d233e150cb3a24c7cb07eb2d",
+   "size": 3771506,
+   "title": "Create Big Cannons",
+   "curseforge": {
+    "project": 646668,
+    "file": 8303106
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/GWp4jCJj/versions/bOiDu0LS/createbigcannons-5.11.7%2Bmc.1.21.1.jar",
+    "https://edge.forgecdn.net/files/8303/106/createbigcannons-5.11.7%2bmc.1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/createcobblestone-1.5.0+neoforge-1.21.1-153.jar",
+   "sha1": "1fbb61c9b5d99fff39fa8cb1528847feb0b1a68f",
+   "size": 573391,
+   "title": "Create Cobblestone",
+   "curseforge": {
+    "project": 1023532,
+    "file": 8763220
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/ihpnEd80/versions/srFLj2Ch/createcobblestone-1.5.0%2Bneoforge-1.21.1-153.jar",
+    "https://edge.forgecdn.net/files/8763/220/createcobblestone-1.5.0%2bneoforge-1.21.1-153.jar"
+   ]
+  },
+  {
+   "path": "mods/createcontraptionterminals-1.21-1.4.0.jar",
+   "sha1": "ede963781ca5bf49c5117031087b8085043c7ab3",
+   "size": 91226,
+   "title": "Create Contraption Terminals",
+   "curseforge": {
+    "project": 1059879,
+    "file": 8631983
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/gOPAFzp0/versions/gBvq8zOa/createcontraptionterminals-1.21-1.4.0.jar",
+    "https://edge.forgecdn.net/files/8631/983/createcontraptionterminals-1.21-1.4.0.jar"
+   ]
+  },
+  {
+   "path": "mods/createdeco-2.1.3.jar",
+   "sha1": "93d9eff58b46c6953e907d071e6be4e3ce07be38",
+   "size": 3328498,
+   "title": "Create Deco",
+   "curseforge": {
+    "project": 509285,
+    "file": 7943181
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/sMvUb4Rb/versions/qrcMVoBD/createdeco-2.1.3.jar",
+    "https://edge.forgecdn.net/files/7943/181/createdeco-2.1.3.jar"
+   ]
+  },
+  {
+   "path": "mods/createdieselgenerators-1.21.1-1.3.15.jar",
+   "sha1": "7f751dabfa83c141c1d13025cd16f06553ba459b",
+   "size": 3154746,
+   "title": "Create: Diesel Generators",
+   "curseforge": {
+    "project": 869316,
+    "file": 8542167
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/ZM3tt6p1/versions/UoPH8lO1/createdieselgenerators-1.21.1-1.3.15.jar",
+    "https://edge.forgecdn.net/files/8542/167/createdieselgenerators-1.21.1-1.3.15.jar"
+   ]
+  },
+  {
+   "path": "mods/CreateDragonsPlus-1.11.9.jar",
+   "sha1": "67ffcb61207a7dbc6b1e70f0473ddbacb19d44eb",
+   "size": 1085674,
+   "title": "Create: Dragons Plus",
+   "curseforge": {
+    "project": 1216624,
+    "file": 8900055
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/dzb1a5WV/versions/b0u9vk8C/CreateDragonsPlus-1.11.9.jar",
+    "https://edge.forgecdn.net/files/8900/55/CreateDragonsPlus-1.11.9.jar"
+   ]
+  },
+  {
+   "path": "mods/createendertransmission-2.1.1-1.21.1.jar",
+   "sha1": "fbf165d068a3a9c6d24f1bcf68fb1af380ee2603",
+   "size": 84366,
+   "title": "Create: Ender Transmission",
+   "curseforge": {
+    "project": 737302,
+    "file": 7232820
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/wtW8g4TG/versions/eI9pk5JC/createendertransmission-2.1.1-1.21.1.jar",
+    "https://edge.forgecdn.net/files/7232/820/createendertransmission-2.1.1-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/createfactorycontroller-1.1.1-neoforge-1.21.1.jar",
+   "sha1": "5005aacb17acf99f043700dced3f60937176ae3d",
+   "size": 1796279,
+   "title": "Create: Factory Controller",
+   "curseforge": {
+    "project": 1573767,
+    "file": 8520194
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/VR3MrvE2/versions/og36LNt5/createfactorycontroller-1.1.1-neoforge-1.21.1.jar",
+    "https://edge.forgecdn.net/files/8520/194/createfactorycontroller-1.1.1-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/createframed-1.21.1-1.8.2.jar",
+   "sha1": "222c998ffc62cd734e1318134c7f182c68f2b527",
+   "size": 2871366,
+   "title": "Create: Framed",
+   "curseforge": {
+    "project": 953126,
+    "file": 8394637
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/15fFZ3f4/versions/yioQUGiO/createframed-1.21.1-1.8.2.jar",
+    "https://edge.forgecdn.net/files/8394/637/createframed-1.21.1-1.8.2.jar"
+   ]
+  },
+  {
+   "path": "mods/CreateLazyTick-2.7.29-6.0.10-neoforge-1.21.1.jar",
+   "sha1": "98d36ee48a2a28c6eb34efe25095e720a3c319ac",
+   "size": 487183,
+   "title": "Create:LazyTick",
+   "curseforge": {
+    "project": 1409401,
+    "file": 8970326
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Z0d7hFh4/versions/nGonV00w/CreateLazyTick-2.7.29-6.0.10-neoforge-1.21.1.jar",
+    "https://edge.forgecdn.net/files/8970/326/CreateLazyTick-2.7.29-6.0.10-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/createliquidfuel-3.0.0-1.21.1.jar",
+   "sha1": "9a88888ac915d32d8df240153421fdcb170ad88e",
+   "size": 21815,
+   "title": "Create: Liquid Fuel",
+   "curseforge": {
+    "project": 840734,
+    "file": 8812977
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8812/977/createliquidfuel-3.0.0-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/createmorewrenchables-1.0.0.jar",
+   "sha1": "606e387a413ef0da55b1b789954fc2fca9a177cf",
+   "size": 3086,
+   "title": "Create: More Wrenchables",
+   "curseforge": {
+    "project": 1459604,
+    "file": 7607712
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/JKRAHJGf/versions/1EOjy9Ad/createmorewrenchables-1.0.0.jar",
+    "https://edge.forgecdn.net/files/7607/712/createmorewrenchables-1.0.0.jar"
+   ]
+  },
+  {
+   "path": "mods/CreateNumismatics-1.0.19integration+neoforge-mc1.21.1.jar",
+   "sha1": "14385a77350e9ca85f78eca1143d591a69e36f96",
+   "size": 729918,
+   "title": "Create: Numismatics (Create 6.0 Integration)",
+   "curseforge": {
+    "project": 1473449,
+    "file": 7687784
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/7687/784/CreateNumismatics-1.0.19integration%2bneoforge-mc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/createpropulsion-1.1.5.jar",
+   "sha1": "928e9428ee92d07426c296b04a7fffb1e737e290",
+   "size": 1707765,
+   "title": "Create Propulsion: Simulated",
+   "curseforge": {
+    "project": 1522736,
+    "file": 8496246
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/ApkoHNO9/versions/H13U56dc/createpropulsion-1.1.5.jar",
+    "https://edge.forgecdn.net/files/8496/246/createpropulsion-1.1.5.jar"
+   ]
+  },
+  {
+   "path": "mods/createteleporters-remastered-2.0.2b-neoforge-1.21.1.jar",
+   "sha1": "76fe16fb464351859113102477bf91f100984257",
+   "size": 1886362,
+   "title": "Create : Teleporters",
+   "curseforge": {
+    "project": 829272,
+    "file": 8010045
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/9mtJ8MHP/versions/gMBCo1Df/createteleporters-remastered-2.0.2b-neoforge-1.21.1.jar",
+    "https://edge.forgecdn.net/files/8010/45/createteleporters-remastered-2.0.2b-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/createtransmission-1.2.2+neoforge-create6-1.21.1.jar",
+   "sha1": "60e020b39a243e4eca5d15e3c9299fcdf8ed20d2",
+   "size": 250901,
+   "title": "Create: Transmission!",
+   "curseforge": {
+    "project": 1354280,
+    "file": 8646664
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/QFCkBuIh/versions/dOsq88jX/createtransmission-1.2.2%2Bneoforge-create6-1.21.1.jar",
+    "https://edge.forgecdn.net/files/8646/664/createtransmission-1.2.2%2bneoforge-create6-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
+   "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4",
+   "size": 410690,
+   "title": "Curios API",
+   "curseforge": {
+    "project": 309927,
+    "file": 6529130
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar",
+    "https://edge.forgecdn.net/files/6529/130/curios-neoforge-9.5.1%2b1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/deployer-0.1.3.jar",
+   "sha1": "e3a39672f10f2d141ef87e69fd1615042c4985d3",
+   "size": 2022337,
+   "title": "Create: Deployer API",
+   "curseforge": {
+    "project": 1516421,
+    "file": 8803341
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/OZhUIuou/versions/ltYnbVvP/deployer-0.1.3.jar",
+    "https://edge.forgecdn.net/files/8803/341/deployer-0.1.3.jar"
+   ]
+  },
+  {
+   "path": "mods/DnDesires-1.21.1-2.3a-BETA.jar",
+   "sha1": "72635119b4bcc49b050c50d6cbb1abb02bb3982a",
+   "size": 1249099,
+   "title": "Create: Dreams n' Desires",
+   "curseforge": {
+    "project": 864781,
+    "file": 8037481
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/JmybsfWs/versions/bqMxf6Ua/DnDesires-1.21.1-2.3a-BETA.jar",
+    "https://edge.forgecdn.net/files/8037/481/DnDesires-1.21.1-2.3a-BETA.jar"
+   ]
+  },
+  {
+   "path": "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
+   "sha1": "35b17e95b2b65930116ccc83e0cc358ac1bfcf9e",
+   "size": 220193,
+   "title": "Dynamic FPS",
+   "curseforge": {
+    "project": 335493,
+    "file": 7546938
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/LQ3K71Q1/versions/T238FZpQ/dynamic-fps-3.11.4%2Bminecraft-1.21.0-neoforge.jar",
+    "https://edge.forgecdn.net/files/7546/938/dynamic-fps-3.11.4%2bminecraft-1.21.0-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/easy-villagers-neoforge-1.21.1-1.1.45.jar",
+   "sha1": "fa2561b7710910c1ccc12a012986b1c5c3976e27",
+   "size": 456631,
+   "title": "Easy Villagers",
+   "curseforge": {
+    "project": 400514,
+    "file": 9067113
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Kaov2qgi/versions/vkY28WLb/easy-villagers-neoforge-1.21.1-1.1.45.jar",
+    "https://edge.forgecdn.net/files/9067/113/easy-villagers-neoforge-1.21.1-1.1.45.jar"
+   ]
+  },
+  {
+   "path": "mods/easynametags-1.21.1-a.jar",
+   "sha1": "e9d62c8294ed6ad00fd225f6ea0667089b9d427e",
+   "size": 24026,
+   "title": "Easy Name Tags - Rename Nametags!",
+   "curseforge": {
+    "project": 923018,
+    "file": 6513271
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/6513/271/easynametags-1.21.1-a.jar"
+   ]
+  },
+  {
+   "path": "mods/Elite X Quality Guns NeoForge v6.1 - 1.21.1 Hotfix.jar",
+   "sha1": "e92b5225fd4aa22d40fb19d237eca68bc90e3dc8",
+   "size": 80135114,
+   "title": "Elite X Quality Guns (TACZ)",
+   "curseforge": {
+    "project": 1084662,
+    "file": 9306736
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/X4uLYuhT/versions/CLNr4Uaz/Elite%20X%20Quality%20Guns%20NeoForge%20v6.1%20-%201.21.1%20Hotfix.jar",
+    "https://edge.forgecdn.net/files/9306/736/Elite%20X%20Quality%20Guns%20NeoForge%20v6.1%20-%201.21.1%20Hotfix.jar"
+   ]
+  },
+  {
+   "path": "mods/elytraslot-neoforge-9.0.2+1.21.1.jar",
+   "sha1": "8ac6cf959fe66399aa7e86b6e6f933e07d155b7e",
+   "size": 65086,
+   "title": "Elytra Slot",
+   "curseforge": {
+    "project": 317716,
+    "file": 5778461
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/mSQF1NpT/versions/RX6A02W1/elytraslot-neoforge-9.0.2%2B1.21.1.jar",
+    "https://edge.forgecdn.net/files/5778/461/elytraslot-neoforge-9.0.2%2b1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/Ender-Transmission-Secure-1.0.0.jar",
+   "sha1": "8967ba2f54f07c2d12217c4bb546b5ae824b36e7",
+   "size": 52099,
+   "title": "Create: EnderTransmission Secured",
+   "curseforge": {
+    "project": 1757681,
+    "file": 9276734
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/9276/734/Ender-Transmission-Secure-1.0.0.jar"
+   ]
+  },
+  {
+   "path": "mods/entityculling-neoforge-1.11.2-mc1.21.1.jar",
+   "sha1": "2f723582d44b60b41d701a797846eaa45a3fef58",
+   "size": 1510018,
+   "title": "Entity Culling Fabric/Forge",
+   "curseforge": {
+    "project": 448233,
+    "file": 8942303
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/NNAgCjsB/versions/8w8FfUPs/entityculling-neoforge-1.11.2-mc1.21.1.jar",
+    "https://edge.forgecdn.net/files/8942/303/entityculling-neoforge-1.11.2-mc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+   "sha1": "9f62af344988a6e2d855b113e61cf0e1611c7e0f",
+   "size": 174668,
+   "title": "Explorer's Compass",
+   "curseforge": {
+    "project": 491794,
+    "file": 7892943
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/RV1qfVQ8/versions/hIJ2Ev1Q/ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+    "https://edge.forgecdn.net/files/7892/943/ExplorersCompass-1.21.1-3.4.0-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/extra_gauges-2.1.3.jar",
+   "sha1": "c82761ebd4459869fd8eacf7da9ca2c3aa1e54f8",
+   "size": 1064396,
+   "title": "Create: Extra Gauges",
+   "curseforge": {
+    "project": 1263228,
+    "file": 8803538
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/6YJgomwt/versions/xtIBXji9/extra_gauges-2.1.3.jar",
+    "https://edge.forgecdn.net/files/8803/538/extra_gauges-2.1.3.jar"
+   ]
+  },
+  {
+   "path": "mods/FallingTree-1.21.1-1.21.1.11.jar",
+   "sha1": "626e7ec3a979dcc15d8e65c53207572c41c1b255",
+   "size": 496356,
+   "title": "FallingTree",
+   "curseforge": {
+    "project": 349559,
+    "file": 6835168
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/6835/168/FallingTree-1.21.1-1.21.1.11.jar"
+   ]
+  },
+  {
+   "path": "mods/fancymenu_neoforge_3.9.14_MC_1.21.1.jar",
+   "sha1": "cafbef98afb4f60adea426b950c5452655040c40",
+   "size": 25922080,
+   "title": "FancyMenu",
+   "curseforge": {
+    "project": 367706,
+    "file": 9002957
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Wq5SjeWM/versions/P9dDosz2/fancymenu_neoforge_3.9.14_MC_1.21.1.jar",
+    "https://edge.forgecdn.net/files/9002/957/fancymenu_neoforge_3.9.14_MC_1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/fantasy_armor-neoforge-1.2.4-1.21.1.jar",
+   "sha1": "2b103680ca80a1d617dcae74630c4df8e93d3c55",
+   "size": 537069,
+   "title": "Fantasy Armor (Medieval Series)",
+   "curseforge": {
+    "project": 1083998,
+    "file": 7850813
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/oVmpjYQ5/versions/Ibkb2q3C/fantasy_armor-neoforge-1.2.4-1.21.1.jar",
+    "https://edge.forgecdn.net/files/7850/813/fantasy_armor-neoforge-1.2.4-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/farmers-cutting-biomes-o-plenty-2.0.0-1.21.jar",
+   "sha1": "32633a4d1d1cae822bbeee3cd943ea0f7eeaba2b",
+   "size": 53221,
+   "title": "Farmer's Cutting: Biomes O' Plenty",
+   "curseforge": {
+    "project": 1073641,
+    "file": 5577829
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/5577/829/farmers-cutting-biomes-o-plenty-2.0.0-1.21.jar"
+   ]
+  },
+  {
+   "path": "mods/FarmersDelight-1.21.1-1.3.4.jar",
+   "sha1": "27675ddfcb8cc37e6ea1ab6c15051c7949d94657",
+   "size": 3160490,
+   "title": "Farmer's Delight",
+   "curseforge": {
+    "project": 398521,
+    "file": 8765184
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/R2OftAxM/versions/XTVZDOol/FarmersDelight-1.21.1-1.3.4.jar",
+    "https://edge.forgecdn.net/files/8765/184/FarmersDelight-1.21.1-1.3.4.jar"
+   ]
+  },
+  {
+   "path": "mods/FastSuite-1.21.1-6.0.7.jar",
+   "sha1": "664e62684311f727f1fac18f0de28e5317874b7e",
+   "size": 28193,
+   "title": "FastSuite",
+   "curseforge": {
+    "project": 475117,
+    "file": 7527945
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/7527/945/FastSuite-1.21.1-6.0.7.jar"
+   ]
+  },
+  {
+   "path": "mods/FastWorkbench-1.21.1-9.1.3.jar",
+   "sha1": "7343b63ded70c0546811c768118d16d3a86418ee",
+   "size": 28635,
+   "title": "FastWorkbench",
+   "curseforge": {
+    "project": 288885,
+    "file": 6751534
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/6751/534/FastWorkbench-1.21.1-9.1.3.jar"
+   ]
+  },
+  {
+   "path": "mods/ferritecore-7.0.3-neoforge.jar",
+   "sha1": "9563692efb708b6b568df27a01ec52f6311928ef",
+   "size": 121559,
+   "title": "FerriteCore ((Neo)Forge)",
+   "curseforge": {
+    "project": 429235,
+    "file": 7524151
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
+    "https://edge.forgecdn.net/files/7524/151/ferritecore-7.0.3-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/fluid-2.1.6.jar",
+   "sha1": "4f16ea44499ae31826fc5e3d2d12963c4a356b0d",
+   "size": 2228052,
+   "title": "Create: Fluid",
+   "curseforge": {
+    "project": 1346709,
+    "file": 8873260
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8873/260/fluid-2.1.6.jar"
+   ]
+  },
+  {
+   "path": "mods/FpsOverlay-neoforge-1.21.1-5.4.jar",
+   "sha1": "815e7ed1b2ae23eb4d49e4c7328719e28e5592ca",
+   "size": 103338,
+   "title": "FPS Overlay",
+   "curseforge": {
+    "project": 1341801,
+    "file": 8354852
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/j0IQ4hjv/versions/7U8U65v4/FpsOverlay-neoforge-1.21.1-5.4.jar",
+    "https://edge.forgecdn.net/files/8354/852/FpsOverlay-neoforge-1.21.1-5.4.jar"
+   ]
+  },
+  {
+   "path": "mods/fracturepoint-1.21.1-3.0.0-PT2.jar",
+   "sha1": "c4bb6d96145bcd3b52aba2bf2d386e51234c642a",
+   "size": 2240442,
+   "title": "Fracture Point (Tactical Military Armory)",
+   "curseforge": {
+    "project": 1207137,
+    "file": 8866397
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8866/397/fracturepoint-1.21.1-3.0.0-PT2.jar"
+   ]
+  },
+  {
+   "path": "mods/FramedBlocks-10.6.2.jar",
+   "sha1": "c86d546e57a6161e77f4acd651e6939b2d6136d5",
+   "size": 4305605,
+   "title": "FramedBlocks",
+   "curseforge": {
+    "project": 441647,
+    "file": 8780141
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8780/141/FramedBlocks-10.6.2.jar"
+   ]
+  },
+  {
+   "path": "mods/freecam-neoforge-1.3.0+mc1.21.jar",
+   "sha1": "428eee42f39e6f4c36a3fed2fc127ee9cbd5fa0c",
+   "size": 1137632,
+   "title": "Freecam",
+   "curseforge": {
+    "project": 557076,
+    "file": 5572364
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/XeEZ3fK2/versions/ROfcbxxe/freecam-neoforge-1.3.0%2Bmc1.21.jar",
+    "https://edge.forgecdn.net/files/5572/364/freecam-neoforge-1.3.0%2bmc1.21.jar"
+   ]
+  },
+  {
+   "path": "mods/ftb-chunks-neoforge-2101.1.22.jar",
+   "sha1": "a53f1bb7965c6954a348d4f321f03d3971ad503f",
+   "size": 655807,
+   "title": "FTB Chunks (NeoForge)",
+   "curseforge": {
+    "project": 314906,
+    "file": 8791113
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8791/113/ftb-chunks-neoforge-2101.1.22.jar"
+   ]
+  },
+  {
+   "path": "mods/ftb-library-neoforge-2101.1.36.jar",
+   "sha1": "07b5bf1c6ac5160a6cfe1b39ed8c1465dc151b00",
+   "size": 1439427,
+   "title": "FTB Library (NeoForge)",
+   "curseforge": {
+    "project": 404465,
+    "file": 8858846
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8858/846/ftb-library-neoforge-2101.1.36.jar"
+   ]
+  },
+  {
+   "path": "mods/ftb-teams-neoforge-2101.1.11.jar",
+   "sha1": "62b65f752d0326edd13244e58d5f2aec035da4e9",
+   "size": 308236,
+   "title": "FTB Teams (NeoForge)",
+   "curseforge": {
+    "project": 404468,
+    "file": 8724782
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8724/782/ftb-teams-neoforge-2101.1.11.jar"
+   ]
+  },
+  {
+   "path": "mods/fullbrightnesstoggle-1.21.1-4.4.jar",
+   "sha1": "cdd44cb96d5803741b5fad710f140b82d638abcb",
+   "size": 38770,
+   "title": "Full Brightness Toggle",
+   "curseforge": {
+    "project": 391656,
+    "file": 7059688
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/aEK1KhsC/versions/8S5iOkIh/fullbrightnesstoggle-1.21.1-4.4.jar",
+    "https://edge.forgecdn.net/files/7059/688/fullbrightnesstoggle-1.21.1-4.4.jar"
+   ]
+  },
+  {
+   "path": "mods/fusion-1.3.15b-neoforge-mc1.21.1.jar",
+   "sha1": "c3284ae904e33ff976ba9dcab79f415a1140fb64",
+   "size": 947338,
+   "title": "Fusion (Connected Textures)",
+   "curseforge": {
+    "project": 854949,
+    "file": 8942891
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/p19vrgc2/versions/n2GBQ4li/fusion-1.3.15b-neoforge-mc1.21.1.jar",
+    "https://edge.forgecdn.net/files/8942/891/fusion-1.3.15b-neoforge-mc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/fzzy_config-0.7.7+1.21+neoforge.jar",
+   "sha1": "518eadc53c065a74a49207769209c116e77d1849",
+   "size": 2392693,
+   "title": "Fzzy Config",
+   "curseforge": {
+    "project": 1005914,
+    "file": 8883390
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/hYykXjDp/versions/uG7oHgw6/fzzy_config-0.7.7%2B1.21%2Bneoforge.jar",
+    "https://edge.forgecdn.net/files/8883/390/fzzy_config-0.7.7%2b1.21%2bneoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/gadgets-and-gizmos-bundled-V1.2.4.jar",
+   "sha1": "0b63f12dfef20803d8b85b2b387b037da34c86ce",
+   "size": 32897024,
+   "title": "Create Aeronautics: Gadgets & Gizmos",
+   "curseforge": {
+    "project": 1537945,
+    "file": 8915440
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Sza3GgEL/versions/VY2Sg3qY/gadgets-and-gizmos-bundled-V1.2.4.jar",
+    "https://edge.forgecdn.net/files/8915/440/gadgets-and-gizmos-bundled-V1.2.4.jar"
+   ]
+  },
+  {
+   "path": "mods/garnished-2.1.9.2+1.21.1-neoforged.jar",
+   "sha1": "93f86f9a2e3e23c8c20761f8d7acdd625ad49a6f",
+   "size": 3725336,
+   "title": "Create: Garnished",
+   "curseforge": {
+    "project": 923277,
+    "file": 8524625
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/6e2SlzR4/versions/EKUHxs6i/garnished-2.1.9.2%2B1.21.1-neoforged.jar",
+    "https://edge.forgecdn.net/files/8524/625/garnished-2.1.9.2%2b1.21.1-neoforged.jar"
+   ]
+  },
+  {
+   "path": "mods/geckolib-neoforge-1.21.1-4.9.3.jar",
+   "sha1": "5cfe835472a5c5457ae9ac192d9d7b317454d5ac",
+   "size": 634531,
+   "title": "GeckoLib",
+   "curseforge": {
+    "project": 388172,
+    "file": 8893490
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/8BmcQJ2H/versions/Grwn5rUB/geckolib-neoforge-1.21.1-4.9.3.jar",
+    "https://edge.forgecdn.net/files/8893/490/geckolib-neoforge-1.21.1-4.9.3.jar"
+   ]
+  },
+  {
+   "path": "mods/GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+   "sha1": "a31c3f36330f19aa538add3d727782a62c9c30ad",
+   "size": 90717,
+   "title": "GlitchCore",
+   "curseforge": {
+    "project": 955399,
+    "file": 8109792
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8109/792/GlitchCore-neoforge-1.21.1-2.1.0.2.jar"
+   ]
+  },
+  {
+   "path": "mods/gravestone-neoforge-1.21.1-1.0.40.jar",
+   "sha1": "97230b93af34ac6581ed36b0cc98f6b16b06c04e",
+   "size": 322082,
+   "title": "GraveStone Mod",
+   "curseforge": {
+    "project": 238551,
+    "file": 8671622
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/RYtXKJPr/versions/rMGJpjaM/gravestone-neoforge-1.21.1-1.0.40.jar",
+    "https://edge.forgecdn.net/files/8671/622/gravestone-neoforge-1.21.1-1.0.40.jar"
+   ]
+  },
+  {
+   "path": "mods/ImmediatelyFast-NeoForge-1.6.14+1.21.1.jar",
+   "sha1": "fee59af2f39c66d09c4c09f441c799e76af70f97",
+   "size": 365195,
+   "title": "ImmediatelyFast",
+   "curseforge": {
+    "project": 686911,
+    "file": 8875640
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/5ZwdcRci/versions/OUpXxw4n/ImmediatelyFast-NeoForge-1.6.14%2B1.21.1.jar",
+    "https://edge.forgecdn.net/files/8875/640/ImmediatelyFast-NeoForge-1.6.14%2b1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/immersive_paintings-neoforge-1.21.1-0.7.9.jar",
+   "sha1": "0386ff2db20edfcafc890760adb96073cd38c1a2",
+   "size": 5506376,
+   "title": "Immersive Paintings",
+   "curseforge": {
+    "project": 639584,
+    "file": 8871485
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/6txNkua3/versions/ItQ1UJGH/immersive_paintings-neoforge-1.21.1-0.7.9.jar",
+    "https://edge.forgecdn.net/files/8871/485/immersive_paintings-neoforge-1.21.1-0.7.9.jar"
+   ]
+  },
+  {
+   "path": "mods/industrial_immersive_blocks-1.0.2-neoforge-1.21.1.jar",
+   "sha1": "ff6a4e1821187caa8157e61438e0f5c7d3e92fb8",
+   "size": 115069,
+   "title": "Industrial immersive blocks",
+   "curseforge": {
+    "project": 1638285,
+    "file": 8584862
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8584/862/industrial_immersive_blocks-1.0.2-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/interiors-0.6.1 v2.jar",
+   "sha1": "be747984ad74204980877841ab041bf5ea854446",
+   "size": 470209,
+   "title": "Create: Interiors",
+   "curseforge": {
+    "project": 906239,
+    "file": 8854020
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8854/20/interiors-0.6.1%20v2.jar"
+   ]
+  },
+  {
+   "path": "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+   "sha1": "1bd129cf7bce65d6b1c0543045f0620c98a0f885",
+   "size": 2540723,
+   "title": "Iris Shaders",
+   "curseforge": {
+    "project": 455508,
+    "file": 8242804
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
+    "https://edge.forgecdn.net/files/8242/804/iris-neoforge-1.8.14-beta.1%2bmc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/ironchest-1.21-neoforge-16.0.7.jar",
+   "sha1": "7064b4ea349f37d95a6448c3179dc0a2cad0c162",
+   "size": 305975,
+   "title": "Iron Chests",
+   "curseforge": {
+    "project": 228756,
+    "file": 5491156
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/P3iIrPH3/versions/Res1o1zf/ironchest-1.21-neoforge-16.0.7.jar",
+    "https://edge.forgecdn.net/files/5491/156/ironchest-1.21-neoforge-16.0.7.jar"
+   ]
+  },
+  {
+   "path": "mods/Jade-1.21.1-NeoForge-15.10.6.jar",
+   "sha1": "88ee316e68900080b017f60c12162e2731924cf8",
+   "size": 726853,
+   "title": "Jade \ud83d\udd0d",
+   "curseforge": {
+    "project": 324717,
+    "file": 8591319
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/nvQzSEkH/versions/eYz2YBGT/Jade-1.21.1-NeoForge-15.10.6.jar",
+    "https://edge.forgecdn.net/files/8591/319/Jade-1.21.1-NeoForge-15.10.6.jar"
+   ]
+  },
+  {
+   "path": "mods/jei-1.21.1-neoforge-19.57.0.447.jar",
+   "sha1": "b04fd32755b55715958380a7f4925ad93d0e9b3a",
+   "size": 2252654,
+   "title": "Just Enough Items (JEI)",
+   "curseforge": {
+    "project": 238222,
+    "file": 8946440
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/u6dRKJwZ/versions/XCIrIXIV/jei-1.21.1-neoforge-19.57.0.447.jar",
+    "https://edge.forgecdn.net/files/8946/440/jei-1.21.1-neoforge-19.57.0.447.jar"
+   ]
+  },
+  {
+   "path": "mods/just-hammers-neoforge-21.1.4.jar",
+   "sha1": "9db9f80eeb27ab968b989f4b9b0f4ab88af6ec01",
+   "size": 102133,
+   "title": "JustHammers",
+   "curseforge": {
+    "project": 681606,
+    "file": 7435250
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/edU0NbZZ/versions/SobtrAG5/just-hammers-neoforge-21.1.4.jar",
+    "https://edge.forgecdn.net/files/7435/250/just-hammers-neoforge-21.1.4.jar"
+   ]
+  },
+  {
+   "path": "mods/konkrete_neoforge_1.9.9_MC_1.21.jar",
+   "sha1": "97771eb287d5ac7fe667d1df9493d5e54c8ca1fa",
+   "size": 618842,
+   "title": "Konkrete",
+   "curseforge": {
+    "project": 410295,
+    "file": 5453385
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/J81TRJWm/versions/stJDU839/konkrete_neoforge_1.9.9_MC_1.21.jar",
+    "https://edge.forgecdn.net/files/5453/385/konkrete_neoforge_1.9.9_MC_1.21.jar"
+   ]
+  },
+  {
+   "path": "mods/kotlinforforge-5.12.0-all.jar",
+   "sha1": "a2032c921e93a0ccb0db5d742167e3139c2de01b",
+   "size": 7279276,
+   "title": "Kotlin for Forge",
+   "curseforge": {
+    "project": 351264,
+    "file": 8335665
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8335/665/kotlinforforge-5.12.0-all.jar"
+   ]
+  },
+  {
+   "path": "mods/kubejs-create-neoforge-2101.3.1-build.18.jar",
+   "sha1": "d4dce8f82f2d37545f085522a782c1bfda222154",
+   "size": 38630,
+   "title": "KubeJS Create",
+   "curseforge": {
+    "project": 429371,
+    "file": 7213667
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/7213/667/kubejs-create-neoforge-2101.3.1-build.18.jar"
+   ]
+  },
+  {
+   "path": "mods/kubejs-neoforge-2101.7.2-build.377.jar",
+   "sha1": "150c5d6efc09b969ac350ea205128dff832e0850",
+   "size": 2294111,
+   "title": "KubeJS",
+   "curseforge": {
+    "project": 238086,
+    "file": 8843626
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8843/626/kubejs-neoforge-2101.7.2-build.377.jar"
+   ]
+  },
+  {
+   "path": "mods/linearbearing-1.2.6.jar",
+   "sha1": "6b3da63cd216da8c79f6d2fd1f8b11f910704173",
+   "size": 148396,
+   "title": "Create: Linear Bearing",
+   "curseforge": {
+    "project": 1556708,
+    "file": 8181069
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8181/69/linearbearing-1.2.6.jar"
+   ]
+  },
+  {
+   "path": "mods/lithium-neoforge-0.15.4+mc1.21.1.jar",
+   "sha1": "97212e45c963730bbfc7c44780df99317814c21b",
+   "size": 774220,
+   "title": "Lithium (Fabric/NeoForge)",
+   "curseforge": {
+    "project": 360438,
+    "file": 8330365
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/gvQqBUqZ/versions/DDUrRVCA/lithium-neoforge-0.15.4%2Bmc1.21.1.jar",
+    "https://edge.forgecdn.net/files/8330/365/lithium-neoforge-0.15.4%2bmc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/lootr-neoforge-1.21.1-1.11.38.127.jar",
+   "sha1": "7a305b581abd90e1a8b7c1bb5eb4511d2653aa58",
+   "size": 1075929,
+   "title": "Lootr (Forge & NeoForge)",
+   "curseforge": {
+    "project": 361276,
+    "file": 8968561
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/EltpO5cN/versions/SPOrIzX8/lootr-neoforge-1.21.1-1.11.38.127.jar",
+    "https://edge.forgecdn.net/files/8968/561/lootr-neoforge-1.21.1-1.11.38.127.jar"
+   ]
+  },
+  {
+   "path": "mods/mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
+   "sha1": "71ece28129789a2123cf07e79938f488d8675bb2",
+   "size": 661387,
+   "title": "Macaw's Bridges",
+   "curseforge": {
+    "project": 351725,
+    "file": 7627896
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/GURcjz8O/versions/aQ7rY7ng/mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
+    "https://edge.forgecdn.net/files/7627/896/mcw-bridges-3.1.2-mc1.21.1neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/melody_neoforge_1.0.10_MC_1.21.jar",
+   "sha1": "e83052a92c4ca0016bcfe7f0207273983dc84698",
+   "size": 36096,
+   "title": "Melody",
+   "curseforge": {
+    "project": 938643,
+    "file": 5453382
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/CVT4pFB2/versions/efcdRVZP/melody_neoforge_1.0.10_MC_1.21.jar",
+    "https://edge.forgecdn.net/files/5453/382/melody_neoforge_1.0.10_MC_1.21.jar"
+   ]
+  },
+  {
+   "path": "mods/mezz_config-1.21.1-neoforge-0.6.3.jar",
+   "sha1": "df107055dfdc3313c08939913433502cb7899d31",
+   "size": 344292,
+   "title": "MezzConfig",
+   "curseforge": {
+    "project": 1689768,
+    "file": 8932688
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/7tEfOcA7/versions/zcRUPwOA/mezz_config-1.21.1-neoforge-0.6.3.jar",
+    "https://edge.forgecdn.net/files/8932/688/mezz_config-1.21.1-neoforge-0.6.3.jar"
+   ]
+  },
+  {
+   "path": "mods/modernfix-neoforge-5.27.24+mc1.21.1.jar",
+   "sha1": "1fe7f8b4176e86507cc8ed5460b6acdd3dac5529",
+   "size": 604333,
+   "title": "ModernFix",
+   "curseforge": {
+    "project": 790626,
+    "file": 8774737
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/nmDcB62a/versions/5HLHxQ2F/modernfix-neoforge-5.27.24%2Bmc1.21.1.jar",
+    "https://edge.forgecdn.net/files/8774/737/modernfix-neoforge-5.27.24%2bmc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/moonlight-1.21.1-3.6.9-neoforge.jar",
+   "sha1": "a702e9aef64a5ab69a0f6cd0b337c74a4bf459e5",
+   "size": 2289012,
+   "title": "Moonlight Lib",
+   "curseforge": {
+    "project": 499980,
+    "file": 8963246
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/twkfQtEc/versions/u6BWvDt1/moonlight-1.21.1-3.6.9-neoforge.jar",
+    "https://edge.forgecdn.net/files/8963/246/moonlight-1.21.1-3.6.9-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+   "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+   "size": 73938,
+   "title": "Mouse Tweaks",
+   "curseforge": {
+    "project": 60089,
+    "file": 5637846
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+    "https://edge.forgecdn.net/files/5637/846/MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+   ]
+  },
+  {
+   "path": "mods/NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+   "sha1": "e19721873bebc4dbc1674bb101af39d0ea406b95",
+   "size": 224657,
+   "title": "Nature's Compass",
+   "curseforge": {
+    "project": 252848,
+    "file": 7892954
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/fPetb5Kh/versions/nFniEtJV/NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+    "https://edge.forgecdn.net/files/7892/954/NaturesCompass-1.21.1-3.4.0-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/notenoughanimations-neoforge-1.12.6-mc1.21.1.jar",
+   "sha1": "2098ae4965ebefb2dc8d5aec42a7d5282414fddc",
+   "size": 1866035,
+   "title": "Not Enough Animations",
+   "curseforge": {
+    "project": 433760,
+    "file": 8925075
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/MPCX6s5C/versions/VCuMsK45/notenoughanimations-neoforge-1.12.6-mc1.21.1.jar",
+    "https://edge.forgecdn.net/files/8925/75/notenoughanimations-neoforge-1.12.6-mc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/open-parties-and-claims-neoforge-1.21.1-0.31.6.jar",
+   "sha1": "6d0ebc84bbb75322cb0ab45ffef6a54d3bc6adef",
+   "size": 1826827,
+   "title": "Open Parties and Claims",
+   "curseforge": {
+    "project": 636608,
+    "file": 8848852
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/gF3BGWvG/versions/3i48dTzz/open-parties-and-claims-neoforge-1.21.1-0.31.6.jar",
+    "https://edge.forgecdn.net/files/8848/852/open-parties-and-claims-neoforge-1.21.1-0.31.6.jar"
+   ]
+  },
+  {
+   "path": "mods/particle_core-0.3.3+1.21+neoforge.jar",
+   "sha1": "f859d68818e522fb00056d3ed1603ca4300eb681",
+   "size": 138375,
+   "title": "Particle Core",
+   "curseforge": {
+    "project": 985426,
+    "file": 7581040
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/RSeLon5O/versions/2QF4NhZD/particle_core-0.3.3%2B1.21%2Bneoforge.jar",
+    "https://edge.forgecdn.net/files/7581/40/particle_core-0.3.3%2b1.21%2bneoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/Patchouli-1.21.1-93-NEOFORGE.jar",
+   "sha1": "5413bb9b8fc35ebe46b06b48bf9afafbd8471140",
+   "size": 646777,
+   "title": "Patchouli",
+   "curseforge": {
+    "project": 306770,
+    "file": 7730942
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/nU0bVIaL/versions/BIogJv2D/Patchouli-1.21.1-93-NEOFORGE.jar",
+    "https://edge.forgecdn.net/files/7730/942/Patchouli-1.21.1-93-NEOFORGE.jar"
+   ]
+  },
+  {
+   "path": "mods/Placebo-1.21.1-9.9.2.jar",
+   "sha1": "d44335094cf2db64998cb3ee31e58d8c01e80b4a",
+   "size": 324058,
+   "title": "Placebo",
+   "curseforge": {
+    "project": 283644,
+    "file": 8463693
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/tCkE8p2N/versions/1Ypo4tf4/Placebo-1.21.1-9.9.2.jar",
+    "https://edge.forgecdn.net/files/8463/693/Placebo-1.21.1-9.9.2.jar"
+   ]
+  },
+  {
+   "path": "mods/Platform-neoforge-1.21.1-1.3.3.jar",
+   "sha1": "4132ad6809008698b7f489a878e5a33a3879bbfd",
+   "size": 489341,
+   "title": "Platform",
+   "curseforge": {
+    "project": 997634,
+    "file": 8075942
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/i6fiqm5y/versions/v7P0nBi2/Platform-neoforge-1.21.1-1.3.3.jar",
+    "https://edge.forgecdn.net/files/8075/942/Platform-neoforge-1.21.1-1.3.3.jar"
+   ]
+  },
+  {
+   "path": "mods/PlayerAnimationLibNeoforge-1.1.6+mc.1.21.1.jar",
+   "sha1": "856b2e281b405dab7ca1584a7e9d053e76cc268b",
+   "size": 1156673,
+   "title": "Player Animation Library",
+   "curseforge": {
+    "project": 1283899,
+    "file": 8674792
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/ha1mEyJS/versions/yjxtkvnD/PlayerAnimationLibNeoforge-1.1.6%2Bmc.1.21.1.jar",
+    "https://edge.forgecdn.net/files/8674/792/PlayerAnimationLibNeoforge-1.1.6%2bmc.1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/polymorph-neoforge-1.1.0+1.21.1.jar",
+   "sha1": "84f8c539fa326dc723ae62b7a6916d6b01982d07",
+   "size": 174972,
+   "title": "Polymorph",
+   "curseforge": {
+    "project": 388800,
+    "file": 6794589
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/tagwiZkJ/versions/VEburL70/polymorph-neoforge-1.1.0%2B1.21.1.jar",
+    "https://edge.forgecdn.net/files/6794/589/polymorph-neoforge-1.1.0%2b1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/powergrid-mc1.21.1-0.6.2.jar",
+   "sha1": "e09452dac8202e31f282149d45c49dcdb218bd54",
+   "size": 5738480,
+   "title": "Create: Power Grid",
+   "curseforge": {
+    "project": 1321420,
+    "file": 8880715
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/eWiBLJ9R/versions/jCkPHjmP/powergrid-mc1.21.1-0.6.2.jar",
+    "https://edge.forgecdn.net/files/8880/715/powergrid-mc1.21.1-0.6.2.jar"
+   ]
+  },
+  {
+   "path": "mods/protection_pixel-2.2.1-neoforge-1.21.1.jar",
+   "sha1": "c35da610425f735eea4d027ad159c88de6ec6e3f",
+   "size": 2608196,
+   "title": "Create: Protection Pixel",
+   "curseforge": {
+    "project": 1023409,
+    "file": 7549821
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/7549/821/protection_pixel-2.2.1-neoforge-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/PuzzlesLib-v21.1.60-mc1.21.1-NeoForge.jar",
+   "sha1": "319fc1ea1498920b39a318ea324f6112a7318d67",
+   "size": 1442182,
+   "title": "Puzzles Lib",
+   "curseforge": {
+    "project": 495476,
+    "file": 8829114
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/QAGBst4M/versions/lh44g7RC/PuzzlesLib-v21.1.60-mc1.21.1-NeoForge.jar",
+    "https://edge.forgecdn.net/files/8829/114/PuzzlesLib-v21.1.60-mc1.21.1-NeoForge.jar"
+   ]
+  },
+  {
+   "path": "mods/railways-0.2.1+neoforge-mc1.21.1.jar",
+   "sha1": "f2d71927ef504b597a6c992d02118c1e6ee6e369",
+   "size": 12118736,
+   "title": "Steam 'n' Rails Neoforge",
+   "curseforge": {
+    "project": 1414670,
+    "file": 8243336
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/L3Jv0QZI/versions/HOPX5oro/railways-0.2.1%2Bneoforge-mc1.21.1.jar",
+    "https://edge.forgecdn.net/files/8243/336/railways-0.2.1%2bneoforge-mc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/rechiseled-1.2.6-neoforge-mc1.21.jar",
+   "sha1": "a7ca83d2f99520233bfa9ce769a157fe05201639",
+   "size": 11526036,
+   "title": "Rechiseled",
+   "curseforge": {
+    "project": 558998,
+    "file": 8875899
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/B0g2vT6l/versions/6muGRqvu/rechiseled-1.2.6-neoforge-mc1.21.jar",
+    "https://edge.forgecdn.net/files/8875/899/rechiseled-1.2.6-neoforge-mc1.21.jar"
+   ]
+  },
+  {
+   "path": "mods/rechiseled_chipped-2.0-1.21.1.jar",
+   "sha1": "bed4eb5415d67251ba6b0eca5d56eb0f5963a265",
+   "size": 177517,
+   "title": "Rechiseled: Chipped",
+   "curseforge": {
+    "project": 1007578,
+    "file": 7524185
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/ryYcxeeA/versions/UEdISMbk/rechiseled_chipped-2.0-1.21.1.jar",
+    "https://edge.forgecdn.net/files/7524/185/rechiseled_chipped-2.0-1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/reforgedplaymod-1.21.1-0.3.jar",
+   "sha1": "0e7d8794fb81756e58d8559fc3ab88abc9b6d511",
+   "size": 17406874,
+   "title": "ReForgedPlay [replay mod on (neo)forge]",
+   "curseforge": {
+    "project": 1018692,
+    "file": 6942967
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/6942/967/reforgedplaymod-1.21.1-0.3.jar"
+   ]
+  },
+  {
+   "path": "mods/resourcefullib-neoforge-1.21-3.0.12.jar",
+   "sha1": "24389c8e48ff0e8594e4686b750c494c66a5f8df",
+   "size": 484332,
+   "title": "Resourceful Lib",
+   "curseforge": {
+    "project": 570073,
+    "file": 5973188
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/G1hIVOrD/versions/x99nCLTm/resourcefullib-neoforge-1.21-3.0.12.jar",
+    "https://edge.forgecdn.net/files/5973/188/resourcefullib-neoforge-1.21-3.0.12.jar"
+   ]
+  },
+  {
+   "path": "mods/rhino-2101.2.7-build.85.jar",
+   "sha1": "370598a1d2321c8a705ce539eb970375f20150c3",
+   "size": 882075,
+   "title": "Rhino",
+   "curseforge": {
+    "project": 416294,
+    "file": 8218748
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8218/748/rhino-2101.2.7-build.85.jar"
+   ]
+  },
+  {
+   "path": "mods/ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
+   "sha1": "ec2e4996f8bee8714173e603e379fef8a6901765",
+   "size": 76369,
+   "title": "Ritchie's Projectile Library",
+   "curseforge": {
+    "project": 1279407,
+    "file": 7587771
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/B3pb093D/versions/hZ6B2Z0x/ritchiesprojectilelib-2.1.2%2Bmc.1.21.1-neoforge.jar",
+    "https://edge.forgecdn.net/files/7587/771/ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/Sable-Chunk-Guard-1.0.0.jar",
+   "sha1": "71cace598be4e7a373f9c5da20538675e686a578",
+   "size": 4521,
+   "title": "Sable Chunk Fix",
+   "curseforge": {
+    "project": 1795515,
+    "file": 9535796
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/9535/796/Sable-Chunk-Guard-1.0.0.jar"
+   ]
+  },
+  {
+   "path": "mods/sable-neoforge-1.21.1-2.0.5.jar",
+   "sha1": "05f666e973d32baaaf405acb9bbed6615b909971",
+   "size": 12986136,
+   "title": "Sable",
+   "curseforge": {
+    "project": 1312371,
+    "file": 8673825
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/T9PomCSv/versions/U678xqle/sable-neoforge-1.21.1-2.0.5.jar",
+    "https://edge.forgecdn.net/files/8673/825/sable-neoforge-1.21.1-2.0.5.jar"
+   ]
+  },
+  {
+   "path": "mods/shield_generators-1.4.0.jar",
+   "sha1": "050371fd20177994e225fb6d397c6f2318167c59",
+   "size": 153307,
+   "title": "Create Aeronautics: Shield Generators | Create Big Cannons Compat |Force Field",
+   "curseforge": {
+    "project": 1559550,
+    "file": 8427886
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/zBGVi9cG/versions/qimLsHIO/Shield%20Generators%201.4.0.jar",
+    "https://edge.forgecdn.net/files/8427/886/shield_generators-1.4.0.jar"
+   ]
+  },
+  {
+   "path": "mods/shuffle-neoforge-21.1.0.jar",
+   "sha1": "938ed7b2a2a1a160e33bd97b8a2dff0aa3a22fd8",
+   "size": 88930,
+   "title": "Shuffle",
+   "curseforge": {
+    "project": 360916,
+    "file": 6563700
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/WUvGZLgB/versions/c2CBLjgR/shuffle-neoforge-21.1.0.jar",
+    "https://edge.forgecdn.net/files/6563/700/shuffle-neoforge-21.1.0.jar"
+   ]
+  },
+  {
+   "path": "mods/SimpleDiscordLink-Universal-3.4.5.jar",
+   "sha1": "6321b1003c1e6df824b1f851a7e5089a53441c41",
+   "size": 10071903,
+   "title": "Simple Discord Link Bot",
+   "curseforge": {
+    "project": 541320,
+    "file": 8884966
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Sh0YauEf/versions/gRJBLNWh/SimpleDiscordLink-Universal-3.4.5.jar",
+    "https://edge.forgecdn.net/files/8884/966/SimpleDiscordLink-Universal-3.4.5.jar"
+   ]
+  },
+  {
+   "path": "mods/simulatedcoasters-0.1.5.jar",
+   "sha1": "4d3381b781a1129f793358b8ae13e0abcd2e655b",
+   "size": 1892119,
+   "title": "Create: Coasters Simulated",
+   "curseforge": {
+    "project": 1601871,
+    "file": 8655742
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/W1ZUfWdr/versions/PGhQoSBq/simulatedcoasters-0.1.5.jar",
+    "https://edge.forgecdn.net/files/8655/742/simulatedcoasters-0.1.5.jar"
+   ]
+  },
+  {
+   "path": "mods/sliceanddice-4.3.4-neoforge.jar",
+   "sha1": "bfcb12d13465caf6743f200fbd755b72705011e4",
+   "size": 1356389,
+   "title": "Create Slice & Dice",
+   "curseforge": {
+    "project": 659674,
+    "file": 8929365
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/GmjmRQ0A/versions/D6mQaFRW/sliceanddice-4.3.4-neoforge.jar",
+    "https://edge.forgecdn.net/files/8929/365/sliceanddice-4.3.4-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/sodium-extra-neoforge-0.9.4+mc1.21.1.jar",
+   "sha1": "75f9c202e8384cb5de039cdcc47d5e1c8fde8fe5",
+   "size": 472060,
+   "title": "Sodium Extra",
+   "curseforge": {
+    "project": 447673,
+    "file": 8892306
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/PtjYWJkn/versions/ufpcXU9c/sodium-extra-neoforge-0.9.4%2Bmc1.21.1.jar",
+    "https://edge.forgecdn.net/files/8892/306/sodium-extra-neoforge-0.9.4%2bmc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
+   "sha1": "1757289be21ed18db5b0d90703fa3db1b2de5693",
+   "size": 1292934,
+   "title": "Sodium",
+   "curseforge": {
+    "project": 394468,
+    "file": 8756580
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/AANobbMI/versions/uMOpc5uV/sodium-neoforge-0.8.13%2Bmc1.21.1.jar",
+    "https://edge.forgecdn.net/files/8756/580/sodium-neoforge-0.8.13%2bmc1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/sophisticatedbackpacks-1.21.1-3.26.3.2158.jar",
+   "sha1": "c9cef1451d73c5afef78a637c593634f55e757fc",
+   "size": 1251706,
+   "title": "Sophisticated Backpacks",
+   "curseforge": {
+    "project": 422301,
+    "file": 8845926
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8845/926/sophisticatedbackpacks-1.21.1-3.26.3.2158.jar"
+   ]
+  },
+  {
+   "path": "mods/sophisticatedbackpackscreateintegration-1.21.1-0.2.0.168.jar",
+   "sha1": "9a0ff3064fc1328165bc77fc1409a6adf2d9a8fa",
+   "size": 94487,
+   "title": "Sophisticated Backpacks Create Integration",
+   "curseforge": {
+    "project": 1238567,
+    "file": 8833933
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8833/933/sophisticatedbackpackscreateintegration-1.21.1-0.2.0.168.jar"
+   ]
+  },
+  {
+   "path": "mods/sophisticatedcore-1.21.1-1.5.1.2341.jar",
+   "sha1": "a256b4d3c1218754a3172253e6bda644551be6a5",
+   "size": 1785221,
+   "title": "Sophisticated Core",
+   "curseforge": {
+    "project": 618298,
+    "file": 8838842
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8838/842/sophisticatedcore-1.21.1-1.5.1.2341.jar"
+   ]
+  },
+  {
+   "path": "mods/StorageDrawers-neoforge-1.21.1-13.11.4.jar",
+   "sha1": "5347db4d1150b132841bd124d1608f812bf8076f",
+   "size": 1131419,
+   "title": "Storage Drawers",
+   "curseforge": {
+    "project": 223852,
+    "file": 6995432
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/6995/432/StorageDrawers-neoforge-1.21.1-13.11.4.jar"
+   ]
+  },
+  {
+   "path": "mods/StrawStatues-v21.1.0-1.21.1-NeoForge.jar",
+   "sha1": "133f187ee682ee71c3db7307b93c572b7951af4b",
+   "size": 313043,
+   "title": "Straw Statues",
+   "curseforge": {
+    "project": 682564,
+    "file": 5732771
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/2fltysAl/versions/C7j9WWVp/StrawStatues-v21.1.0-1.21.1-NeoForge.jar",
+    "https://edge.forgecdn.net/files/5732/771/StrawStatues-v21.1.0-1.21.1-NeoForge.jar"
+   ]
+  },
+  {
+   "path": "mods/struts-1.3.1.jar",
+   "sha1": "131663d29e0dd944e03299b35bda18aefacd1932",
+   "size": 216678,
+   "title": "Strut Your Stuff (Struts)",
+   "curseforge": {
+    "project": 1486746,
+    "file": 8812965
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/sHO3MhQx/versions/BOTN7zzN/struts-1.3.1.jar",
+    "https://edge.forgecdn.net/files/8812/965/struts-1.3.1.jar"
+   ]
+  },
+  {
+   "path": "mods/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+   "sha1": "07452242e389975e8a88b97066f4bae6a4ebe574",
+   "size": 207514,
+   "title": "SuperMartijn642's Config Lib",
+   "curseforge": {
+    "project": 438332,
+    "file": 5546996
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/LN9BxssP/versions/qKL9jM75/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+    "https://edge.forgecdn.net/files/5546/996/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar"
+   ]
+  },
+  {
+   "path": "mods/supermartijn642corelib-1.1.24a-neoforge-mc1.21.jar",
+   "sha1": "3295c76a45a1514007082135fd679301c71ab8b5",
+   "size": 562383,
+   "title": "SuperMartijn642's Core Lib",
+   "curseforge": {
+    "project": 454372,
+    "file": 8943316
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/rOUBggPv/versions/y8iP3aUs/supermartijn642corelib-1.1.24a-neoforge-mc1.21.jar",
+    "https://edge.forgecdn.net/files/8943/316/supermartijn642corelib-1.1.24a-neoforge-mc1.21.jar"
+   ]
+  },
+  {
+   "path": "mods/supplementaries-1.21.1-3.9.9-neoforge.jar",
+   "sha1": "06ed05381a5653d90398dc6ebf3ad1154add6374",
+   "size": 13548968,
+   "title": "Supplementaries",
+   "curseforge": {
+    "project": 412082,
+    "file": 8852720
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/fFEIiSDQ/versions/WrZWfRjP/supplementaries-1.21.1-3.9.9-neoforge.jar",
+    "https://edge.forgecdn.net/files/8852/720/supplementaries-1.21.1-3.9.9-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/tacz-mesh-loader-neoforge-1.21.1-0.1.8.1.jar",
+   "sha1": "bd78873d49dbededae555a2da4a7558689302228",
+   "size": 207199,
+   "title": "TacZ Mesh Loader [TML]",
+   "curseforge": {
+    "project": 1549522,
+    "file": 9296540
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/9296/540/tacz-mesh-loader-neoforge-1.21.1-0.1.8.1.jar"
+   ]
+  },
+  {
+   "path": "mods/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
+   "sha1": "c70e8f638bede79ab8a85c891c464097b3100055",
+   "size": 57242132,
+   "title": "[UNOFFICIAL] TaCZ NeoForge Port",
+   "curseforge": {
+    "project": 1353462,
+    "file": 8547439
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/OypNE65K/versions/wPvGWIj9/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
+    "https://edge.forgecdn.net/files/8547/439/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar"
+   ]
+  },
+  {
+   "path": "mods/tacz_c-1.0.2+neoforge.1.21.1.jar",
+   "sha1": "3468c424e12c4357e1d9b46b2c1e7886fa10c08c",
+   "size": 377543,
+   "title": "Create: Timeless and Classics Zero [TaCZ] Unofficial Port",
+   "curseforge": {
+    "project": 1542760,
+    "file": 8087867
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8087/867/tacz_c-1.0.2%2bneoforge.1.21.1.jar"
+   ]
+  },
+  {
+   "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+   "sha1": "2016eed89eac0eb0510d2190c3b0b80bf4346191",
+   "size": 120364,
+   "title": "TerraBlender (NeoForge)",
+   "curseforge": {
+    "project": 940057,
+    "file": 6054947
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/6054/947/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
+   ]
+  },
+  {
+   "path": "mods/toms_storage-1.21-2.4.2.jar",
+   "sha1": "592af3bc4768c804c4929af16961ca2a1a916942",
+   "size": 856803,
+   "title": "Tom's Simple Storage Mod",
+   "curseforge": {
+    "project": 378609,
+    "file": 8769956
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/XZNI4Cpy/versions/WQAMoIMC/toms_storage-1.21-2.4.2.jar",
+    "https://edge.forgecdn.net/files/8769/956/toms_storage-1.21-2.4.2.jar"
+   ]
+  },
+  {
+   "path": "mods/toms_storage_star_optimized-0.9.3.jar",
+   "sha1": "b61886db6f06ea867f17fe7c9f1f332b1bf5cef6",
+   "size": 106660,
+   "title": "Toms Storage Star Optimized",
+   "curseforge": {
+    "project": 1472108,
+    "file": 8792982
+   },
+   "urls": [
+    "https://edge.forgecdn.net/files/8792/982/toms_storage_star_optimized-0.9.3.jar"
+   ]
+  },
+  {
+   "path": "mods/torchmaster-neoforge-1.21.1-21.1.13.jar",
+   "sha1": "b139713195dc65bbe66dcdbde87a0d84aa407b5a",
+   "size": 161205,
+   "title": "Torchmaster",
+   "curseforge": {
+    "project": 254268,
+    "file": 8949981
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Tl8ESrhX/versions/JmlakQNo/torchmaster-neoforge-1.21.1-21.1.13.jar",
+    "https://edge.forgecdn.net/files/8949/981/torchmaster-neoforge-1.21.1-21.1.13.jar"
+   ]
+  },
+  {
+   "path": "mods/TotemFactory-1.1.2+mc1.21.1-NeoForge.jar",
+   "sha1": "0a79d87477f50a2db17589fb7720c24bb1dff1a8",
+   "size": 281151,
+   "title": "Create: Totem Factory",
+   "curseforge": {
+    "project": 978675,
+    "file": 8249929
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/ae2lDuIP/versions/YsRIzAhz/TotemFactory-1.1.2%2Bmc1.21.1-NeoForge.jar",
+    "https://edge.forgecdn.net/files/8249/929/TotemFactory-1.1.2%2bmc1.21.1-NeoForge.jar"
+   ]
+  },
+  {
+   "path": "mods/trade-cycling-neoforge-1.21.1-1.0.22.jar",
+   "sha1": "2d3749601a3b6cffbd41ef9f497f8c9e312d8a6e",
+   "size": 86700,
+   "title": "Trade Cycling",
+   "curseforge": {
+    "project": 570431,
+    "file": 8921718
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/qpPoAL6m/versions/wHjZ0TaF/trade-cycling-neoforge-1.21.1-1.0.22.jar",
+    "https://edge.forgecdn.net/files/8921/718/trade-cycling-neoforge-1.21.1-1.0.22.jar"
+   ]
+  },
+  {
+   "path": "mods/trading_floor-3.0.16.jar",
+   "sha1": "7be6d8b24f3120fa6a2520c32a2e6c8c4254322c",
+   "size": 214343,
+   "title": "Create: Trading Floor",
+   "curseforge": {
+    "project": 1102591,
+    "file": 7625579
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/WROfLLvn/versions/K3nIvcWT/trading_floor-3.0.16.jar",
+    "https://edge.forgecdn.net/files/7625/579/trading_floor-3.0.16.jar"
+   ]
+  },
+  {
+   "path": "mods/VanillaBackport-neoforge-1.21.1-1.1.7.10.jar",
+   "sha1": "eb30efe569cbd5186abf9e5d1e64d4a84895b346",
+   "size": 54902084,
+   "title": "Vanilla Backport",
+   "curseforge": {
+    "project": 417430,
+    "file": 8229724
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/6xwxDTgf/versions/rUSWdBok/VanillaBackport-neoforge-1.21.1-1.1.7.10.jar",
+    "https://edge.forgecdn.net/files/8229/724/VanillaBackport-neoforge-1.21.1-1.1.7.10.jar"
+   ]
+  },
+  {
+   "path": "mods/vintage-1.21.1-1.6.4.jar",
+   "sha1": "05270af6826034d8c86c2cc3b1173734d9f2a7a0",
+   "size": 1222149,
+   "title": "Create: Vintage",
+   "curseforge": {
+    "project": 1240780,
+    "file": 9189556
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/qVZh767G/versions/1U05zPuF/vintage-1.21.1-1.6.4.jar",
+    "https://edge.forgecdn.net/files/9189/556/vintage-1.21.1-1.6.4.jar"
+   ]
+  },
+  {
+   "path": "mods/voicechat-neoforge-1.21.1-2.6.22.jar",
+   "sha1": "3b2001d8df61fe6dc03dcd5f5cd4a8f49821feb0",
+   "size": 4918442,
+   "title": "Simple Voice Chat",
+   "curseforge": {
+    "project": 416089,
+    "file": 8601207
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/9eGKb6K1/versions/2s7zUspF/voicechat-neoforge-1.21.1-2.6.22.jar",
+    "https://edge.forgecdn.net/files/8601/207/voicechat-neoforge-1.21.1-2.6.22.jar"
+   ]
+  },
+  {
+   "path": "mods/watut-neoforge-1.21.0-1.2.7.jar",
+   "sha1": "07cfb8fb1269f1eae1056492912e3544be979f62",
+   "size": 432269,
+   "title": "What Are They Up To (Watut)",
+   "curseforge": {
+    "project": 945479,
+    "file": 6418577
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/AtB5mHky/versions/uWr2aTW9/watut-neoforge-1.21.0-1.2.7.jar",
+    "https://edge.forgecdn.net/files/6418/577/watut-neoforge-1.21.0-1.2.7.jar"
+   ]
+  },
+  {
+   "path": "mods/xaerominimap-neoforge-1.21.1-26.5.0.jar",
+   "sha1": "7553dddbe478d1c8c15198090217e723d27f79c4",
+   "size": 2185559,
+   "title": "Xaero's Minimap",
+   "curseforge": {
+    "project": 263420,
+    "file": 8849842
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/1bokaNcj/versions/Q1tuMQBB/xaerominimap-neoforge-1.21.1-26.5.0.jar",
+    "https://edge.forgecdn.net/files/8849/842/xaerominimap-neoforge-1.21.1-26.5.0.jar"
+   ]
+  },
+  {
+   "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+   "sha1": "fe270c9f6e0a8142cf316944087f5109cef08bbb",
+   "size": 1118651,
+   "title": "YetAnotherConfigLib",
+   "curseforge": {
+    "project": 667299,
+    "file": 7437845
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/1eAoo2KR/versions/7TVdVtxF/yet_another_config_lib_v3-3.8.2%2B1.21.1-neoforge.jar",
+    "https://edge.forgecdn.net/files/7437/845/yet_another_config_lib_v3-3.8.2%2b1.21.1-neoforge.jar"
+   ]
+  },
+  {
+   "path": "mods/YungsApi-1.21.1-NeoForge-5.1.9.jar",
+   "sha1": "2c4b740c8ad27bbcb2a21b85b64f011b809aed91",
+   "size": 413763,
+   "title": "YUNG's API (NeoForge) [1.20.4-1.21.1 ONLY]",
+   "curseforge": {
+    "project": 1015100,
+    "file": 8894736
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Ua7DFN59/versions/2prKITKh/YungsApi-1.21.1-NeoForge-5.1.9.jar",
+    "https://edge.forgecdn.net/files/8894/736/YungsApi-1.21.1-NeoForge-5.1.9.jar"
+   ]
+  },
+  {
+   "path": "mods/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+   "sha1": "90529257dbd92558998c65178294bc7b2fd16a64",
+   "size": 905839,
+   "title": "YUNG's Better Desert Temples (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "curseforge": {
+    "project": 1015114,
+    "file": 6276955
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/XNlO7sBv/versions/GQ9iNWkI/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+    "https://edge.forgecdn.net/files/6276/955/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar"
+   ]
+  },
+  {
+   "path": "mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+   "sha1": "73a660c13063450e555e5e2c015ae24d606b32b4",
+   "size": 782160,
+   "title": "YUNG's Better Dungeons (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "curseforge": {
+    "project": 1015112,
+    "file": 5954804
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/o1C1Dkj5/versions/D6aZn0Em/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+    "https://edge.forgecdn.net/files/5954/804/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar"
+   ]
+  },
+  {
+   "path": "mods/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+   "sha1": "6a14e1d8201f068ca87ef8333e471c5378955906",
+   "size": 493967,
+   "title": "YUNG's Better Mineshafts (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "curseforge": {
+    "project": 1015096,
+    "file": 5812193
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/HjmxVlSr/versions/Go3nbneL/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+    "https://edge.forgecdn.net/files/5812/193/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar"
+   ]
+  },
+  {
+   "path": "mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+   "sha1": "4061ece2141475227646649046fc14c2da505922",
+   "size": 609639,
+   "title": "YUNG's Better Nether Fortresses (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "curseforge": {
+    "project": 1015118,
+    "file": 6606621
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/Z2mXHnxP/versions/iopJiJQp/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+    "https://edge.forgecdn.net/files/6606/621/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar"
+   ]
+  },
+  {
+   "path": "mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+   "sha1": "5d06a5850af7c577612d4592706a8e156bbe1cbf",
+   "size": 461244,
+   "title": "YUNG's Better Strongholds (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "curseforge": {
+    "project": 1015105,
+    "file": 6272264
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/kidLKymU/versions/8U0dIfSM/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+    "https://edge.forgecdn.net/files/6272/264/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar"
+   ]
+  },
+  {
+   "path": "mods/Create-Economy-Launcher-1.1.0.jar",
+   "sha1": "243822a4910ae4f0db5e1cbd48233e1ddce1a7b9",
+   "size": 6416410,
+   "title": "Create-Economy-Launcher-1.1.0.jar",
+   "repo": "mods-extra/Create-Economy-Launcher-1.1.0.jar",
+   "urls": []
+  },
+  {
+   "path": "config/advancednetherite-client.toml",
+   "sha1": "117092575eb58fc1a49cd0c4f7ab012155f7894a",
+   "size": 436,
+   "repo": "overrides/config/advancednetherite-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/advancednetherite-common.toml",
+   "sha1": "5094fdebee0b8136ddaa0438dfc49f54f54e01e1",
+   "size": 506,
+   "repo": "overrides/config/advancednetherite-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/advancednetherite-server.toml",
+   "sha1": "666aea5ca11c5d0f28abc5fe42e81f5aaa1ea664",
+   "size": 3338,
+   "repo": "overrides/config/advancednetherite-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/aeroclaims-server.toml",
+   "sha1": "f4520f3c166da24ee3f31bf93abe827face20632",
+   "size": 1494,
+   "repo": "overrides/config/aeroclaims-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/aeronautics-server.toml",
+   "sha1": "e01adc163a806d84330b7778e11acb0ce3d33678",
+   "size": 3066,
+   "repo": "overrides/config/aeronautics-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/aeronautics_replay-client.toml",
+   "sha1": "bf8617545b9f5b53bea62f1630d77e64a556f693",
+   "size": 469,
+   "repo": "overrides/config/aeronautics_replay-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/aeroportals-server.toml",
+   "sha1": "9ab446671703d69e50be9ea43231ae91edacb7e8",
+   "size": 3609,
+   "repo": "overrides/config/aeroportals-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/aerowarp-server.toml",
+   "sha1": "b6c1d8abd7fc63149c0f6d1c57654c71f791bcd9",
+   "size": 3114,
+   "repo": "overrides/config/aerowarp-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs-common.toml",
+   "sha1": "917b1aa96ddda6858a681ac79544e370cddc7de0",
+   "size": 39593,
+   "repo": "overrides/config/alexsmobs-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alltheleaks.json",
+   "sha1": "0998feb77ff5864329a9eea9319407421994f051",
+   "size": 398,
+   "repo": "overrides/config/alltheleaks.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/appleskin-client.toml",
+   "sha1": "8f167f14bbd81163f78c5e3459dcffdb50225117",
+   "size": 1376,
+   "repo": "overrides/config/appleskin-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/azimuth-client.toml",
+   "sha1": "7cf9feddb300b6828d20fd3d4864c5edff47e783",
+   "size": 145,
+   "repo": "overrides/config/azimuth-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/azimuth-common.toml",
+   "sha1": "ceb38fbdaa09b93489a7d379f3030f3b53e2d315",
+   "size": 109,
+   "repo": "overrides/config/azimuth-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/better-advanced-tooltips-client.toml",
+   "sha1": "4fc30a37ee8030f4f3d22c7212e7432f5ad2cf37",
+   "size": 142,
+   "repo": "overrides/config/better-advanced-tooltips-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterbelts-ramp-visual-v3.properties",
+   "sha1": "c0ed12bc46772b57945045dbea7966a34e8d5d2a",
+   "size": 325,
+   "repo": "overrides/config/betterbelts-ramp-visual-v3.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterdeserttemples-neoforge-1_21.toml",
+   "sha1": "19403763939d1550752fbfd944a67b71771fa3f5",
+   "size": 578,
+   "repo": "overrides/config/betterdeserttemples-neoforge-1_21.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterdungeons-neoforge-1_21.toml",
+   "sha1": "188a675e11bc7ebe44ba3b495b502b4e966c9bda",
+   "size": 3486,
+   "repo": "overrides/config/betterdungeons-neoforge-1_21.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterfortresses-neoforge-1_21.toml",
+   "sha1": "629ed14a081edd760decfc14373fc5d40cbcf532",
+   "size": 425,
+   "repo": "overrides/config/betterfortresses-neoforge-1_21.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bettermineshafts-neoforge-1_21.toml",
+   "sha1": "34a379b8db169b68ccd47cc568392b0e984877ea",
+   "size": 4151,
+   "repo": "overrides/config/bettermineshafts-neoforge-1_21.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterstrongholds-neoforge-1_21.toml",
+   "sha1": "9a344f54f80a0f1437e542e4b7b39deef89c3aed",
+   "size": 621,
+   "repo": "overrides/config/betterstrongholds-neoforge-1_21.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/better_fishing.properties",
+   "sha1": "ecc53af69254babd8305fdece626ab45b6e25f3a",
+   "size": 136,
+   "repo": "overrides/config/better_fishing.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bits_n_bobs-common.toml",
+   "sha1": "d36e1f6f100457a68b52c965d13596a3d5424aa4",
+   "size": 2372,
+   "repo": "overrides/config/bits_n_bobs-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bits_n_bobs-server.toml",
+   "sha1": "e47775a3461b29a0d1284441d7096ef0326fd728",
+   "size": 1964,
+   "repo": "overrides/config/bits_n_bobs-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/blazinghot-client.toml",
+   "sha1": "23e297d9f6824f1d44a75d9d92cf1985cdd85e33",
+   "size": 611,
+   "repo": "overrides/config/blazinghot-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/blazinghot-server.toml",
+   "sha1": "e4bbeeecdac0ba0d3b831d16b05ecf329044cc53",
+   "size": 2572,
+   "repo": "overrides/config/blazinghot-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/blueftbchunks-common.toml",
+   "sha1": "e7743388b0929d1fd214e319349c3f1b81ce6c4b",
+   "size": 842,
+   "repo": "overrides/config/blueftbchunks-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bridgingmod.json",
+   "sha1": "b1a5f0b46a2d68841f7d4c3c1683892a4ef0f0bc",
+   "size": 837,
+   "repo": "overrides/config/bridgingmod.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/buyingchunks-client.toml",
+   "sha1": "70da50ba74751046131d17d5a2d61a9aec017b74",
+   "size": 383,
+   "repo": "overrides/config/buyingchunks-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/buyingchunks-server.toml",
+   "sha1": "96f159533fa46d72c69af0aeb1372667d8405024",
+   "size": 1118,
+   "repo": "overrides/config/buyingchunks-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/c2me.toml",
+   "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "size": 0,
+   "repo": "overrides/config/c2me.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/carryon-client.toml",
+   "sha1": "1fd6cec44704488ae7d2ab31425b6eb88ef3ce9c",
+   "size": 588,
+   "repo": "overrides/config/carryon-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/carryon-common.toml",
+   "sha1": "ce5dcbbf66ea0419f5dfc958d8a6d527e32a26c9",
+   "size": 8713,
+   "repo": "overrides/config/carryon-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/catalyst-client.toml",
+   "sha1": "bb3f577a234a5a7b8ab8060f5e92a0919b32ad85",
+   "size": 1048,
+   "repo": "overrides/config/catalyst-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/cbc_more_content-client.toml",
+   "sha1": "71c703ebb4c596ca39380c2b32d14c07d6498fb2",
+   "size": 616,
+   "repo": "overrides/config/cbc_more_content-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/cbc_more_content-server.toml",
+   "sha1": "fa1f4a7aadd91845246d75e74e647c49c07e995f",
+   "size": 1493,
+   "repo": "overrides/config/cbc_more_content-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/chat_heads.json5",
+   "sha1": "eb826215f1b862a948dea1a102d88c45679d3edb",
+   "size": 261,
+   "repo": "overrides/config/chat_heads.json5",
+   "mode": "managed"
+  },
+  {
+   "path": "config/citadel-common.toml",
+   "sha1": "bc21817f0bd106c8bc68e7994d7bd0bdb43afb45",
+   "size": 662,
+   "repo": "overrides/config/citadel-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/cmpackagecouriers-server.toml",
+   "sha1": "c614409eeb00748c42503d1e72e5d4b5edc889f4",
+   "size": 565,
+   "repo": "overrides/config/cmpackagecouriers-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/coastersengineered-server.toml",
+   "sha1": "97b2fa74666b75a511c4e786d68942d88a60df7d",
+   "size": 5422,
+   "repo": "overrides/config/coastersengineered-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/coastersmagnetized-common.toml",
+   "sha1": "78918ccc05151963d43dfdd78ed63712dbb0ff4e",
+   "size": 531,
+   "repo": "overrides/config/coastersmagnetized-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/coasters_extras-server.toml",
+   "sha1": "50a491aabfb568ebbea2365c97e051c550500d2f",
+   "size": 12163,
+   "repo": "overrides/config/coasters_extras-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/cogshop-server.toml",
+   "sha1": "dc4eb4299bcf03a90f73f66d271fea7224721ee6",
+   "size": 171,
+   "repo": "overrides/config/cogshop-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/collective.json5",
+   "sha1": "c1624f54bd7a0d62ba11ec281fb6baf6901874ac",
+   "size": 2471,
+   "repo": "overrides/config/collective.json5",
+   "mode": "managed"
+  },
+  {
+   "path": "config/colorwheel-client.toml",
+   "sha1": "c588c8b1e2fef172ea70ac9377f1e26ba12e2726",
+   "size": 273,
+   "repo": "overrides/config/colorwheel-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/comforts-common.toml",
+   "sha1": "9f35d6dfdcbc8773d8a057bffbfac5c8d9ed1b0a",
+   "size": 189,
+   "repo": "overrides/config/comforts-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/comforts-server.toml",
+   "sha1": "28ab4c7c925eff47d552dc3ef7eb404ddfc6336f",
+   "size": 1852,
+   "repo": "overrides/config/comforts-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/coopmoves.json",
+   "sha1": "defe219d3feceb7f680f6d4e9ae7a207e5691e5e",
+   "size": 3081,
+   "repo": "overrides/config/coopmoves.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/copycats-client.toml",
+   "sha1": "85dca288044ae0940f94102ec82ee810ffb3bc59",
+   "size": 340,
+   "repo": "overrides/config/copycats-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/copycats-common.toml",
+   "sha1": "ff51da0faadaec726600993bd5ade2fef8e26dc5",
+   "size": 2165,
+   "repo": "overrides/config/copycats-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/copycats-server.toml",
+   "sha1": "1ece346a8a95d1d5fb7b9a7ae569a14588cb5766",
+   "size": 363,
+   "repo": "overrides/config/copycats-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/cosmeticarmorreworked-client.toml",
+   "sha1": "0d2fd35804938ab0a411dbd371648ca5fda5d028",
+   "size": 1328,
+   "repo": "overrides/config/cosmeticarmorreworked-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/cosmeticarmorreworked-common.toml",
+   "sha1": "eb5c1b40fa9a28e80957889d09edfcf813249bf9",
+   "size": 375,
+   "repo": "overrides/config/cosmeticarmorreworked-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create-client.toml",
+   "sha1": "421de5ea5e5255b28219d47d4a89f0886c2314b2",
+   "size": 4795,
+   "repo": "overrides/config/create-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create-common.toml",
+   "sha1": "eeb60a2bebe041d74118246f0353028f23c82242",
+   "size": 153,
+   "repo": "overrides/config/create-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create-server.toml",
+   "sha1": "7e9b96b35e2f62ca7d25b583ad16f1ec9f037b36",
+   "size": 16890,
+   "repo": "overrides/config/create-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create-stuff-additions.toml",
+   "sha1": "356fc05898e019ec605c1c799ddbae5bcb4d9fc8",
+   "size": 870,
+   "repo": "overrides/config/create-stuff-additions.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createaddition-common.toml",
+   "sha1": "fcdea5396f0e882437562d6a936a74ca71559350",
+   "size": 6346,
+   "repo": "overrides/config/createaddition-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createbettertargeting-server.toml",
+   "sha1": "ee1c11da11989434f1a020c40e413ee07c70c8a9",
+   "size": 2653,
+   "repo": "overrides/config/createbettertargeting-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createbigcannons-client.toml",
+   "sha1": "87fbdca62b45cd42cdf5482a54b4c6654ef12e05",
+   "size": 3754,
+   "repo": "overrides/config/createbigcannons-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createbigcannons-server.toml",
+   "sha1": "e2b04e0d6e18d2cc39b16907f22085f827ec0c92",
+   "size": 11776,
+   "repo": "overrides/config/createbigcannons-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createcasing-common.toml",
+   "sha1": "f74dae1a1870d24984a0481f16e1940c3d8bea2e",
+   "size": 28589,
+   "repo": "overrides/config/createcasing-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createcobblestone-common.toml",
+   "sha1": "b8943477288f52645c437b9cf57dc2b3eebde933",
+   "size": 1569,
+   "repo": "overrides/config/createcobblestone-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createdieselgenerators-client.toml",
+   "sha1": "ef628891d4cfe78e3cce0b399a36e68e2ff81d0b",
+   "size": 243,
+   "repo": "overrides/config/createdieselgenerators-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createdieselgenerators-common.toml",
+   "sha1": "22e5e9df83f4ed6673878f59a8132757503a7d96",
+   "size": 407,
+   "repo": "overrides/config/createdieselgenerators-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createdieselgenerators-server.toml",
+   "sha1": "0dbe7fbd51ea48a41c8338376ab329e85d09519b",
+   "size": 1540,
+   "repo": "overrides/config/createdieselgenerators-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createendertransmission-server.toml",
+   "sha1": "f408236d64cb3924550a32ef3b3ed5e923dd449f",
+   "size": 86,
+   "repo": "overrides/config/createendertransmission-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createew-server.toml",
+   "sha1": "da53a1a094c484ac71b078e246e5af07a7a95338",
+   "size": 2503,
+   "repo": "overrides/config/createew-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createfactorycontroller-client.toml",
+   "sha1": "c50ff9a588320901dc7683e9df250b2e3148ed4b",
+   "size": 1244,
+   "repo": "overrides/config/createfactorycontroller-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createfactorycontroller-server.toml",
+   "sha1": "cfb5adc5be6e46cbe3959ae8112ea2e39a7d5889",
+   "size": 1454,
+   "repo": "overrides/config/createfactorycontroller-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createlazytick-client.toml",
+   "sha1": "d498eef27c88a62ae3c5530733530ed8ef33bc89",
+   "size": 1145,
+   "repo": "overrides/config/createlazytick-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createlazytick-server.toml",
+   "sha1": "767584330fbbbb9736e85bb03fd8e1ef2b6b4cd2",
+   "size": 9242,
+   "repo": "overrides/config/createlazytick-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createmoregirder-server.toml",
+   "sha1": "0a6900de831b1ba149c133d6295acd8f5b4c79b4",
+   "size": 1169,
+   "repo": "overrides/config/createmoregirder-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createpropulsion-client.toml",
+   "sha1": "9a6108d3b4d169e48ad4cbd712c12321179b1e88",
+   "size": 558,
+   "repo": "overrides/config/createpropulsion-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createpropulsion-common.toml",
+   "sha1": "ccbaad06baff63ab81c24550d350925681430f77",
+   "size": 17283,
+   "repo": "overrides/config/createpropulsion-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createteleportersconfig.toml",
+   "sha1": "0c100bd060e6811c3d9e3cec05ede0dc62239fac",
+   "size": 917,
+   "repo": "overrides/config/createteleportersconfig.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createthrusters-client.toml",
+   "sha1": "04153bd6128383b45b35a52e8b49a0f798df8ac2",
+   "size": 1384,
+   "repo": "overrides/config/createthrusters-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createthrusters-common.toml",
+   "sha1": "2574a31729c6dcaf3e380306ee56301bec175843",
+   "size": 6735,
+   "repo": "overrides/config/createthrusters-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createthrusters-fuels.json",
+   "sha1": "ab99e9abaf6ef7f33ddebf4e5bd55248d21e3917",
+   "size": 10547,
+   "repo": "overrides/config/createthrusters-fuels.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createthrusters-server.toml",
+   "sha1": "bf68c1fad5357d0e8cff150c3613d8006407cc45",
+   "size": 17310,
+   "repo": "overrides/config/createthrusters-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createthrusterslib-server.toml",
+   "sha1": "bff6137107f9a913df59f77daf9dbed48a7221cb",
+   "size": 486,
+   "repo": "overrides/config/createthrusterslib-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createtransmission-server.toml",
+   "sha1": "58eabea274f35327c727bd0a7ead6f10d0218d84",
+   "size": 148,
+   "repo": "overrides/config/createtransmission-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/createtweakedcontrollers-client.toml",
+   "sha1": "1e767fa649bca882e8c38ee49579975e2da3e40a",
+   "size": 1176,
+   "repo": "overrides/config/createtweakedcontrollers-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_aeronautics_automated_logistics-client.toml",
+   "sha1": "cf82b16d68cec2d8fc079c4496529ea65d3f5e4a",
+   "size": 142,
+   "repo": "overrides/config/create_aeronautics_automated_logistics-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_aeronautics_automated_logistics-common.toml",
+   "sha1": "e5833bf06afb3296aea617f2783b7b1bbe686c4d",
+   "size": 7145,
+   "repo": "overrides/config/create_aeronautics_automated_logistics-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_aero_radar-server.toml",
+   "sha1": "5b202e74e34999db93e406dc03a987cebd824319",
+   "size": 7236,
+   "repo": "overrides/config/create_aero_radar-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_bluemap-server.toml",
+   "sha1": "cdd67bcd18ad12af224745329bcb7132f23b004d",
+   "size": 318,
+   "repo": "overrides/config/create_bluemap-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_central_kitchen-client.toml",
+   "sha1": "53675efa0f10ab6cc16f743cf45ebfab23ca1692",
+   "size": 157,
+   "repo": "overrides/config/create_central_kitchen-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_central_kitchen-common.toml",
+   "sha1": "3e0236c80887a95baa82e4affecc7c05181f3e26",
+   "size": 1373,
+   "repo": "overrides/config/create_central_kitchen-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_configurable_tanksnvaults-common.toml",
+   "sha1": "fbe886edb96bdeb0c0d1017294a421ba3efe6474",
+   "size": 161,
+   "repo": "overrides/config/create_configurable_tanksnvaults-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_connected-common.toml",
+   "sha1": "3e1e250fc2e46f3bbe5a7d0c3e78b6f96eed98d7",
+   "size": 1753,
+   "repo": "overrides/config/create_connected-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_connected-server.toml",
+   "sha1": "8d7f5c042583d57ca1b53952f77c2f77f880efa7",
+   "size": 2081,
+   "repo": "overrides/config/create_connected-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_dragons_plus-client.toml",
+   "sha1": "7771aaf9b69d41d8839d4cce7fba0f07079e6e88",
+   "size": 302,
+   "repo": "overrides/config/create_dragons_plus-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_dragons_plus-common.toml",
+   "sha1": "0e6ce73fb1f7a723a633128799821864163a5a19",
+   "size": 1851,
+   "repo": "overrides/config/create_dragons_plus-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_dragons_plus-server.toml",
+   "sha1": "2618cf08d00dd1bc0652ea703ffe171a34537b51",
+   "size": 1266,
+   "repo": "overrides/config/create_dragons_plus-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_dragons_plus-simulated-extension-server.toml",
+   "sha1": "378d76d9545421d4071ce666d7a228a596ceaaab",
+   "size": 3078,
+   "repo": "overrides/config/create_dragons_plus-simulated-extension-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_enchantment_industry-client.toml",
+   "sha1": "31325d48446b183105eda69b9571273c16706571",
+   "size": 155,
+   "repo": "overrides/config/create_enchantment_industry-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_enchantment_industry-common.toml",
+   "sha1": "cd7b60ca06a2072a694385fb34fd6ed7e5a38c21",
+   "size": 399,
+   "repo": "overrides/config/create_enchantment_industry-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_enchantment_industry-server.toml",
+   "sha1": "e440e6b5769ab260b62edcd9eb48cc1f9865ae95",
+   "size": 7151,
+   "repo": "overrides/config/create_enchantment_industry-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_hypertube-client.toml",
+   "sha1": "65bb2f99046660f9b34feec7e682e234ffcf4ed5",
+   "size": 202,
+   "repo": "overrides/config/create_hypertube-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_hypertube-server.toml",
+   "sha1": "598c112c579007057e6ac12b924a297c583c8f22",
+   "size": 1918,
+   "repo": "overrides/config/create_hypertube-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_jetpack-client.toml",
+   "sha1": "70ea33618876884aff4db8f90776a4aff2c4ca18",
+   "size": 334,
+   "repo": "overrides/config/create_jetpack-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_jetpack-common.toml",
+   "sha1": "419f265343dcc0bd875481b4c20cdaf75db11a62",
+   "size": 609,
+   "repo": "overrides/config/create_jetpack-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_mixed_casing-client.toml",
+   "sha1": "2441655a7ead479a35c31d7263bed36762575475",
+   "size": 350,
+   "repo": "overrides/config/create_mixed_casing-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_mixed_casing-server.toml",
+   "sha1": "468af4737996694211e940b0a3880fc66d8741cd",
+   "size": 1256,
+   "repo": "overrides/config/create_mixed_casing-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_mobile_packages-client.toml",
+   "sha1": "e50941c9010c73b802f39bb4551fd7e1c9bd7ec1",
+   "size": 616,
+   "repo": "overrides/config/create_mobile_packages-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_mobile_packages-server.toml",
+   "sha1": "92d09a2d1126505fe61fae906d1dde89f978da96",
+   "size": 787,
+   "repo": "overrides/config/create_mobile_packages-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_radar-client.toml",
+   "sha1": "9cf607dd9aca2ed84e24a884758979ec03d82760",
+   "size": 1605,
+   "repo": "overrides/config/create_radar-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_radar-server.toml",
+   "sha1": "f9fe4e8c65db02894564981d9da00ec69d3b80fb",
+   "size": 2391,
+   "repo": "overrides/config/create_radar-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_safe_seating-client.toml",
+   "sha1": "c51813f0bf61c1ddf56c12c14e119ae49d83706b",
+   "size": 338,
+   "repo": "overrides/config/create_safe_seating-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/create_safe_seating-server.toml",
+   "sha1": "bc4c6c9189958ba7ab110486b3df8d5314b7eedf",
+   "size": 1738,
+   "repo": "overrides/config/create_safe_seating-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/CT_tablet_apps.json",
+   "sha1": "09d93c4ce5b62fd8d0ad5d5f8d42818be7167d4d",
+   "size": 839,
+   "repo": "overrides/config/CT_tablet_apps.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/curios-client.toml",
+   "sha1": "7e66e02fbf04b28e7de60c4e675d2b5168be5ec6",
+   "size": 766,
+   "repo": "overrides/config/curios-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/curios-common.toml",
+   "sha1": "2805359d4ad1ce08ef52cc73f84a96dafdc41024",
+   "size": 159,
+   "repo": "overrides/config/curios-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/curios-server.toml",
+   "sha1": "8ccde45d5edd3767324231935fe07ac2318a0eb5",
+   "size": 483,
+   "repo": "overrides/config/curios-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/deployer-server.toml",
+   "sha1": "3cdb7a04d7c0e4df0cf43851c72878e93040b3cd",
+   "size": 276,
+   "repo": "overrides/config/deployer-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/dndesires-client.toml",
+   "sha1": "99aa3cf88e2b0551a35d41c2bce339ee604c257f",
+   "size": 1156,
+   "repo": "overrides/config/dndesires-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/dndesires-server.toml",
+   "sha1": "4286175f07d08558a08ba8914d8da4048e266be6",
+   "size": 1971,
+   "repo": "overrides/config/dndesires-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/dynamic_fps.json",
+   "sha1": "5f36b2ea290645ee34d943220a14b54ee5ea5be5",
+   "size": 3,
+   "repo": "overrides/config/dynamic_fps.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/easy_villagers-client.toml",
+   "sha1": "7e9a611c1a42b86789aaec8dd103f95eee1f34a8",
+   "size": 715,
+   "repo": "overrides/config/easy_villagers-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/easy_villagers-server.toml",
+   "sha1": "ff18737e1936e7831b709c8e557e72b4ca1466fe",
+   "size": 1986,
+   "repo": "overrides/config/easy_villagers-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/elitex-common.toml",
+   "sha1": "82f0cd243d2ebeb3463ed6cb3394831b16de4514",
+   "size": 380,
+   "repo": "overrides/config/elitex-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/embeddium-fingerprint.json",
+   "sha1": "650273026493a56d6021a1918dda9ceed96d9847",
+   "size": 427,
+   "repo": "overrides/config/embeddium-fingerprint.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/embeddium-mixins.properties",
+   "sha1": "f7292246e0ecc35d4f1cd57dd52a56b1958363b4",
+   "size": 268,
+   "repo": "overrides/config/embeddium-mixins.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/embeddium-options.json",
+   "sha1": "de87eb334dfa2cec2b2de862b89ab6b81fdd150c",
+   "size": 842,
+   "repo": "overrides/config/embeddium-options.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/endersecure-server.toml",
+   "sha1": "b488312ba0118b5c54f809f109f4317fc7a57d44",
+   "size": 722,
+   "repo": "overrides/config/endersecure-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/entityculling.json",
+   "sha1": "71d872172923ba0b593d8654bfd596f9520ddc8b",
+   "size": 2248,
+   "repo": "overrides/config/entityculling.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/escalated-server.toml",
+   "sha1": "1b6dba4e6974530e1db5a5a96d16977826299815",
+   "size": 347,
+   "repo": "overrides/config/escalated-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/explorerscompass-client.toml",
+   "sha1": "b2ccdb787003f339e668f98bca79e88dc41ee290",
+   "size": 515,
+   "repo": "overrides/config/explorerscompass-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/explorerscompass-common.toml",
+   "sha1": "326a57e5e3b496298d4d080b699e012c2ea506a6",
+   "size": 2138,
+   "repo": "overrides/config/explorerscompass-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/extra_gauges-server.toml",
+   "sha1": "0d1850fc73c0aaad5175ccd038b7ddf48a278464",
+   "size": 411,
+   "repo": "overrides/config/extra_gauges-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fallingtree.json",
+   "sha1": "6d0e8b8fb432a816617cc6f838a287b276789433",
+   "size": 1313,
+   "repo": "overrides/config/fallingtree.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fantasy_armor-armor_attributes.toml",
+   "sha1": "f644463072ee8f6a228eea214813253203ce23eb",
+   "size": 93416,
+   "repo": "overrides/config/fantasy_armor-armor_attributes.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fantasy_armor-armor_effects.toml",
+   "sha1": "3e640357ebc2dbc2b707e29ccd23870233a7c743",
+   "size": 2962,
+   "repo": "overrides/config/fantasy_armor-armor_effects.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fantasy_armor-common.toml",
+   "sha1": "95f607d2488cec7fc3a8811068f43b0a59628960",
+   "size": 739,
+   "repo": "overrides/config/fantasy_armor-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/farmersdelight-client.toml",
+   "sha1": "649ffb20a99fa6a43ce25a5207c5461fee9f135d",
+   "size": 476,
+   "repo": "overrides/config/farmersdelight-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/farmersdelight-common.toml",
+   "sha1": "94acfbb88ae7c6618e0650aaa867eaaef8b9783a",
+   "size": 3817,
+   "repo": "overrides/config/farmersdelight-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fastbench.cfg",
+   "sha1": "de58e32332e763a3fcb5a791e0e41d59db9b770a",
+   "size": 541,
+   "repo": "overrides/config/fastbench.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fastsuite.cfg",
+   "sha1": "53080f2147a8fccc967a70c817a01819e1a4e0e7",
+   "size": 918,
+   "repo": "overrides/config/fastsuite.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/ferritecore-mixin.toml",
+   "sha1": "117f758af35aac859c535d5d2da96c5747a87aea",
+   "size": 1603,
+   "repo": "overrides/config/ferritecore-mixin.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fluid-common.toml",
+   "sha1": "d1761e73446921a2b4ee26710012368722720dc7",
+   "size": 2137,
+   "repo": "overrides/config/fluid-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fluid-stressValues.v1.toml",
+   "sha1": "f43485c5ccdd8fc00da9f9b7eb3f715ebe087b3b",
+   "size": 162,
+   "repo": "overrides/config/fluid-stressValues.v1.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/flywheel-client.toml",
+   "sha1": "dd39870cdb4ca33168860af5f83f5366c0402d19",
+   "size": 637,
+   "repo": "overrides/config/flywheel-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fml.toml",
+   "sha1": "f13073997a893e990bb553e0422354c4823b1d26",
+   "size": 1552,
+   "repo": "overrides/config/fml.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fracturepoint-common.toml",
+   "sha1": "855ccbb040cd334b77c0073eb455198a4adcf332",
+   "size": 1219,
+   "repo": "overrides/config/fracturepoint-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/framedblocks-client.toml",
+   "sha1": "d08d2e0657f6eee96649460b4c43d6444905909e",
+   "size": 7109,
+   "repo": "overrides/config/framedblocks-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/framedblocks-server.toml",
+   "sha1": "2444ab2fd8307cffb39b865fd593f31f0671f6e2",
+   "size": 1265,
+   "repo": "overrides/config/framedblocks-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/freecam.json5",
+   "sha1": "6b82025f1f943cf6a8fe92c18dba725a4f18f14b",
+   "size": 737,
+   "repo": "overrides/config/freecam.json5",
+   "mode": "managed"
+  },
+  {
+   "path": "config/frogport_overhaul-client.toml",
+   "sha1": "2a06f8bf45446875422571b4fb79b94904d3dd7d",
+   "size": 2800,
+   "repo": "overrides/config/frogport_overhaul-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/frogport_overhaul-server.toml",
+   "sha1": "e556d26ef446e950bec3421925f7ce25eb8d3e83",
+   "size": 6158,
+   "repo": "overrides/config/frogport_overhaul-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/ftbchunks-client.snbt",
+   "sha1": "311ca51f3a058d21907464e22999752cf0f9b1ad",
+   "size": 12632,
+   "repo": "overrides/config/ftbchunks-client.snbt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/ftbchunks-world.snbt",
+   "sha1": "57ee68dccce4001615399970fb042f4ceb326c54",
+   "size": 9334,
+   "repo": "overrides/config/ftbchunks-world.snbt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/ftblibrary-client.snbt",
+   "sha1": "a82a97795e0c7e0dbd57c7162ff95c021908219f",
+   "size": 1733,
+   "repo": "overrides/config/ftblibrary-client.snbt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/ftbteams-server.snbt",
+   "sha1": "d7f7b121c0b1511fea41fedefcd9094c577f1604",
+   "size": 1112,
+   "repo": "overrides/config/ftbteams-server.snbt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/gadgetsngizmos-server.toml",
+   "sha1": "1a3b349d6d81664fb0b3436500fd5e51d756de8d",
+   "size": 479,
+   "repo": "overrides/config/gadgetsngizmos-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/garnished-client.toml",
+   "sha1": "b795d76f6328bc449cabf3e1721d3b39669b70c7",
+   "size": 458,
+   "repo": "overrides/config/garnished-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/garnished-common.toml",
+   "sha1": "aec4f0091dc364ac59d941e5db64b56e0fddfb75",
+   "size": 1507,
+   "repo": "overrides/config/garnished-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/garnished-server.toml",
+   "sha1": "b596768e71eed19f7ec44aa7b4df8df5c503bd28",
+   "size": 3080,
+   "repo": "overrides/config/garnished-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/gravestone-client.toml",
+   "sha1": "940d6451a64dbddd5c6f3dd3ef56c898f1cb7777",
+   "size": 215,
+   "repo": "overrides/config/gravestone-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/gravestone-server.toml",
+   "sha1": "0600a36c9a84dbc3f7a8ec8d560ec7c358e80248",
+   "size": 1160,
+   "repo": "overrides/config/gravestone-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/gyro-client.toml",
+   "sha1": "6f4d4ddcb64174aa0a8e2595fe17bf66d281e414",
+   "size": 542,
+   "repo": "overrides/config/gyro-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/gyro-common.toml",
+   "sha1": "17c52a07adf145197a017cb8b1bb596f2e138d4e",
+   "size": 1626,
+   "repo": "overrides/config/gyro-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/hubessentials-server.toml",
+   "sha1": "81b6ff337a9aeb9ee56170f5e6cb0a55c46621f8",
+   "size": 4057,
+   "repo": "overrides/config/hubessentials-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/immediatelyfast.json",
+   "sha1": "9005fdfb4eeaa64cf158b244b263aa5347d03db0",
+   "size": 1114,
+   "repo": "overrides/config/immediatelyfast.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/iris-excluded.json",
+   "sha1": "20bd3420b5c911402ac289c154b56ac1dd8f84ba",
+   "size": 31,
+   "repo": "overrides/config/iris-excluded.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/iris.properties",
+   "sha1": "0e40944748614f5cdcbcc7fd0a9ee2504f82fc9d",
+   "size": 316,
+   "repo": "overrides/config/iris.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei-server.toml",
+   "sha1": "91447001769dc0f239a44ffce274f7affa1bbaa8",
+   "size": 324,
+   "repo": "overrides/config/jei-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/justhammers.json",
+   "sha1": "e06dea82c4d88d26ca2a6749cab7933d6149d460",
+   "size": 567,
+   "repo": "overrides/config/justhammers.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/lithium.properties",
+   "sha1": "38f2993a7d80d0a6a25eb6182bd6898af24a16eb",
+   "size": 267,
+   "repo": "overrides/config/lithium.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/lootr-client.toml",
+   "sha1": "bdf2664a9c266bc275de77b91eb7fc3b7f7d37a3",
+   "size": 1301,
+   "repo": "overrides/config/lootr-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/lootr-common.toml",
+   "sha1": "a57c642f78c7698f2a57fd35f5f61187fa3d8ac2",
+   "size": 9040,
+   "repo": "overrides/config/lootr-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/modernfix-common.toml",
+   "sha1": "84439141a9dbc2f96212967ea8437d420d8d9c8e",
+   "size": 105,
+   "repo": "overrides/config/modernfix-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/modernfix-mixins.properties",
+   "sha1": "363b263796d22b72e97e89072413e529bcd692ee",
+   "size": 5491,
+   "repo": "overrides/config/modernfix-mixins.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/moonlight-client.toml",
+   "sha1": "e88b87fb5f58e4f6b55b5f41abac3dadf1d62860",
+   "size": 2320,
+   "repo": "overrides/config/moonlight-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/moonlight-common.toml",
+   "sha1": "1f62002e06c865342690eea17511a19503da3d5d",
+   "size": 960,
+   "repo": "overrides/config/moonlight-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/MouseTweaks.cfg",
+   "sha1": "651b3e4db2d430dc1da3566b2984b264061a6794",
+   "size": 135,
+   "repo": "overrides/config/MouseTweaks.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/naturescompass-client.toml",
+   "sha1": "18a1ac2e9777023e5c050d94f15d9b173671b547",
+   "size": 444,
+   "repo": "overrides/config/naturescompass-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/naturescompass-common.toml",
+   "sha1": "42db63bed3bbc7f493f04476516f3ff10df1acdb",
+   "size": 2227,
+   "repo": "overrides/config/naturescompass-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/neoforge-client.toml",
+   "sha1": "b51515abb0c65a891514baffb4c78d2357ecd1ed",
+   "size": 578,
+   "repo": "overrides/config/neoforge-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/neoforge-common.toml",
+   "sha1": "6b10e4debbf06a33453f4e0ffb80281ff0752f9f",
+   "size": 772,
+   "repo": "overrides/config/neoforge-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/neoforge-server.toml",
+   "sha1": "536538f1f29efb49318318113530bd4fd74c235b",
+   "size": 1177,
+   "repo": "overrides/config/neoforge-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/notenoughanimations.json",
+   "sha1": "ea4648f60613f7140fc3d47f238c7fb3ff5b95ae",
+   "size": 3357,
+   "repo": "overrides/config/notenoughanimations.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/offroad-server.toml",
+   "sha1": "ffcf430144dfb7acb9839fdfcc7cc97bc2922365",
+   "size": 1167,
+   "repo": "overrides/config/offroad-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/openpartiesandclaims-server.toml",
+   "sha1": "b345ba632e8a90f614a5d7b34a34a09886a5856b",
+   "size": 49654,
+   "repo": "overrides/config/openpartiesandclaims-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/particle_core_config.toml",
+   "sha1": "43e6c438d51b00a097df56f6625d62bd3ce8029a",
+   "size": 306,
+   "repo": "overrides/config/particle_core_config.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/particle_core_disabled_optimizations_v2.json",
+   "sha1": "b4bf74388de7da02460fe124655439bfbcf2c29a",
+   "size": 1558,
+   "repo": "overrides/config/particle_core_disabled_optimizations_v2.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/patchouli-client.toml",
+   "sha1": "fca303723bcd692f1d64b76c7cf303afa46fc142",
+   "size": 1089,
+   "repo": "overrides/config/patchouli-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/placebo.cfg",
+   "sha1": "a3d7b80b1073ac5baaccaa5691c3fa8409fa4827",
+   "size": 495,
+   "repo": "overrides/config/placebo.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/pointblank-common.toml",
+   "sha1": "f7fe1e056b808f7ba7b109508f8d264281b43af4",
+   "size": 4056,
+   "repo": "overrides/config/pointblank-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/pointblank-items.toml",
+   "sha1": "aa8ad09964c0ae86168629bf7fd165ff99c636f7",
+   "size": 11830,
+   "repo": "overrides/config/pointblank-items.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/ponder-client.toml",
+   "sha1": "b502ba9ea972ce81ef602c964b3bc0bbd3401fd8",
+   "size": 635,
+   "repo": "overrides/config/ponder-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/powergrid-client.toml",
+   "sha1": "106b5f0613ff359ed31e83e4986746eea4273811",
+   "size": 2409,
+   "repo": "overrides/config/powergrid-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/powergrid-common.toml",
+   "sha1": "6db2874e2502c195545f8135301bb1b44f664651",
+   "size": 623,
+   "repo": "overrides/config/powergrid-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/powergrid-server.toml",
+   "sha1": "e2622cd9796409d68c2fa341f5b76aaaca2fc093",
+   "size": 20321,
+   "repo": "overrides/config/powergrid-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/protection-pixel.toml",
+   "sha1": "a6f7846ab1bb6b868ea8f7218e053bc52d592344",
+   "size": 555,
+   "repo": "overrides/config/protection-pixel.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/railways-client.toml",
+   "sha1": "d3bd37b01204bc18dda59aa540982260cfea5a82",
+   "size": 2231,
+   "repo": "overrides/config/railways-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/railways-common.toml",
+   "sha1": "ac0d5f8ae59e3e99c69e1764d8381bf20c3286fe",
+   "size": 335,
+   "repo": "overrides/config/railways-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/railways-server.toml",
+   "sha1": "a483b26dbee009758ae2a65303c249b5c9ff6594",
+   "size": 1841,
+   "repo": "overrides/config/railways-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/replaymod.json",
+   "sha1": "a794a75fbb70b23b95500eb532f4b481ec5ba3d3",
+   "size": 1812,
+   "repo": "overrides/config/replaymod.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/ritchiesprojectilelib-server.toml",
+   "sha1": "9247f1308244803efa47430360d0fb07b8fb3fab",
+   "size": 710,
+   "repo": "overrides/config/ritchiesprojectilelib-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sable-client.toml",
+   "sha1": "3e3537c15a39ca1612447f3844d4fe261abf03a3",
+   "size": 946,
+   "repo": "overrides/config/sable-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sable-common.toml",
+   "sha1": "244d4c98d76f7a03afb6d731ae6150427f4c195f",
+   "size": 2243,
+   "repo": "overrides/config/sable-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sable-server.toml",
+   "sha1": "3e88b91b286a6b3903027b1b69440987df2e46f9",
+   "size": 328,
+   "repo": "overrides/config/sable-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sable_player_ragdoll-client.toml",
+   "sha1": "b05efe73b476787c8d3c5915cd60cceafaeae8e5",
+   "size": 510,
+   "repo": "overrides/config/sable_player_ragdoll-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sable_player_ragdoll-server.toml",
+   "sha1": "e9ba9671cebec204dac00a80d2d8af11895ed51a",
+   "size": 3295,
+   "repo": "overrides/config/sable_player_ragdoll-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/scalablelux.properties",
+   "sha1": "4390f4771d0bff419992e348b1a53fb5b10006a6",
+   "size": 84,
+   "repo": "overrides/config/scalablelux.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/shield_generators-common.toml",
+   "sha1": "5ac76eb28cd620ed8dc51c1cd70d707e02d53905",
+   "size": 3746,
+   "repo": "overrides/config/shield_generators-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/shuffle.json",
+   "sha1": "3de9d46052b542cfa6355c668494b1fc900043cf",
+   "size": 203,
+   "repo": "overrides/config/shuffle.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/simpletpa.json",
+   "sha1": "e81f2bb3910b2750c53fa8f6bcbf50085349b858",
+   "size": 112,
+   "repo": "overrides/config/simpletpa.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/simulated-client.toml",
+   "sha1": "ab18703bfa8de8df6bac639cfbb8892f27350067",
+   "size": 1045,
+   "repo": "overrides/config/simulated-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/simulated-server.toml",
+   "sha1": "987252f401c9ed893c7639894bb5c4a4b78f8fe8",
+   "size": 7249,
+   "repo": "overrides/config/simulated-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/simulatedcoasters-common.toml",
+   "sha1": "ed9bbf61c528d9d8b2a822fcffbc2eb96fdd8957",
+   "size": 854,
+   "repo": "overrides/config/simulatedcoasters-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/skinlayers.json",
+   "sha1": "9552e0366319f47881639dbcb36713bbfad98a58",
+   "size": 497,
+   "repo": "overrides/config/skinlayers.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sliceanddice-client.toml",
+   "sha1": "10fda97229b3d0f41ebb5016afad9e37e4444c1d",
+   "size": 29,
+   "repo": "overrides/config/sliceanddice-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sliceanddice-common.toml",
+   "sha1": "bc0235112e1a1955cdf201946cddcfd68acc8e1b",
+   "size": 475,
+   "repo": "overrides/config/sliceanddice-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sodium-extra-options.json",
+   "sha1": "1a58212e0f224cd2cc0cb27446d13bf7b9b0ed9a",
+   "size": 2137,
+   "repo": "overrides/config/sodium-extra-options.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sodium-extra.properties",
+   "sha1": "e90b2514226a0624cf42112b42477f9872598b89",
+   "size": 360,
+   "repo": "overrides/config/sodium-extra.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sodium-fingerprint.json",
+   "sha1": "134e7ab400fd78eb999dd3340a3782242a763e0b",
+   "size": 427,
+   "repo": "overrides/config/sodium-fingerprint.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sodium-mixins.properties",
+   "sha1": "5455463ee999b945c1cff8ae90f2b705e19fb86c",
+   "size": 258,
+   "repo": "overrides/config/sodium-mixins.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sodium-options.json",
+   "sha1": "d765f2ae5a5f66d8959683081dcb56142cf861fa",
+   "size": 761,
+   "repo": "overrides/config/sodium-options.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sophisticatedbackpacks-common.toml",
+   "sha1": "faab0a1537b5377ed89cf1a2f6e660116a15891b",
+   "size": 118,
+   "repo": "overrides/config/sophisticatedbackpacks-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sophisticatedbackpacks-server.toml",
+   "sha1": "ca6f09ff76fc66bace10d44a89fbc71f8d7a5bbd",
+   "size": 24153,
+   "repo": "overrides/config/sophisticatedbackpacks-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sophisticatedcore-client.toml",
+   "sha1": "27700782a7cd2e3f4a681fcee62fbe28057bca12",
+   "size": 478,
+   "repo": "overrides/config/sophisticatedcore-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/sophisticatedcore-common.toml",
+   "sha1": "34dcc69ac4fe4ebc44e6d59d5fd150f8267ccd2d",
+   "size": 4259,
+   "repo": "overrides/config/sophisticatedcore-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/storagedrawers-client.toml",
+   "sha1": "47beeac3580ff36449c95da47ce5d148adb9296e",
+   "size": 937,
+   "repo": "overrides/config/storagedrawers-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/storagedrawers-common.v2.toml",
+   "sha1": "bc9b51de8496750da2d3cba203e3a49473f0907c",
+   "size": 14393,
+   "repo": "overrides/config/storagedrawers-common.v2.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/supplementaries-client.toml",
+   "sha1": "8be1a295dd808a24118e5dcbe0198fdd5e2ae1c2",
+   "size": 9113,
+   "repo": "overrides/config/supplementaries-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/supplementaries-common.toml",
+   "sha1": "5931e467ecae914799a0ed3b84fabeb2c38611d9",
+   "size": 31784,
+   "repo": "overrides/config/supplementaries-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/tacz-client.toml",
+   "sha1": "ec53df5e6c84a8f769757574e35b6946b4302484",
+   "size": 3919,
+   "repo": "overrides/config/tacz-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/tacz-common.toml",
+   "sha1": "c0b708d781597beeec945f5cf1f0c041a1d5510a",
+   "size": 2316,
+   "repo": "overrides/config/tacz-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/tacz-pre.toml",
+   "sha1": "00508fee6886dc4fb6271c76dab70ecf3cd05a4d",
+   "size": 218,
+   "repo": "overrides/config/tacz-pre.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/tacz-server.toml",
+   "sha1": "014a9830fa9117e6e0cc5c30a75b7ee9f19e3f3b",
+   "size": 2098,
+   "repo": "overrides/config/tacz-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/taczaddon-common.toml",
+   "sha1": "8cc6ccea8951ff582aa1723420ab395b99a568b7",
+   "size": 1005,
+   "repo": "overrides/config/taczaddon-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/terrablender.toml",
+   "sha1": "194a663d21fe1df84f7230013c470329088fa710",
+   "size": 988,
+   "repo": "overrides/config/terrablender.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/toms_storage-common.toml",
+   "sha1": "59b3401c12ac8337f5ebba44223b5f86673d7336",
+   "size": 844,
+   "repo": "overrides/config/toms_storage-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/toms_storage-server.toml",
+   "sha1": "c4db75e3d8d696eebadd268b839506aece450f97",
+   "size": 1933,
+   "repo": "overrides/config/toms_storage-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/torchmaster.toml",
+   "sha1": "c17421c8b45c1a10502ca2ecf0c1bd0af0d9d5ff",
+   "size": 2789,
+   "repo": "overrides/config/torchmaster.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/trade_cycling-client.toml",
+   "sha1": "4d33f63b7df9ec74f6e4c510648cfe6152c49dae",
+   "size": 129,
+   "repo": "overrides/config/trade_cycling-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/trading_floor-server.toml",
+   "sha1": "82fb56097a9ee8a635c912c870c155048cda8d72",
+   "size": 599,
+   "repo": "overrides/config/trading_floor-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/transition.json",
+   "sha1": "8b50cd4b9956dc3443acd38e47f80e23ff7712f5",
+   "size": 97,
+   "repo": "overrides/config/transition.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/trender.json",
+   "sha1": "1ecd2edb27bfbc69f24e0cd52d3a22f98bdce8f0",
+   "size": 47,
+   "repo": "overrides/config/trender.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/vanillabackport-client.toml",
+   "sha1": "0782160a554e558d207362dfcf5d8ebad54685c7",
+   "size": 344,
+   "repo": "overrides/config/vanillabackport-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/vanillabackport-common.toml",
+   "sha1": "bdc23198ae9a42a071cc2a19f66d8c8b0795a0e9",
+   "size": 3260,
+   "repo": "overrides/config/vanillabackport-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/vintage-client.toml",
+   "sha1": "c7f033f72c05bbeb5ee3f2aaee49738f518e3a7d",
+   "size": 1239,
+   "repo": "overrides/config/vintage-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/vintage-common.toml",
+   "sha1": "b3b80565030c80bac36f655f598ce3fa0ec5328b",
+   "size": 977,
+   "repo": "overrides/config/vintage-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/vintage-server.toml",
+   "sha1": "3485f187682ba84646fe9d7fc5739d4d0b9f78f4",
+   "size": 3364,
+   "repo": "overrides/config/vintage-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/warborn-armor.toml",
+   "sha1": "0b197ed1f8b11967f4fbee86ed1f800718d32561",
+   "size": 1337,
+   "repo": "overrides/config/warborn-armor.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/watut-client.toml",
+   "sha1": "1239e7eff97a736c9e29fe57d8034b64bb766389",
+   "size": 3444,
+   "repo": "overrides/config/watut-client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/watut-common.toml",
+   "sha1": "c858cf73b5760b42d42d0fe06981471b4f1debd4",
+   "size": 169,
+   "repo": "overrides/config/watut-common.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/watut-item-arm-adjustments.json",
+   "sha1": "2cfa88c57c35df26af1391acb7f2f8eb8abd53ab",
+   "size": 3367,
+   "repo": "overrides/config/watut-item-arm-adjustments.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/watut-server.toml",
+   "sha1": "676f01f869328fa288c5ed25ac86459aa6249b04",
+   "size": 2945,
+   "repo": "overrides/config/watut-server.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaerohud.txt",
+   "sha1": "9b2b47ea69e26908152d7ed1c6f90222745dced0",
+   "size": 123,
+   "repo": "overrides/config/xaerohud.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaeropatreon.txt",
+   "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "size": 0,
+   "repo": "overrides/config/xaeropatreon.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xray-config.json",
+   "sha1": "306c1663b99b72e0e16eee3a6b022d49c42299eb",
+   "size": 1771,
+   "repo": "overrides/config/xray-config.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/yacl.json5",
+   "sha1": "622920f29084efcd3a8d0b2a0ea0756fece182d2",
+   "size": 250,
+   "repo": "overrides/config/yacl.json5",
+   "mode": "managed"
+  },
+  {
+   "path": "config/yigd.json",
+   "sha1": "6175addecb1a09c9e1b62985dd7ac34a43989e66",
+   "size": 5370,
+   "repo": "overrides/config/yigd.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/alligator_snapping_turtle_spawns.json",
+   "sha1": "dfd0c683e29fa92bccbf7c39805e1213c268300d",
+   "size": 750,
+   "repo": "overrides/config/alexsmobs/alligator_snapping_turtle_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/anaconda_spawns.json",
+   "sha1": "717d907d7c554fc01c6a3304e90336fd5904e51e",
+   "size": 1032,
+   "repo": "overrides/config/alexsmobs/anaconda_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/anteater_spawns.json",
+   "sha1": "983d5b8a09faf49e73d82af7e3fb0d6d8a28ec4d",
+   "size": 1166,
+   "repo": "overrides/config/alexsmobs/anteater_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/bald_eagle_spawns.json",
+   "sha1": "24a04efbc87e0488fd296c2d7c8802cf8ef8291a",
+   "size": 2719,
+   "repo": "overrides/config/alexsmobs/bald_eagle_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/banana_slug_spawns.json",
+   "sha1": "9a666c04b268d50ca141e280895be10b4f05c594",
+   "size": 1689,
+   "repo": "overrides/config/alexsmobs/banana_slug_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/bison_spawns.json",
+   "sha1": "7e4772d2aeaa0b83f807f66c72f008d4284febd8",
+   "size": 1753,
+   "repo": "overrides/config/alexsmobs/bison_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/blobfish_spawns.json",
+   "sha1": "f39ce83ec705fea5b1e181947ea3d690961a3556",
+   "size": 146,
+   "repo": "overrides/config/alexsmobs/blobfish_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/blue_jay_spawns.json",
+   "sha1": "4a704c533746078e7338f88c29f181166a092606",
+   "size": 4020,
+   "repo": "overrides/config/alexsmobs/blue_jay_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/bone_serpent_spawns.json",
+   "sha1": "2ccceb16e3d58dacd7b9da70abcf18d578f7db32",
+   "size": 253,
+   "repo": "overrides/config/alexsmobs/bone_serpent_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/bunfungus_spawns.json",
+   "sha1": "f5ea95611f2beb3d2d5b79d5d00de44b8c4de012",
+   "size": 478,
+   "repo": "overrides/config/alexsmobs/bunfungus_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/cachalot_whale_beached_spawns.json",
+   "sha1": "c428aeede9825f740c73a8e600785aa8b2c2d009",
+   "size": 642,
+   "repo": "overrides/config/alexsmobs/cachalot_whale_beached_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/cachalot_whale_spawns.json",
+   "sha1": "6c5965ab0b548e11bf229d6531bec6252eaff443",
+   "size": 889,
+   "repo": "overrides/config/alexsmobs/cachalot_whale_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/caiman_spawns.json",
+   "sha1": "2dc9908d8f42e786d38bbdaba6a4ea5249dfb13e",
+   "size": 291,
+   "repo": "overrides/config/alexsmobs/caiman_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/capuchin_monkey_spawns.json",
+   "sha1": "aba297cc13e94b9bc3111e2918d0dcb4a9495cca",
+   "size": 1184,
+   "repo": "overrides/config/alexsmobs/capuchin_monkey_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/catfish_spawns.json",
+   "sha1": "bdaa6f7ffb98628dcd9ef6c239608ec3f3a08121",
+   "size": 1089,
+   "repo": "overrides/config/alexsmobs/catfish_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/cave_centipede_spawns.json",
+   "sha1": "03d4fc8de51b1c140015dfa72cc73eaf691431b4",
+   "size": 2192,
+   "repo": "overrides/config/alexsmobs/cave_centipede_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/cockroach_spawns.json",
+   "sha1": "1c8f8f17ac7ce4fc12fab461ec3c50d272d93d75",
+   "size": 2081,
+   "repo": "overrides/config/alexsmobs/cockroach_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/comb_jelly_spawns.json",
+   "sha1": "ced1e6a35f9debfda11e579fdd8d45a340c05630",
+   "size": 414,
+   "repo": "overrides/config/alexsmobs/comb_jelly_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/cosmaw_spawns.json",
+   "sha1": "59349c0f99f2b4f452326602e27ca30a56094c22",
+   "size": 371,
+   "repo": "overrides/config/alexsmobs/cosmaw_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/cosmic_cod_spawns.json",
+   "sha1": "6d2ab311e1f341a4874c15ae97e420562b035c3a",
+   "size": 139,
+   "repo": "overrides/config/alexsmobs/cosmic_cod_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/crimson_mosquito_spawns.json",
+   "sha1": "b8c64f6dd736667fb2b5461ee25b970438264770",
+   "size": 781,
+   "repo": "overrides/config/alexsmobs/crimson_mosquito_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/crocodile_spawns.json",
+   "sha1": "345de0c6d056d843e4cef87763c88ab32e150002",
+   "size": 999,
+   "repo": "overrides/config/alexsmobs/crocodile_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/crow_spawns.json",
+   "sha1": "767bafd15d5a771550dc636b905a15159386757d",
+   "size": 5142,
+   "repo": "overrides/config/alexsmobs/crow_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/devils_hole_pupfish_spawns.json",
+   "sha1": "72c87498fe92bbaedac0dd8f17fe45cd39f10175",
+   "size": 145,
+   "repo": "overrides/config/alexsmobs/devils_hole_pupfish_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/dropbear_spawns.json",
+   "sha1": "05edeefbc1e89291d0af5a8b6ad4e07abcfb4dc0",
+   "size": 399,
+   "repo": "overrides/config/alexsmobs/dropbear_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/elephant_spawns.json",
+   "sha1": "174b8af7c5357d42f6c3d7cf46000abf001026c9",
+   "size": 1163,
+   "repo": "overrides/config/alexsmobs/elephant_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/emu_spawns.json",
+   "sha1": "1350a531f941af07b0c590c6b03eed79569df58b",
+   "size": 1661,
+   "repo": "overrides/config/alexsmobs/emu_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/endergrade_spawns.json",
+   "sha1": "876c128ed4fc894d61aab0eb2c735e64fa6dc417",
+   "size": 250,
+   "repo": "overrides/config/alexsmobs/endergrade_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/enderiophage_spawns.json",
+   "sha1": "b343e2bd88950cc0f5db7041b1a7708ffb51c5fb",
+   "size": 603,
+   "repo": "overrides/config/alexsmobs/enderiophage_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/farseer.json",
+   "sha1": "c81f27b1f74d150d8762e2162eb9ea8312a2d00f",
+   "size": 262,
+   "repo": "overrides/config/alexsmobs/farseer.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/flutter_spawns.json",
+   "sha1": "c7d78e61a3ded23ae0af88640b4f6e3788d91462",
+   "size": 147,
+   "repo": "overrides/config/alexsmobs/flutter_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/flying_fish_spawns.json",
+   "sha1": "16a366bbd5d415751babc14c7a3e72fdc843b390",
+   "size": 708,
+   "repo": "overrides/config/alexsmobs/flying_fish_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/fly_spawns.json",
+   "sha1": "72c87498fe92bbaedac0dd8f17fe45cd39f10175",
+   "size": 145,
+   "repo": "overrides/config/alexsmobs/fly_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/frilled_shark_spawns.json",
+   "sha1": "f39ce83ec705fea5b1e181947ea3d690961a3556",
+   "size": 146,
+   "repo": "overrides/config/alexsmobs/frilled_shark_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/froststalker_spawns.json",
+   "sha1": "707c1d78e16032957b1b047a3559006883a66aa6",
+   "size": 934,
+   "repo": "overrides/config/alexsmobs/froststalker_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/gazelle_spawns.json",
+   "sha1": "f7ef705fb7988c423de961ecf5b6b50207e7508c",
+   "size": 1050,
+   "repo": "overrides/config/alexsmobs/gazelle_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/gelada_monkey_spawns.json",
+   "sha1": "b25167bae6afe207181eb2e6a576afddb057927f",
+   "size": 993,
+   "repo": "overrides/config/alexsmobs/gelada_monkey_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/giant_squid_spawns.json",
+   "sha1": "f39ce83ec705fea5b1e181947ea3d690961a3556",
+   "size": 146,
+   "repo": "overrides/config/alexsmobs/giant_squid_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/gorilla_spawns.json",
+   "sha1": "dbdc0203d5147edd4d7b9483b05778b381839ee2",
+   "size": 1053,
+   "repo": "overrides/config/alexsmobs/gorilla_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/grizzly_bear_spawns.json",
+   "sha1": "4a704c533746078e7338f88c29f181166a092606",
+   "size": 4020,
+   "repo": "overrides/config/alexsmobs/grizzly_bear_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/guster_spawns.json",
+   "sha1": "af87c402b13c9299b4ad58a474c1a35732ee8ce5",
+   "size": 1116,
+   "repo": "overrides/config/alexsmobs/guster_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/hammerhead_shark_spawns.json",
+   "sha1": "025e3e72b36872c76c171726ca843ac93d0adb4d",
+   "size": 250,
+   "repo": "overrides/config/alexsmobs/hammerhead_shark_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/hummingbird_spawns.json",
+   "sha1": "87a5239ac83733283bda909fd7247cc8bdb7f68a",
+   "size": 3029,
+   "repo": "overrides/config/alexsmobs/hummingbird_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/jerboa_spawns.json",
+   "sha1": "ce615f2a96a48c4ff3cf314fe081b2a3d2d134e9",
+   "size": 1240,
+   "repo": "overrides/config/alexsmobs/jerboa_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/kangaroo_spawns.json",
+   "sha1": "1350a531f941af07b0c590c6b03eed79569df58b",
+   "size": 1661,
+   "repo": "overrides/config/alexsmobs/kangaroo_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/komodo_dragon_spawns.json",
+   "sha1": "c05f2d389d47af9f28435aac9cceea472981cc8f",
+   "size": 771,
+   "repo": "overrides/config/alexsmobs/komodo_dragon_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/laviathan_spawns.json",
+   "sha1": "b35947925d599eb04ee7075af6810dbe7b515052",
+   "size": 142,
+   "repo": "overrides/config/alexsmobs/laviathan_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/leafcutter_anthill_spawns.json",
+   "sha1": "983d5b8a09faf49e73d82af7e3fb0d6d8a28ec4d",
+   "size": 1166,
+   "repo": "overrides/config/alexsmobs/leafcutter_anthill_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/lobster_spawns.json",
+   "sha1": "bfa5934e707e1a5fac743d40eede8a78dae13ff1",
+   "size": 398,
+   "repo": "overrides/config/alexsmobs/lobster_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/maned_wolf_spawns.json",
+   "sha1": "e7262e3a8d7dea88c22540ac36efd9b82524384e",
+   "size": 1037,
+   "repo": "overrides/config/alexsmobs/maned_wolf_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/mantis_shrimp_spawns.json",
+   "sha1": "98434e630959b7774f9bc57706400b1e649a2c7d",
+   "size": 381,
+   "repo": "overrides/config/alexsmobs/mantis_shrimp_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/mimicube_spawns.json",
+   "sha1": "c114b5771028f6538d6d2f4a04d4ad2aec9f3235",
+   "size": 361,
+   "repo": "overrides/config/alexsmobs/mimicube_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/mimic_octopus_spawns.json",
+   "sha1": "f3b30be220c7084580f2d5ea927741a4d6189ba4",
+   "size": 369,
+   "repo": "overrides/config/alexsmobs/mimic_octopus_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/moose_spawns.json",
+   "sha1": "4a87a49a734e854cb336722c5128fd56b1b57a66",
+   "size": 2279,
+   "repo": "overrides/config/alexsmobs/moose_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/mudskipper_spawns.json",
+   "sha1": "2dc9908d8f42e786d38bbdaba6a4ea5249dfb13e",
+   "size": 291,
+   "repo": "overrides/config/alexsmobs/mudskipper_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/mungus_spawns.json",
+   "sha1": "f5ea95611f2beb3d2d5b79d5d00de44b8c4de012",
+   "size": 478,
+   "repo": "overrides/config/alexsmobs/mungus_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/murmur.json",
+   "sha1": "03d4fc8de51b1c140015dfa72cc73eaf691431b4",
+   "size": 2192,
+   "repo": "overrides/config/alexsmobs/murmur.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/orca_spawns.json",
+   "sha1": "70354eb97a9810ea9e5cd660808ae6c5305b6602",
+   "size": 251,
+   "repo": "overrides/config/alexsmobs/orca_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/platypus_spawns.json",
+   "sha1": "ced22dadf032554f60740f6b90dc32451228fa41",
+   "size": 621,
+   "repo": "overrides/config/alexsmobs/platypus_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/potoo_spawns.json",
+   "sha1": "426052ea6d093fe878779db6e1951a8accec897f",
+   "size": 148,
+   "repo": "overrides/config/alexsmobs/potoo_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/raccoon_spawns.json",
+   "sha1": "5a28b17087fd1a17486449ea947a719ca93fe15c",
+   "size": 3708,
+   "repo": "overrides/config/alexsmobs/raccoon_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/rain_frog_spawns.json",
+   "sha1": "ce615f2a96a48c4ff3cf314fe081b2a3d2d134e9",
+   "size": 1240,
+   "repo": "overrides/config/alexsmobs/rain_frog_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/rattlesnake_spawns.json",
+   "sha1": "39cc6d1c41ce840ae5713aa157b8470b99a7d0ba",
+   "size": 1634,
+   "repo": "overrides/config/alexsmobs/rattlesnake_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/rhinoceros_spawns.json",
+   "sha1": "f7ef705fb7988c423de961ecf5b6b50207e7508c",
+   "size": 1050,
+   "repo": "overrides/config/alexsmobs/rhinoceros_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/roadrunner_spawns.json",
+   "sha1": "39cc6d1c41ce840ae5713aa157b8470b99a7d0ba",
+   "size": 1634,
+   "repo": "overrides/config/alexsmobs/roadrunner_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/rocky_roller_spawns.json",
+   "sha1": "38742f57f8078b5de937f7327a941d02bcc3847a",
+   "size": 669,
+   "repo": "overrides/config/alexsmobs/rocky_roller_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/seagull_spawns.json",
+   "sha1": "c4e332410fcd6b13ec92c7a15f142e5155cb5274",
+   "size": 1296,
+   "repo": "overrides/config/alexsmobs/seagull_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/seal_spawns.json",
+   "sha1": "04d6acac10e3aa46201e53aaa68cf1b6d017f896",
+   "size": 873,
+   "repo": "overrides/config/alexsmobs/seal_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/shoebill_spawns.json",
+   "sha1": "59c30ef0c13369f88e07a57bcc1af881599a3f0e",
+   "size": 619,
+   "repo": "overrides/config/alexsmobs/shoebill_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/skelewag_spawns.json",
+   "sha1": "760eb34189fba290b9a9f8c33752132bfd738ba8",
+   "size": 370,
+   "repo": "overrides/config/alexsmobs/skelewag_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/skreecher.json",
+   "sha1": "025359d8c4ad85ab3c3377dd0d859299acbbeb68",
+   "size": 272,
+   "repo": "overrides/config/alexsmobs/skreecher.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/skunk_spawns.json",
+   "sha1": "af70d75e685e00e5a2f054d9b2c8d2eebf155d00",
+   "size": 2033,
+   "repo": "overrides/config/alexsmobs/skunk_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/snow_leopard_spawns.json",
+   "sha1": "0369836c949ef4984e94c0b43930da64c3b87a52",
+   "size": 1804,
+   "repo": "overrides/config/alexsmobs/snow_leopard_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/soul_vulture_spawns.json",
+   "sha1": "757cae5b065600b9988e9bf7d2ba5bef54064f5e",
+   "size": 519,
+   "repo": "overrides/config/alexsmobs/soul_vulture_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/spectre_spawns.json",
+   "sha1": "876c128ed4fc894d61aab0eb2c735e64fa6dc417",
+   "size": 250,
+   "repo": "overrides/config/alexsmobs/spectre_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/straddler_spawns.json",
+   "sha1": "028e234a693e259d036754f10ad944201cbe9e92",
+   "size": 660,
+   "repo": "overrides/config/alexsmobs/straddler_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/stradpole_spawns.json",
+   "sha1": "028e234a693e259d036754f10ad944201cbe9e92",
+   "size": 660,
+   "repo": "overrides/config/alexsmobs/stradpole_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/sugar_glider_spawns.json",
+   "sha1": "62d2952af8a99284a2072613584475532fa3976d",
+   "size": 418,
+   "repo": "overrides/config/alexsmobs/sugar_glider_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/sunbird_spawns.json",
+   "sha1": "d00d854a7a859be448d448854a489fb4bf5b3754",
+   "size": 3925,
+   "repo": "overrides/config/alexsmobs/sunbird_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/tarantula_hawk_spawns.json",
+   "sha1": "ce615f2a96a48c4ff3cf314fe081b2a3d2d134e9",
+   "size": 1240,
+   "repo": "overrides/config/alexsmobs/tarantula_hawk_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/tasmanian_devil_spawns.json",
+   "sha1": "23bc2cb9dc01cf15886c1f41286b0c2a2812c50a",
+   "size": 1904,
+   "repo": "overrides/config/alexsmobs/tasmanian_devil_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/terrapin_spawns.json",
+   "sha1": "ced22dadf032554f60740f6b90dc32451228fa41",
+   "size": 621,
+   "repo": "overrides/config/alexsmobs/terrapin_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/tiger_spawns.json",
+   "sha1": "50c690955ef10c27602d6cc9a146721998408c20",
+   "size": 1209,
+   "repo": "overrides/config/alexsmobs/tiger_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/toucan_spawns.json",
+   "sha1": "983d5b8a09faf49e73d82af7e3fb0d6d8a28ec4d",
+   "size": 1166,
+   "repo": "overrides/config/alexsmobs/toucan_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/triops_spawns.json",
+   "sha1": "ce615f2a96a48c4ff3cf314fe081b2a3d2d134e9",
+   "size": 1240,
+   "repo": "overrides/config/alexsmobs/triops_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/tusklin_spawns.json",
+   "sha1": "a8b647f13fac15e0ed54a56a2210825a518d2b93",
+   "size": 874,
+   "repo": "overrides/config/alexsmobs/tusklin_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/underminer.json",
+   "sha1": "1c8f8f17ac7ce4fc12fab461ec3c50d272d93d75",
+   "size": 2081,
+   "repo": "overrides/config/alexsmobs/underminer.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/void_worm_spawns.json",
+   "sha1": "1ae814f47278ae5e83f93b711cb1b22df42fa5c4",
+   "size": 18,
+   "repo": "overrides/config/alexsmobs/void_worm_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/warped_mosco_spawns.json",
+   "sha1": "1ae814f47278ae5e83f93b711cb1b22df42fa5c4",
+   "size": 18,
+   "repo": "overrides/config/alexsmobs/warped_mosco_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/alexsmobs/warped_toad_spawns.json",
+   "sha1": "5cd292af241f4ee8699dc810bccdcfe29135fcc9",
+   "size": 661,
+   "repo": "overrides/config/alexsmobs/warped_toad_spawns.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/artifacts/client.toml",
+   "sha1": "18fb471a162ef3e46fb1b77536cb685a0095a862",
+   "size": 1022,
+   "repo": "overrides/config/artifacts/client.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/artifacts/general.toml",
+   "sha1": "4bc41887501bf15deec55e25f98dd82183a20709",
+   "size": 2326,
+   "repo": "overrides/config/artifacts/general.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/artifacts/items.toml",
+   "sha1": "a992b208dec934f06e6d6c30dbfed8253bb9fce4",
+   "size": 20333,
+   "repo": "overrides/config/artifacts/items.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterdeserttemples/README.txt",
+   "sha1": "7d685fa191148b59f2d9dd19f06ce0f4d6dee2f3",
+   "size": 726,
+   "repo": "overrides/config/betterdeserttemples/README.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterdeserttemples/neoforge-1_21/armorstands.json",
+   "sha1": "64af20d7335960ab85caacf81eb5904e0949c941",
+   "size": 1344,
+   "repo": "overrides/config/betterdeserttemples/neoforge-1_21/armorstands.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterdeserttemples/neoforge-1_21/itemframes.json",
+   "sha1": "4e016c47959e80f81e30dedcf2398ae050c9a59e",
+   "size": 824,
+   "repo": "overrides/config/betterdeserttemples/neoforge-1_21/itemframes.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterdeserttemples/neoforge-1_21/README.txt",
+   "sha1": "80a9d927f4978590ec21d5ae2e2a8e68b16f3277",
+   "size": 1683,
+   "repo": "overrides/config/betterdeserttemples/neoforge-1_21/README.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterfortresses/README.txt",
+   "sha1": "898e0d430a5395007d520caa4dd1d47c611de703",
+   "size": 867,
+   "repo": "overrides/config/betterfortresses/README.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterfortresses/neoforge-1_21/itemframes.json",
+   "sha1": "d07c82b8f1bfc6b908c543950d9aee897030f47a",
+   "size": 1161,
+   "repo": "overrides/config/betterfortresses/neoforge-1_21/itemframes.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterfortresses/neoforge-1_21/README.txt",
+   "sha1": "abaeda3856b09c5dd80e1b5ada9aaf171d038995",
+   "size": 1339,
+   "repo": "overrides/config/betterfortresses/neoforge-1_21/README.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterstrongholds/README.txt",
+   "sha1": "00ed29b440752cac0617bd7d2c44c971097e2c8c",
+   "size": 719,
+   "repo": "overrides/config/betterstrongholds/README.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterstrongholds/neoforge-1_21/armorstands.json",
+   "sha1": "2b0c151ae2c65966ef35c3d22ba516feac4a1101",
+   "size": 1391,
+   "repo": "overrides/config/betterstrongholds/neoforge-1_21/armorstands.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterstrongholds/neoforge-1_21/itemframes.json",
+   "sha1": "496ea2e5605928bad4fa267f022b444e6b7d7690",
+   "size": 920,
+   "repo": "overrides/config/betterstrongholds/neoforge-1_21/itemframes.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterstrongholds/neoforge-1_21/ores.json",
+   "sha1": "d7a72842d129d7b4650c71a756a30fbc932fd460",
+   "size": 346,
+   "repo": "overrides/config/betterstrongholds/neoforge-1_21/ores.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterstrongholds/neoforge-1_21/rareblocks.json",
+   "sha1": "0df4cdb9f541299d9ef4e0722555b77096d1de7a",
+   "size": 238,
+   "repo": "overrides/config/betterstrongholds/neoforge-1_21/rareblocks.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/betterstrongholds/neoforge-1_21/README.txt",
+   "sha1": "ee9c20aeefab7187288a4289d129a3155efa5823",
+   "size": 2830,
+   "repo": "overrides/config/betterstrongholds/neoforge-1_21/README.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/biomesoplenty/biome_toggles.json",
+   "sha1": "f6876be22fc737475f68b7a492009a9b0f07ccd6",
+   "size": 2192,
+   "repo": "overrides/config/biomesoplenty/biome_toggles.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/biomesoplenty/gameplay.toml",
+   "sha1": "78b41d7cbabd08b4be7260ef34d39af321d28974",
+   "size": 109,
+   "repo": "overrides/config/biomesoplenty/gameplay.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/biomesoplenty/generation.toml",
+   "sha1": "01e8ce855e3fa7ef561472e958a5b5558ff18882",
+   "size": 521,
+   "repo": "overrides/config/biomesoplenty/generation.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bluemap/core.conf",
+   "sha1": "8b30c1ee530fed4004ef027aadbdbfe8a2822149",
+   "size": 2608,
+   "repo": "overrides/config/bluemap/core.conf",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bluemap/plugin.conf",
+   "sha1": "14fc792dfe7e9b876f8edade8e15b18f0f9b58a8",
+   "size": 3114,
+   "repo": "overrides/config/bluemap/plugin.conf",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bluemap/webapp.conf",
+   "sha1": "25d2a2815c5811747e72d2b739a976a930a94a48",
+   "size": 3003,
+   "repo": "overrides/config/bluemap/webapp.conf",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bluemap/webserver.conf",
+   "sha1": "4eb8b42ee14ddd1adc87c6a28ac9eda1603987aa",
+   "size": 1731,
+   "repo": "overrides/config/bluemap/webserver.conf",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bluemap/maps/new_world.conf",
+   "sha1": "b463c596d86b73c0f1d6de71c65aa8eae0ccc08d",
+   "size": 6588,
+   "repo": "overrides/config/bluemap/maps/new_world.conf",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bluemap/maps/new_world_the_end.conf",
+   "sha1": "0b195cddebbaecdc6a497c4647add880a825205f",
+   "size": 6590,
+   "repo": "overrides/config/bluemap/maps/new_world_the_end.conf",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bluemap/maps/new_world_the_nether.conf",
+   "sha1": "6be95d4c5eeba5c2cc35322b9e6cb6e59ae4b66d",
+   "size": 6594,
+   "repo": "overrides/config/bluemap/maps/new_world_the_nether.conf",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bluemap/storages/file.conf",
+   "sha1": "8672f7a66584762cdda0b9f53ea203aa0f08363f",
+   "size": 725,
+   "repo": "overrides/config/bluemap/storages/file.conf",
+   "mode": "managed"
+  },
+  {
+   "path": "config/bluemap/storages/sql.conf",
+   "sha1": "1f201aecca2c0a48f42ec2fa66771642cf594a4f",
+   "size": 2014,
+   "repo": "overrides/config/bluemap/storages/sql.conf",
+   "mode": "managed"
+  },
+  {
+   "path": "config/CoroUtil/General.toml",
+   "sha1": "1233bc5e9b76ae23493ad31db26e92b7da397270",
+   "size": 129,
+   "repo": "overrides/config/CoroUtil/General.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/customizablemenus.txt",
+   "sha1": "7862b219e7e8594dc632954a0ef5a351886f838e",
+   "size": 2032,
+   "repo": "overrides/config/fancymenu/customizablemenus.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/custom_gui_screens.txt",
+   "sha1": "50b4602527a4e3cfea6016ec001f3b68ace1d65c",
+   "size": 51,
+   "repo": "overrides/config/fancymenu/custom_gui_screens.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/legacy_checklist.txt",
+   "sha1": "f1569161a6ad24cc61b02dece317ea16e351ff1e",
+   "size": 42,
+   "repo": "overrides/config/fancymenu/legacy_checklist.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/options.txt",
+   "sha1": "e53fdcb7b7cd942770060a0fafda25014784e2e0",
+   "size": 4400,
+   "repo": "overrides/config/fancymenu/options.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/user_variables.db",
+   "sha1": "b41f9d7688944b0d96eaa089a5a5bb74af28d258",
+   "size": 23,
+   "repo": "overrides/config/fancymenu/user_variables.db",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/assets/create_economy/background.jpg",
+   "sha1": "8c91e3d1e9b29e7b0cfbdad5625fe6e243078fee",
+   "size": 748560,
+   "repo": "overrides/config/fancymenu/assets/create_economy/background.jpg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/assets/create_economy/button.png",
+   "sha1": "90fd1b95cc4ceb17035cb7b3e866baed25bd312a",
+   "size": 274,
+   "repo": "overrides/config/fancymenu/assets/create_economy/button.png",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/assets/create_economy/button_hover.png",
+   "sha1": "b31f07e6e05f509464dff3c7cf73c4b44d0a027a",
+   "size": 272,
+   "repo": "overrides/config/fancymenu/assets/create_economy/button_hover.png",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/assets/create_economy/join.png",
+   "sha1": "ca48bbe8e424954fbf5ff632179ec925c7d664f2",
+   "size": 281,
+   "repo": "overrides/config/fancymenu/assets/create_economy/join.png",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/assets/create_economy/join_hover.png",
+   "sha1": "4a3875837ab9c5e012f73fcdbfd8ad7c665ba274",
+   "size": 270,
+   "repo": "overrides/config/fancymenu/assets/create_economy/join_hover.png",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/assets/create_economy/menu_background.jpg",
+   "sha1": "5744ce869e329864dcf720e87e700c3208f82323",
+   "size": 587558,
+   "repo": "overrides/config/fancymenu/assets/create_economy/menu_background.jpg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/customization/create_economy_menus.txt",
+   "sha1": "2b26f91956c065b0ace623cd5ad353c4b699e504",
+   "size": 1351,
+   "repo": "overrides/config/fancymenu/customization/create_economy_menus.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/customization/create_economy_title.txt",
+   "sha1": "e6e9e243a1d29e2391f27eb5f800fcca78711013",
+   "size": 7780,
+   "repo": "overrides/config/fancymenu/customization/create_economy_title.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/ui_themes/cherry_blossom.json",
+   "sha1": "9a453a566f041ddbc39e17918acdac90f6eaed38",
+   "size": 9349,
+   "repo": "overrides/config/fancymenu/ui_themes/cherry_blossom.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/ui_themes/cozy_campfire.json",
+   "sha1": "e7fbd4e11f3e969d20d7c713e61fa6d6cedd077e",
+   "size": 9347,
+   "repo": "overrides/config/fancymenu/ui_themes/cozy_campfire.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/ui_themes/dark.json",
+   "sha1": "b8793f498fc95000ab68a7d6b45d8575ad45d558",
+   "size": 9329,
+   "repo": "overrides/config/fancymenu/ui_themes/dark.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/ui_themes/dark_high_contrast.json",
+   "sha1": "9583fa877b286337557aae3429f91d66682091b7",
+   "size": 9359,
+   "repo": "overrides/config/fancymenu/ui_themes/dark_high_contrast.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/ui_themes/light.json",
+   "sha1": "5b9e9bc9d4d683584c919bcdae3b75581ae42f60",
+   "size": 9331,
+   "repo": "overrides/config/fancymenu/ui_themes/light.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/ui_themes/light_high_contrast.json",
+   "sha1": "8a290f6e1a0bdf2be972878e1c134a0c31f4a069",
+   "size": 9361,
+   "repo": "overrides/config/fancymenu/ui_themes/light_high_contrast.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/ui_themes/pumpkin_soup.json",
+   "sha1": "39c96a61bdeb936b151e38d0050b70abb78e3620",
+   "size": 9345,
+   "repo": "overrides/config/fancymenu/ui_themes/pumpkin_soup.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/ui_themes/purple_void.json",
+   "sha1": "9e38ca299adfe6ab2ad331c6adb80e26ff823da8",
+   "size": 9343,
+   "repo": "overrides/config/fancymenu/ui_themes/purple_void.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fancymenu/ui_themes/spooky_season.json",
+   "sha1": "9fa05d2794bdec26dee5224075c98bd7da9c1a0d",
+   "size": 9347,
+   "repo": "overrides/config/fancymenu/ui_themes/spooky_season.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fps_overlay/config.json",
+   "sha1": "152d97dca36d87708d829b66feba64b62775461c",
+   "size": 1260,
+   "repo": "overrides/config/fps_overlay/config.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fullbrightnesstoggle/laststate.txt",
+   "sha1": "e7909cf33983894334f3213bcf3204a84c00b236",
+   "size": 12,
+   "repo": "overrides/config/fullbrightnesstoggle/laststate.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/fzzy_config/keybinds.toml",
+   "sha1": "f808afa706d9a4934612b20e1efd513416a0e8f1",
+   "size": 6403,
+   "repo": "overrides/config/fzzy_config/keybinds.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/immersive_paintings/client_config.toml",
+   "sha1": "7ad85623ad6e1fced71b2e613ea68b1b5a077d11",
+   "size": 380,
+   "repo": "overrides/config/immersive_paintings/client_config.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/immersive_paintings/common_config.toml",
+   "sha1": "a57221cf52695819618c4515f8152d76d489a939",
+   "size": 442,
+   "repo": "overrides/config/immersive_paintings/common_config.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jade/hide-blocks.json",
+   "sha1": "a503776a467ca75d97916f99bf665dbf64a521a9",
+   "size": 149,
+   "repo": "overrides/config/jade/hide-blocks.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jade/hide-entities.json",
+   "sha1": "ef2152a130cc5ff42903c76e69c3e4279d94b9e7",
+   "size": 243,
+   "repo": "overrides/config/jade/hide-entities.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jade/jade.json",
+   "sha1": "427dd6705c2ac01600c325be990bdbd481e51ea0",
+   "size": 1122,
+   "repo": "overrides/config/jade/jade.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jade/plugins.json",
+   "sha1": "bb29a3ace133001ee1a73ba3247c6e3f9070ffa3",
+   "size": 2688,
+   "repo": "overrides/config/jade/plugins.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jade/sort-order.json",
+   "sha1": "d126eee088505a2f824b4dd94d6a7920e2e62324",
+   "size": 2840,
+   "repo": "overrides/config/jade/sort-order.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/blacklist.json",
+   "sha1": "a8a4458dce77bc89e82e71719ad2cc14b2739d39",
+   "size": 19,
+   "repo": "overrides/config/jei/blacklist.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/ingredient-list-mod-sort-order.ini",
+   "sha1": "151ad6e8de417df216a6ea8fce5a351ff5a2fda4",
+   "size": 1569,
+   "repo": "overrides/config/jei/ingredient-list-mod-sort-order.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/ingredient-list-mod-sort-order.ini.bak.1",
+   "sha1": "151ad6e8de417df216a6ea8fce5a351ff5a2fda4",
+   "size": 1569,
+   "repo": "overrides/config/jei/ingredient-list-mod-sort-order.ini.bak.1",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/ingredient-list-type-sort-order.ini",
+   "sha1": "19a5db05bca2bd56f55af89504017ad52501c4d4",
+   "size": 78,
+   "repo": "overrides/config/jei/ingredient-list-type-sort-order.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/ingredient-list-type-sort-order.ini.bak.1",
+   "sha1": "19a5db05bca2bd56f55af89504017ad52501c4d4",
+   "size": 78,
+   "repo": "overrides/config/jei/ingredient-list-type-sort-order.ini.bak.1",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/jei-client.ini",
+   "sha1": "444bcada0d821c7fa2c19c48b909a979f8a3f329",
+   "size": 10939,
+   "repo": "overrides/config/jei/jei-client.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/jei-client.ini.bak.1",
+   "sha1": "444bcada0d821c7fa2c19c48b909a979f8a3f329",
+   "size": 10939,
+   "repo": "overrides/config/jei/jei-client.ini.bak.1",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/jei-colors.ini",
+   "sha1": "46f80e4857aa8f8d9b0928e107c4391d54b3b313",
+   "size": 1362,
+   "repo": "overrides/config/jei/jei-colors.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/jei-colors.ini.bak.1",
+   "sha1": "46f80e4857aa8f8d9b0928e107c4391d54b3b313",
+   "size": 1362,
+   "repo": "overrides/config/jei/jei-colors.ini.bak.1",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/jei-debug.ini",
+   "sha1": "a977921de06d610005ba331750fcca1a14f75661",
+   "size": 1326,
+   "repo": "overrides/config/jei/jei-debug.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/jei-debug.ini.bak.1",
+   "sha1": "a977921de06d610005ba331750fcca1a14f75661",
+   "size": 1326,
+   "repo": "overrides/config/jei/jei-debug.ini.bak.1",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/jei-mod-id-format.ini",
+   "sha1": "2cd7853bd68950b2d61a80dd549ed65be0e0f6cb",
+   "size": 489,
+   "repo": "overrides/config/jei/jei-mod-id-format.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/jei-mod-id-format.ini.bak.1",
+   "sha1": "2cd7853bd68950b2d61a80dd549ed65be0e0f6cb",
+   "size": 489,
+   "repo": "overrides/config/jei/jei-mod-id-format.ini.bak.1",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/recipe-category-sort-order.ini",
+   "sha1": "18b12174cec1aaa66e8a5488daf2c31109738174",
+   "size": 2354,
+   "repo": "overrides/config/jei/recipe-category-sort-order.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/recipe-category-sort-order.ini.bak.1",
+   "sha1": "18b12174cec1aaa66e8a5488daf2c31109738174",
+   "size": 2354,
+   "repo": "overrides/config/jei/recipe-category-sort-order.ini.bak.1",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
+   "sha1": "836e9991010c88bfe30e2fff4d4b055612430281",
+   "size": 2609,
+   "repo": "overrides/config/jei/client/ingredient-list-mod-sort-order.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/client/ingredient-list-type-sort-order.ini",
+   "sha1": "f3acc2683a8ca4625d7c914a2f6497f784cdd7f3",
+   "size": 103,
+   "repo": "overrides/config/jei/client/ingredient-list-type-sort-order.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/client/jei-client.ini",
+   "sha1": "f89234efbb17659b6d0d61f836928ab0c847bfa2",
+   "size": 14512,
+   "repo": "overrides/config/jei/client/jei-client.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/client/jei-colors.ini",
+   "sha1": "1044f6310eb4e62253c9d9e1ba3a9313599b310e",
+   "size": 1655,
+   "repo": "overrides/config/jei/client/jei-colors.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/client/jei-debug.ini",
+   "sha1": "d02dc7d7cf1c8ced3ef1f9253a0bbadb6580d56d",
+   "size": 1174,
+   "repo": "overrides/config/jei/client/jei-debug.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/client/jei-mod-id-format.ini",
+   "sha1": "6106cc9c99906ea9da4854730887379ec1e8b256",
+   "size": 863,
+   "repo": "overrides/config/jei/client/jei-mod-id-format.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/client/recipe-category-sort-order.ini",
+   "sha1": "38af5d7dd4c77efe515a9f3df8ca7fc7046b9e23",
+   "size": 3597,
+   "repo": "overrides/config/jei/client/recipe-category-sort-order.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/client/default/jei-client.ini",
+   "sha1": "3d1ca22f68afcfcd4311e2f4a07bb5129ac99ac6",
+   "size": 14511,
+   "repo": "overrides/config/jei/client/default/jei-client.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/client/default/jei-colors.ini",
+   "sha1": "1044f6310eb4e62253c9d9e1ba3a9313599b310e",
+   "size": 1655,
+   "repo": "overrides/config/jei/client/default/jei-colors.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/client/default/jei-debug.ini",
+   "sha1": "d02dc7d7cf1c8ced3ef1f9253a0bbadb6580d56d",
+   "size": 1174,
+   "repo": "overrides/config/jei/client/default/jei-debug.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/client/default/jei-mod-id-format.ini",
+   "sha1": "6106cc9c99906ea9da4854730887379ec1e8b256",
+   "size": 863,
+   "repo": "overrides/config/jei/client/default/jei-mod-id-format.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/world/local/New World/lookupHistory.json",
+   "sha1": "c5260eb47ff1fbc7eaa908a3e4ed3abdb2f3f830",
+   "size": 772,
+   "repo": "overrides/config/jei/world/local/New World/lookupHistory.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/jei/world/server/Create Economy (create-economy-frontiercraft-network_duckdns_org)/lookupHistory.json",
+   "sha1": "ac82fdd7b72609a9feffc0754c2b548f486c4490",
+   "size": 10841,
+   "repo": "overrides/config/jei/world/server/Create Economy (create-economy-frontiercraft-network_duckdns_org)/lookupHistory.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/konkrete/locals/de_de.local",
+   "sha1": "02adaf2602f1ba03a9352db3d10a6fac3a02aea5",
+   "size": 369,
+   "repo": "overrides/config/konkrete/locals/de_de.local",
+   "mode": "managed"
+  },
+  {
+   "path": "config/konkrete/locals/en_us.local",
+   "sha1": "42badc338e767559db38a67bd3e8020a92000e56",
+   "size": 426,
+   "repo": "overrides/config/konkrete/locals/en_us.local",
+   "mode": "managed"
+  },
+  {
+   "path": "config/konkrete/locals/pl_pl.local",
+   "sha1": "adf2ded54b4952ca83af26a1217e2c5db8ac1429",
+   "size": 313,
+   "repo": "overrides/config/konkrete/locals/pl_pl.local",
+   "mode": "managed"
+  },
+  {
+   "path": "config/konkrete/locals/pt_br.local",
+   "sha1": "9c324fb4d33106366e6cbb5400c8c34f11539d34",
+   "size": 322,
+   "repo": "overrides/config/konkrete/locals/pt_br.local",
+   "mode": "managed"
+  },
+  {
+   "path": "config/mezz_config/client/default/settings.ini",
+   "sha1": "37c6c10d605efbf78119e1fea0d6d0b06ba9ca77",
+   "size": 1452,
+   "repo": "overrides/config/mezz_config/client/default/settings.ini",
+   "mode": "managed"
+  },
+  {
+   "path": "config/TPA/config/configuration.toml",
+   "sha1": "3b76b087e14f37bc20eb35026380659c7cd4a12c",
+   "size": 606,
+   "repo": "overrides/config/TPA/config/configuration.toml",
+   "mode": "managed"
+  },
+  {
+   "path": "config/voicechat/category-volumes.properties",
+   "sha1": "c9f8fd05a81e609071657f5c4c27d5cd377c5b12",
+   "size": 46,
+   "repo": "overrides/config/voicechat/category-volumes.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/voicechat/player-volumes.properties",
+   "sha1": "c20fb06c7033b502358beffa3acdc1d928c89634",
+   "size": 88,
+   "repo": "overrides/config/voicechat/player-volumes.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/voicechat/translations.properties",
+   "sha1": "383e00e7dd0d5f00daa2ffcfd24c939d255dc7e3",
+   "size": 1182,
+   "repo": "overrides/config/voicechat/translations.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/voicechat/username-cache.json",
+   "sha1": "b1892be536c17e7aed7b05875349a6a6db4695bb",
+   "size": 58,
+   "repo": "overrides/config/voicechat/username-cache.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/voicechat/voicechat-client.properties",
+   "sha1": "6178974d0c7fc321297b3ab2e273e29891ad7a0a",
+   "size": 5215,
+   "repo": "overrides/config/voicechat/voicechat-client.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/voicechat/voicechat-server.properties",
+   "sha1": "f3a0592c061bd1944d5f6c520ec078b50cdf3728",
+   "size": 3072,
+   "repo": "overrides/config/voicechat/voicechat-server.properties",
+   "mode": "managed"
+  },
+  {
+   "path": "config/voteranks/config.json",
+   "sha1": "21989e6ecdc6c1212e8449fd39ad05e3ba9eae2f",
+   "size": 12718,
+   "repo": "overrides/config/voteranks/config.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/lib/client.cfg",
+   "sha1": "45cccfb3eb8a7a784bd4c29539e5558445f90bcf",
+   "size": 26,
+   "repo": "overrides/config/xaero/lib/client.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/lib/common.cfg",
+   "sha1": "8ae8d6ea0330bec2c0db28b109a12443708f1e7b",
+   "size": 236,
+   "repo": "overrides/config/xaero/lib/common.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/lib/profiles/default.cfg",
+   "sha1": "253bac0f5181c8db8e488832c46a8d40018650cf",
+   "size": 121,
+   "repo": "overrides/config/xaero/lib/profiles/default.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/lib/server_profiles/default.cfg",
+   "sha1": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+   "size": 75,
+   "repo": "overrides/config/xaero/lib/server_profiles/default.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/minimap/client.cfg",
+   "sha1": "883ed6df06d9fa5f13f3cadddac55d7d9ae39c15",
+   "size": 237,
+   "repo": "overrides/config/xaero/minimap/client.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/minimap/common.cfg",
+   "sha1": "de09f45b29b264432b80d34bb0c336bd552fb9ee",
+   "size": 147,
+   "repo": "overrides/config/xaero/minimap/common.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/minimap/default_radar_categories_client.json",
+   "sha1": "3883f4b50d5c56d0ad5034b4405050f28d9b40de",
+   "size": 5531,
+   "repo": "overrides/config/xaero/minimap/default_radar_categories_client.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/minimap/default_radar_categories_server.json",
+   "sha1": "c247867b018103357eb4015059fe209cc562de51",
+   "size": 4597,
+   "repo": "overrides/config/xaero/minimap/default_radar_categories_server.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/minimap/profiles/default.cfg",
+   "sha1": "faaa0fd4de96f09dc7c3cd5a0e3e961750405db4",
+   "size": 3922,
+   "repo": "overrides/config/xaero/minimap/profiles/default.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
+   "sha1": "acf65351d79fa0764141fcd9d895c0006892fd5c",
+   "size": 5531,
+   "repo": "overrides/config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+   "sha1": "2b8d12369471b57bfa6426254b2170bc8e6b3b88",
+   "size": 684,
+   "repo": "overrides/config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "config/xaero/minimap/server_profiles/default.cfg",
+   "sha1": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+   "size": 75,
+   "repo": "overrides/config/xaero/minimap/server_profiles/default.cfg",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/README.txt",
+   "sha1": "3e56c097cd0c5be61b767a9a9ae73ae083d2eca9",
+   "size": 1203,
+   "repo": "overrides/kubejs/README.txt",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/assets/kubejs/textures/block/example_block.png",
+   "sha1": "87f5ec8c26493050fc83543af8d33f2d28a98766",
+   "size": 247,
+   "repo": "overrides/kubejs/assets/kubejs/textures/block/example_block.png",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/assets/kubejs/textures/item/example_item.png",
+   "sha1": "d9912cb709ad496b10f19f8b2c66d1e419eb760c",
+   "size": 372,
+   "repo": "overrides/kubejs/assets/kubejs/textures/item/example_item.png",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/assets/kubejs/textures/item/shop_token.png",
+   "sha1": "bcfc0c8449132a8dbe039fbcd3e1634d03a92e72",
+   "size": 1486,
+   "repo": "overrides/kubejs/assets/kubejs/textures/item/shop_token.png",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/client_scripts/main.js",
+   "sha1": "e6f23e21b25a366f2216fbf7da00ed7d34542f20",
+   "size": 116,
+   "repo": "overrides/kubejs/client_scripts/main.js",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/config/client.json",
+   "sha1": "543ce77f954453d39da0ef6adad3f5e427fd4d8a",
+   "size": 184,
+   "repo": "overrides/kubejs/config/client.json",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/config/common.json",
+   "sha1": "72bc0862d970e44dd5075bef3e74110f69d65a7d",
+   "size": 446,
+   "repo": "overrides/kubejs/config/common.json",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/config/web_server.json",
+   "sha1": "84fac68094cfe1ce2d66a8e73b1fbd37a6f44697",
+   "size": 120,
+   "repo": "overrides/kubejs/config/web_server.json",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/server_scripts/main.js",
+   "sha1": "6249ded51466cfc7b94ae9796f8c2caec5dac539",
+   "size": 116,
+   "repo": "overrides/kubejs/server_scripts/main.js",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/server_scripts/shop_token_use.js",
+   "sha1": "2c24732ff033f32cb45eda403ccf3d523da0d750",
+   "size": 338,
+   "repo": "overrides/kubejs/server_scripts/shop_token_use.js",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/startup_scripts/main.js",
+   "sha1": "05ec115c372985dc9f77dd2513933aa8e90eba61",
+   "size": 117,
+   "repo": "overrides/kubejs/startup_scripts/main.js",
+   "mode": "managed"
+  },
+  {
+   "path": "kubejs/startup_scripts/shop_token.js",
+   "sha1": "0d1c0dde5a99e48cf583b6c57bcaa00724c2a3dd",
+   "size": 171,
+   "repo": "overrides/kubejs/startup_scripts/shop_token.js",
+   "mode": "managed"
+  },
+  {
+   "path": "shaderpacks/ComplementaryReimagined_r5.9.3.zip",
+   "sha1": "838139b54cddb56b2e83cd260d8efd960ac536d6",
+   "size": 553397,
+   "repo": "overrides/shaderpacks/ComplementaryReimagined_r5.9.3.zip",
+   "mode": "managed"
+  },
+  {
+   "path": "options.txt",
+   "sha1": "a579d90d648d9ffa31dc844933f5a3aa731a5feb",
+   "size": 16274,
+   "repo": "overrides/options.txt",
+   "mode": "once"
+  },
+  {
+   "path": "config/celauncher-pack.txt",
+   "sha1": "5ba9a6a95b66f82d3ceaaf701250b651e9e81e4c",
+   "size": 6,
+   "repo": "overrides/config/celauncher-pack.txt",
+   "mode": "managed"
+  }
+ ],
+ "history": []
+}

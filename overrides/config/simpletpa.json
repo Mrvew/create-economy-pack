@@ -1,0 +1,6 @@
+{
+  "tpaRequestTimeout": 120,
+  "tpaCooldown": 30,
+  "backCooldown": 10,
+  "backPersistAcrossDisconnect": true
+}

@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tacz_c:thin_brass_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz_c:brass_cup"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz_c:bullet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:ammo","components":"{\"minecraft:custom_data\":{AmmoId:\"tacz:9mm\"},\"minecraft:max_stack_size\":60}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:grass_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"torchmaster:dreadlamp"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:spruce_door"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
