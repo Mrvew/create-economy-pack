@@ -2,7 +2,7 @@
  "format": 1,
  "name": "Create Economy",
  "version": "3.0.2",
- "released": "2026-11-18T22:12:50Z",
+ "released": "2026-11-18T22:38:03Z",
  "notes": "First release through the Create Economy Launcher",
  "minecraft": "1.21.1",
  "loader": {
@@ -2713,6 +2713,14 @@
    "urls": [
     "https://edge.forgecdn.net/files/8087/867/tacz_c-1.0.2%2bneoforge.1.21.1.jar"
    ]
+  },
+  {
+   "path": "mods/taczaddon-1.1.8-fix2-backpackfix.jar",
+   "sha1": "c5ac2b65655185dc5c5832d7066e07fda8a15746",
+   "size": 168117,
+   "title": "taczaddon-1.1.8-fix2-backpackfix.jar",
+   "repo": "mods-extra/taczaddon-1.1.8-fix2-backpackfix.jar",
+   "urls": []
   },
   {
    "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
