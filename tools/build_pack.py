@@ -17,6 +17,7 @@ import argparse
 import datetime as dt
 import hashlib
 import json
+import re
 import os
 import shutil
 import sys
@@ -187,7 +188,12 @@ def main():
             dst = os.path.join(ov_root, rel)
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copy2(full, dst)
-            overrides.append({"path": rel, "sha1": sha1(full), "size": os.path.getsize(full),
+            if rel == "config/fml.toml":
+                # Use the Create Economy loading window (provided by the Create Economy Launcher mod).
+                raw = open(dst, "rb").read()
+                raw = re.sub(rb'(?m)^(\s*earlyWindowProvider\s*=\s*)"fmlearlywindow"', lambda m: m.group(1) + b'"createeconomy"', raw)
+                open(dst, "wb").write(raw)
+            overrides.append({"path": rel, "sha1": sha1(dst), "size": os.path.getsize(dst),
                               "repo": "overrides/" + rel, "mode": "once" if rel in SEED_ONCE else "managed"})
 
     # The in-game menu compares this with pack.json on GitHub to show "pack update available".

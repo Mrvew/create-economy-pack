@@ -9,7 +9,7 @@ earlyWindowFBScale = 1
 #Disables File Watcher. Used to automatically update config if its file has been modified.
 disableConfigWatcher = false
 #Early window provider
-earlyWindowProvider = "fmlearlywindow"
+earlyWindowProvider = "createeconomy"
 #Early window width
 earlyWindowWidth = 1024
 #Early window starts maximized
