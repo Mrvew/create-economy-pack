@@ -1,9 +1,9 @@
 {
  "format": 1,
  "name": "Create Economy",
- "version": "3.0.3",
- "released": "2026-11-20T01:11:16Z",
- "notes": "Added Create Anti-Cheat 2.0.0 (client check) and Freecam Control 1.0.0",
+ "version": "3.0.4",
+ "released": "2026-11-20T13:15:29Z",
+ "notes": "Added Distant Horizons 3.3.3 (see much farther)",
  "minecraft": "1.21.1",
  "loader": {
   "type": "neoforge",
@@ -1397,6 +1397,20 @@
    "urls": [
     "https://cdn.modrinth.com/data/OZhUIuou/versions/ltYnbVvP/deployer-0.1.3.jar",
     "https://edge.forgecdn.net/files/8803/341/deployer-0.1.3.jar"
+   ]
+  },
+  {
+   "path": "mods/DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar",
+   "sha1": "4357b4d19fab818780c94f0e43dad1cc931634b2",
+   "size": 28289212,
+   "title": "Distant Horizons",
+   "curseforge": {
+    "project": 508933,
+    "file": 9004764
+   },
+   "urls": [
+    "https://cdn.modrinth.com/data/uCdwusMi/versions/9w34y8ai/DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar",
+    "https://edge.forgecdn.net/files/9004/764/DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar"
    ]
   },
   {
@@ -6307,7 +6321,7 @@
   },
   {
    "path": "config/celauncher-pack.txt",
-   "sha1": "6e1ede19450b84116bd516ff9032b2898d67c8a7",
+   "sha1": "17f839d72355f3b8d4b1e4715cfcc7aa03443e2a",
    "size": 6,
    "repo": "overrides/config/celauncher-pack.txt",
    "mode": "managed"
@@ -6330,6 +6344,11 @@
   }
  ],
  "history": [
+  {
+   "version": "3.0.3",
+   "released": "2026-11-20T01:11:16Z",
+   "notes": "Added Create Anti-Cheat 2.0.0 (client check) and Freecam Control 1.0.0"
+  },
   {
    "version": "3.0.2",
    "released": "2026-11-19T21:06:29Z",
