@@ -1,9 +1,9 @@
 {
  "format": 1,
  "name": "Create Economy",
- "version": "3.0.2",
- "released": "2026-11-19T21:06:29Z",
- "notes": "First release through the Create Economy Launcher",
+ "version": "3.0.3",
+ "released": "2026-11-20T01:11:16Z",
+ "notes": "Added Create Anti-Cheat 2.0.0 (client check) and Freecam Control 1.0.0",
  "minecraft": "1.21.1",
  "loader": {
   "type": "neoforge",
@@ -6307,11 +6307,33 @@
   },
   {
    "path": "config/celauncher-pack.txt",
-   "sha1": "5ba9a6a95b66f82d3ceaaf701250b651e9e81e4c",
+   "sha1": "6e1ede19450b84116bd516ff9032b2898d67c8a7",
    "size": 6,
    "repo": "overrides/config/celauncher-pack.txt",
    "mode": "managed"
+  },
+  {
+   "path": "mods/Create-Anti-Cheat-2.0.0.jar",
+   "sha1": "ca41637666223a35f9fe544423ef25b51fa191f2",
+   "size": 233276,
+   "title": "Create Anti-Cheat",
+   "repo": "mods-extra/Create-Anti-Cheat-2.0.0.jar",
+   "urls": []
+  },
+  {
+   "path": "mods/Freecam-Control-1.0.0.jar",
+   "sha1": "c94eb9028c71373c8c40c9eb3b9ba731d6cdfbe0",
+   "size": 81664,
+   "title": "Freecam Control",
+   "repo": "mods-extra/Freecam-Control-1.0.0.jar",
+   "urls": []
   }
  ],
- "history": []
+ "history": [
+  {
+   "version": "3.0.2",
+   "released": "2026-11-19T21:06:29Z",
+   "notes": "First release through the Create Economy Launcher"
+  }
+ ]
 }
