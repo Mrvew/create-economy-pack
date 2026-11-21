@@ -1,9 +1,9 @@
 {
  "format": 1,
  "name": "Create Economy",
- "version": "3.0.5",
- "released": "2026-11-20T23:59:07Z",
- "notes": "Distant Horizons on/off button on the menu (starts off)",
+ "version": "3.0.6",
+ "released": "2026-11-21T13:17:20Z",
+ "notes": "Distant Horizons menu switch now really turns it off (rendering and far-terrain generation)",
  "minecraft": "1.21.1",
  "loader": {
   "type": "neoforge",
@@ -3001,11 +3001,11 @@
    ]
   },
   {
-   "path": "mods/Create-Economy-Launcher-1.2.0.jar",
-   "sha1": "1a6c1639f29147127e87c9eeca138c8dd2affd4b",
-   "size": 7210487,
-   "title": "Create-Economy-Launcher-1.2.0.jar",
-   "repo": "mods-extra/Create-Economy-Launcher-1.2.0.jar",
+   "path": "mods/Create-Economy-Launcher-1.2.1.jar",
+   "sha1": "c3ee32cf9a80c5e9cfc3aeefa12d1fd6e2a2268a",
+   "size": 7211412,
+   "title": "Create-Economy-Launcher-1.2.1.jar",
+   "repo": "mods-extra/Create-Economy-Launcher-1.2.1.jar",
    "urls": []
   },
   {
@@ -6321,7 +6321,7 @@
   },
   {
    "path": "config/celauncher-pack.txt",
-   "sha1": "ffdb637d0fe9a365fb39b4413a4f366d10dcd12a",
+   "sha1": "d28cfc2e7714a747851e50cc1a5ee8ab0ded7a78",
    "size": 6,
    "repo": "overrides/config/celauncher-pack.txt",
    "mode": "managed"
@@ -6344,6 +6344,11 @@
   }
  ],
  "history": [
+  {
+   "version": "3.0.5",
+   "released": "2026-11-20T23:59:07Z",
+   "notes": "Distant Horizons on/off button on the menu (starts off)"
+  },
   {
    "version": "3.0.4",
    "released": "2026-11-20T13:15:29Z",
